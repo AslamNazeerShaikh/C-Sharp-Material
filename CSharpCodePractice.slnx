@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="ClassCodeLibrary/ClassCodeLibrary.csproj" />
+  <Project Path="MainConsoleApp/MainConsoleApp.csproj" />
+</Solution>

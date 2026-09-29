@@ -1,0 +1,4474 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {
+    "hyperedges": [
+      {
+        "confidence": "EXTRACTED",
+        "confidence_score": 1.0,
+        "id": "dotnet_single_slnx_command_suite",
+        "label": "Single-slnx dotnet command suite",
+        "nodes": [
+          "_opencode_commands_build_build_command",
+          "_opencode_commands_test_test_command",
+          "_opencode_commands_run_run_command",
+          "_opencode_commands_clean_clean_command",
+          "_opencode_commands_lint_lint_command",
+          "_opencode_commands_format_format_command"
+        ],
+        "relation": "form",
+        "source_file": ".opencode/README.md"
+      },
+      {
+        "confidence": "EXTRACTED",
+        "confidence_score": 1.0,
+        "id": "graphify_pipeline_flow",
+        "label": "Graphify detect extract build query flow",
+        "nodes": [
+          "_opencode_skills_graphify_skill_full_pipeline",
+          "_opencode_skills_graphify_references_extraction_spec_extraction_rules",
+          "_opencode_skills_graphify_references_query_query_path_explain"
+        ],
+        "relation": "participate_in",
+        "source_file": ".opencode/skills/graphify/SKILL.md"
+      },
+      {
+        "confidence": "EXTRACTED",
+        "confidence_score": 1.0,
+        "id": "manual_first_exercise_pattern",
+        "label": "Manual-first exercise pattern across notes",
+        "nodes": [
+          "classcodelibrary_customarraysorter_customarraysorter_bubble_sort",
+          "classcodelibrary_stringduplicationfiltering_stringduplicationfiltering_manual_dedup",
+          "classcodelibrary_uniquecharactercounter_uniquecharactercounter_ascii_counting"
+        ],
+        "relation": "participate_in",
+        "source_file": "AGENTS.md"
+      },
+      {
+        "confidence": "EXTRACTED",
+        "confidence_score": 1.0,
+        "id": "opencode_agent_team",
+        "label": "CSharpCodePractice agent team",
+        "nodes": [
+          "_opencode_agents_csharp_practice_assistant_csharp_practice_assistant",
+          "_opencode_agents_code_reviewer_code_reviewer",
+          "_opencode_agents_test_writer_test_writer",
+          "_opencode_agents_documentation_writer_documentation_writer"
+        ],
+        "relation": "form",
+        "source_file": ".opencode/README.md"
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "classcodelibrary_secondlargestnumber_secondlargestnumber_classcodelibrary_secondlargestnumber_secondlargestnumber",
+      "label": "SecondLargestNumber",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "Exercise Entry Points",
+      "file_type": "code",
+      "metadata": {
+        "namespace": "ClassCodeLibrary.SecondLargestNumber",
+        "scope_chain": [
+          "s120"
+        ]
+      },
+      "norm_label": "secondlargestnumber",
+      "source_file": "ClassCodeLibrary/SecondLargestNumber/SecondLargestNumber.cs",
+      "source_location": "L9"
+    },
+    {
+      "id": "classcodelibrary_uniquecharactercounter_uniquecharactercounter_classcodelibrary_uniquecharactercounter_uniquecharactercounter",
+      "label": "UniqueCharacterCounter",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "Exercise Entry Points",
+      "file_type": "code",
+      "metadata": {
+        "namespace": "ClassCodeLibrary.UniqueCharacterCounter",
+        "scope_chain": [
+          "s120"
+        ]
+      },
+      "norm_label": "uniquecharactercounter",
+      "source_file": "ClassCodeLibrary/UniqueCharacterCounter/UniqueCharacterCounter.cs",
+      "source_location": "L9"
+    },
+    {
+      "id": "mainconsoleapp_program_mainconsoleapp_program",
+      "label": "Program",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "Exercise Entry Points",
+      "file_type": "code",
+      "metadata": {
+        "namespace": "MainConsoleApp",
+        "scope_chain": [
+          "s231"
+        ]
+      },
+      "norm_label": "program",
+      "source_file": "MainConsoleApp/Program.cs",
+      "source_location": "L9"
+    },
+    {
+      "id": "classcodelibrary_customarraysorter_customarraysorter_classcodelibrary_customarraysorter_customarraysorter",
+      "label": "CustomArraySorter",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "community": 10,
+      "community_name": "Custom Array Sorter",
+      "file_type": "code",
+      "metadata": {
+        "namespace": "ClassCodeLibrary.CustomArraySorter",
+        "scope_chain": [
+          "s120"
+        ]
+      },
+      "norm_label": "customarraysorter",
+      "source_file": "ClassCodeLibrary/CustomArraySorter/CustomArraySorter.cs",
+      "source_location": "L9"
+    },
+    {
+      "id": "classcodelibrary_vowelsinuniquecity_vowelsinuniquecity_classcodelibrary_vowelsinuniquecity_vowelsinuniquecity",
+      "label": "VowelsInUniqueCity",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "community": 11,
+      "community_name": "Vowels City Exercise",
+      "file_type": "code",
+      "metadata": {
+        "namespace": "ClassCodeLibrary.VowelsInUniqueCity",
+        "scope_chain": [
+          "s98"
+        ]
+      },
+      "norm_label": "vowelsinuniquecity",
+      "source_file": "ClassCodeLibrary/VowelsInUniqueCity/VowelsInUniqueCity.cs",
+      "source_location": "L8"
+    },
+    {
+      "id": "classcodelibrary_stringduplicationfiltering_stringduplicationfiltering_classcodelibrary_stringduplicationfiltering_stringduplicationfiltering",
+      "label": "StringDuplicationFiltering",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "Manual Dedup Methods",
+      "file_type": "code",
+      "metadata": {
+        "namespace": "ClassCodeLibrary.StringDuplicationFiltering",
+        "scope_chain": [
+          "s120"
+        ]
+      },
+      "norm_label": "stringduplicationfiltering",
+      "source_file": "ClassCodeLibrary/StringDuplicationFiltering/StringDuplicationFiltering.cs",
+      "source_location": "L9"
+    },
+    {
+      "id": "classcodelibrary_stringduplicationfiltering_stringduplicationfilteringlinq_classcodelibrary_stringduplicationfiltering_stringduplicationfilteringlinq",
+      "label": "StringDuplicationFilteringLinq",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "community": 5,
+      "community_name": "LINQ Dedup Methods",
+      "file_type": "code",
+      "metadata": {
+        "namespace": "ClassCodeLibrary.StringDuplicationFiltering",
+        "scope_chain": [
+          "s98"
+        ]
+      },
+      "norm_label": "stringduplicationfilteringlinq",
+      "source_file": "ClassCodeLibrary/StringDuplicationFiltering/StringDuplicationFilteringLinq.cs",
+      "source_location": "L8"
+    },
+    {
+      "id": "classcodelibrary_secondlargestnumber_secondlargestnumber_classcodelibrary_secondlargestnumber_secondlargestnumber_findsecondlargestnumber",
+      "label": ".FindSecondLargestNumber()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "Exercise Entry Points",
+      "file_type": "code",
+      "metadata": {
+        "namespace": "ClassCodeLibrary.SecondLargestNumber",
+        "scope_chain": [
+          "s120"
+        ]
+      },
+      "norm_label": ".findsecondlargestnumber()",
+      "source_file": "ClassCodeLibrary/SecondLargestNumber/SecondLargestNumber.cs",
+      "source_location": "L22"
+    },
+    {
+      "id": "classcodelibrary_stringduplicationfiltering_stringduplicationfiltering_classcodelibrary_stringduplicationfiltering_stringduplicationfiltering_executecode",
+      "label": ".ExecuteCode()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "Exercise Entry Points",
+      "file_type": "code",
+      "metadata": {
+        "namespace": "ClassCodeLibrary.StringDuplicationFiltering",
+        "scope_chain": [
+          "s120"
+        ],
+        "unresolved_calls": [
+          {
+            "callee": "WriteLine",
+            "receiver_type": "Console",
+            "lang": "csharp",
+            "line": "L18"
+          }
+        ]
+      },
+      "norm_label": ".executecode()",
+      "source_file": "ClassCodeLibrary/StringDuplicationFiltering/StringDuplicationFiltering.cs",
+      "source_location": "L11"
+    },
+    {
+      "id": "classcodelibrary_uniquecharactercounter_uniquecharactercounter_classcodelibrary_uniquecharactercounter_uniquecharactercounter_countuniquecharacters",
+      "label": ".CountUniqueCharacters()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "Exercise Entry Points",
+      "file_type": "code",
+      "metadata": {
+        "namespace": "ClassCodeLibrary.UniqueCharacterCounter",
+        "scope_chain": [
+          "s120"
+        ],
+        "unresolved_calls": [
+          {
+            "callee": "WriteLine",
+            "receiver_type": "Console",
+            "lang": "csharp",
+            "line": "L32"
+          }
+        ]
+      },
+      "norm_label": ".countuniquecharacters()",
+      "source_file": "ClassCodeLibrary/UniqueCharacterCounter/UniqueCharacterCounter.cs",
+      "source_location": "L20"
+    },
+    {
+      "id": "mainconsoleapp_program_mainconsoleapp_program_main",
+      "label": ".Main()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "Exercise Entry Points",
+      "file_type": "code",
+      "metadata": {
+        "namespace": "MainConsoleApp",
+        "scope_chain": [
+          "s231"
+        ]
+      },
+      "norm_label": ".main()",
+      "source_file": "MainConsoleApp/Program.cs",
+      "source_location": "L11"
+    },
+    {
+      "id": "classcodelibrary_customarraysorter_customarraysorter_classcodelibrary_customarraysorter_customarraysorter_custombubblesort",
+      "label": ".CustomBubbleSort()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 10,
+      "community_name": "Custom Array Sorter",
+      "file_type": "code",
+      "metadata": {
+        "namespace": "ClassCodeLibrary.CustomArraySorter",
+        "scope_chain": [
+          "s120"
+        ]
+      },
+      "norm_label": ".custombubblesort()",
+      "source_file": "ClassCodeLibrary/CustomArraySorter/CustomArraySorter.cs",
+      "source_location": "L66"
+    },
+    {
+      "id": "classcodelibrary_customarraysorter_customarraysorter_classcodelibrary_customarraysorter_customarraysorter_printarray",
+      "label": ".PrintArray()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 10,
+      "community_name": "Custom Array Sorter",
+      "file_type": "code",
+      "metadata": {
+        "namespace": "ClassCodeLibrary.CustomArraySorter",
+        "scope_chain": [
+          "s120"
+        ],
+        "unresolved_calls": [
+          {
+            "callee": "Write",
+            "receiver_type": "Console",
+            "lang": "csharp",
+            "line": "L105"
+          },
+          {
+            "callee": "WriteLine",
+            "receiver_type": "Console",
+            "lang": "csharp",
+            "line": "L107"
+          }
+        ]
+      },
+      "norm_label": ".printarray()",
+      "source_file": "ClassCodeLibrary/CustomArraySorter/CustomArraySorter.cs",
+      "source_location": "L101"
+    },
+    {
+      "id": "classcodelibrary_customarraysorter_customarraysorter_classcodelibrary_customarraysorter_customarraysorter_sortgivenarray",
+      "label": ".SortGivenArray()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 10,
+      "community_name": "Custom Array Sorter",
+      "file_type": "code",
+      "metadata": {
+        "namespace": "ClassCodeLibrary.CustomArraySorter",
+        "scope_chain": [
+          "s120"
+        ],
+        "unresolved_calls": [
+          {
+            "callee": "Sort",
+            "receiver_type": "Array",
+            "lang": "csharp",
+            "line": "L33"
+          },
+          {
+            "callee": "WriteLine",
+            "receiver_type": "Console",
+            "lang": "csharp",
+            "line": "L42"
+          }
+        ]
+      },
+      "norm_label": ".sortgivenarray()",
+      "source_file": "ClassCodeLibrary/CustomArraySorter/CustomArraySorter.cs",
+      "source_location": "L23"
+    },
+    {
+      "id": "classcodelibrary_vowelsinuniquecity_vowelsinuniquecity_classcodelibrary_vowelsinuniquecity_vowelsinuniquecity_executecode",
+      "label": ".ExecuteCode()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 11,
+      "community_name": "Vowels City Exercise",
+      "file_type": "code",
+      "metadata": {
+        "namespace": "ClassCodeLibrary.VowelsInUniqueCity",
+        "scope_chain": [
+          "s98"
+        ],
+        "unresolved_calls": [
+          {
+            "callee": "WriteLine",
+            "receiver_type": "Console",
+            "lang": "csharp",
+            "line": "L22"
+          }
+        ]
+      },
+      "norm_label": ".executecode()",
+      "source_file": "ClassCodeLibrary/VowelsInUniqueCity/VowelsInUniqueCity.cs",
+      "source_location": "L10"
+    },
+    {
+      "id": "classcodelibrary_vowelsinuniquecity_vowelsinuniquecity_classcodelibrary_vowelsinuniquecity_vowelsinuniquecity_findvowels",
+      "label": ".FindVowels()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 11,
+      "community_name": "Vowels City Exercise",
+      "file_type": "code",
+      "metadata": {
+        "namespace": "ClassCodeLibrary.VowelsInUniqueCity",
+        "scope_chain": [
+          "s98"
+        ]
+      },
+      "norm_label": ".findvowels()",
+      "source_file": "ClassCodeLibrary/VowelsInUniqueCity/VowelsInUniqueCity.cs",
+      "source_location": "L83"
+    },
+    {
+      "id": "classcodelibrary_vowelsinuniquecity_vowelsinuniquecity_classcodelibrary_vowelsinuniquecity_vowelsinuniquecity_removeduplicates",
+      "label": ".RemoveDuplicates()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 11,
+      "community_name": "Vowels City Exercise",
+      "file_type": "code",
+      "metadata": {
+        "namespace": "ClassCodeLibrary.VowelsInUniqueCity",
+        "scope_chain": [
+          "s98"
+        ]
+      },
+      "norm_label": ".removeduplicates()",
+      "source_file": "ClassCodeLibrary/VowelsInUniqueCity/VowelsInUniqueCity.cs",
+      "source_location": "L36"
+    },
+    {
+      "id": "opencode_plugins_graphify_setup",
+      "label": "setup()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 17,
+      "community_name": "Graphify Reminder Plugin",
+      "file_type": "code",
+      "norm_label": "setup()",
+      "source_file": ".opencode/plugins/graphify.js",
+      "source_location": "L15"
+    },
+    {
+      "id": "classcodelibrary_stringduplicationfiltering_stringduplicationfiltering_classcodelibrary_stringduplicationfiltering_stringduplicationfiltering_isdigit",
+      "label": ".IsDigit()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "Manual Dedup Methods",
+      "file_type": "code",
+      "metadata": {
+        "namespace": "ClassCodeLibrary.StringDuplicationFiltering",
+        "scope_chain": [
+          "s120"
+        ]
+      },
+      "norm_label": ".isdigit()",
+      "source_file": "ClassCodeLibrary/StringDuplicationFiltering/StringDuplicationFiltering.cs",
+      "source_location": "L263"
+    },
+    {
+      "id": "classcodelibrary_stringduplicationfiltering_stringduplicationfiltering_classcodelibrary_stringduplicationfiltering_stringduplicationfiltering_isletterordigit",
+      "label": ".IsLetterOrDigit()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "Manual Dedup Methods",
+      "file_type": "code",
+      "metadata": {
+        "namespace": "ClassCodeLibrary.StringDuplicationFiltering",
+        "scope_chain": [
+          "s120"
+        ]
+      },
+      "norm_label": ".isletterordigit()",
+      "source_file": "ClassCodeLibrary/StringDuplicationFiltering/StringDuplicationFiltering.cs",
+      "source_location": "L257"
+    },
+    {
+      "id": "classcodelibrary_stringduplicationfiltering_stringduplicationfiltering_classcodelibrary_stringduplicationfiltering_stringduplicationfiltering_islower",
+      "label": ".IsLower()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "Manual Dedup Methods",
+      "file_type": "code",
+      "metadata": {
+        "namespace": "ClassCodeLibrary.StringDuplicationFiltering",
+        "scope_chain": [
+          "s120"
+        ]
+      },
+      "norm_label": ".islower()",
+      "source_file": "ClassCodeLibrary/StringDuplicationFiltering/StringDuplicationFiltering.cs",
+      "source_location": "L269"
+    },
+    {
+      "id": "classcodelibrary_stringduplicationfiltering_stringduplicationfiltering_classcodelibrary_stringduplicationfiltering_stringduplicationfiltering_isupper",
+      "label": ".IsUpper()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "Manual Dedup Methods",
+      "file_type": "code",
+      "metadata": {
+        "namespace": "ClassCodeLibrary.StringDuplicationFiltering",
+        "scope_chain": [
+          "s120"
+        ]
+      },
+      "norm_label": ".isupper()",
+      "source_file": "ClassCodeLibrary/StringDuplicationFiltering/StringDuplicationFiltering.cs",
+      "source_location": "L275"
+    },
+    {
+      "id": "classcodelibrary_stringduplicationfiltering_stringduplicationfiltering_classcodelibrary_stringduplicationfiltering_stringduplicationfiltering_removeduplicatelowerchars",
+      "label": ".RemoveDuplicateLowerChars()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "Manual Dedup Methods",
+      "file_type": "code",
+      "metadata": {
+        "namespace": "ClassCodeLibrary.StringDuplicationFiltering",
+        "scope_chain": [
+          "s120"
+        ]
+      },
+      "norm_label": ".removeduplicatelowerchars()",
+      "source_file": "ClassCodeLibrary/StringDuplicationFiltering/StringDuplicationFiltering.cs",
+      "source_location": "L137"
+    },
+    {
+      "id": "classcodelibrary_stringduplicationfiltering_stringduplicationfiltering_classcodelibrary_stringduplicationfiltering_stringduplicationfiltering_removeduplicatenumbers",
+      "label": ".RemoveDuplicateNumbers()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "Manual Dedup Methods",
+      "file_type": "code",
+      "metadata": {
+        "namespace": "ClassCodeLibrary.StringDuplicationFiltering",
+        "scope_chain": [
+          "s120"
+        ]
+      },
+      "norm_label": ".removeduplicatenumbers()",
+      "source_file": "ClassCodeLibrary/StringDuplicationFiltering/StringDuplicationFiltering.cs",
+      "source_location": "L105"
+    },
+    {
+      "id": "classcodelibrary_stringduplicationfiltering_stringduplicationfiltering_classcodelibrary_stringduplicationfiltering_stringduplicationfiltering_removeduplicates",
+      "label": ".RemoveDuplicates()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "Manual Dedup Methods",
+      "file_type": "code",
+      "metadata": {
+        "namespace": "ClassCodeLibrary.StringDuplicationFiltering",
+        "scope_chain": [
+          "s120"
+        ]
+      },
+      "norm_label": ".removeduplicates()",
+      "source_file": "ClassCodeLibrary/StringDuplicationFiltering/StringDuplicationFiltering.cs",
+      "source_location": "L50"
+    },
+    {
+      "id": "classcodelibrary_stringduplicationfiltering_stringduplicationfiltering_classcodelibrary_stringduplicationfiltering_stringduplicationfiltering_removeduplicatespecialchars",
+      "label": ".RemoveDuplicateSpecialChars()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "Manual Dedup Methods",
+      "file_type": "code",
+      "metadata": {
+        "namespace": "ClassCodeLibrary.StringDuplicationFiltering",
+        "scope_chain": [
+          "s120"
+        ]
+      },
+      "norm_label": ".removeduplicatespecialchars()",
+      "source_file": "ClassCodeLibrary/StringDuplicationFiltering/StringDuplicationFiltering.cs",
+      "source_location": "L73"
+    },
+    {
+      "id": "classcodelibrary_stringduplicationfiltering_stringduplicationfiltering_classcodelibrary_stringduplicationfiltering_stringduplicationfiltering_removeduplicateupperchars",
+      "label": ".RemoveDuplicateUpperChars()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "Manual Dedup Methods",
+      "file_type": "code",
+      "metadata": {
+        "namespace": "ClassCodeLibrary.StringDuplicationFiltering",
+        "scope_chain": [
+          "s120"
+        ]
+      },
+      "norm_label": ".removeduplicateupperchars()",
+      "source_file": "ClassCodeLibrary/StringDuplicationFiltering/StringDuplicationFiltering.cs",
+      "source_location": "L169"
+    },
+    {
+      "id": "classcodelibrary_stringduplicationfiltering_stringduplicationfiltering_classcodelibrary_stringduplicationfiltering_stringduplicationfiltering_removelowerchars",
+      "label": ".RemoveLowerChars()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "Manual Dedup Methods",
+      "file_type": "code",
+      "metadata": {
+        "namespace": "ClassCodeLibrary.StringDuplicationFiltering",
+        "scope_chain": [
+          "s120"
+        ]
+      },
+      "norm_label": ".removelowerchars()",
+      "source_file": "ClassCodeLibrary/StringDuplicationFiltering/StringDuplicationFiltering.cs",
+      "source_location": "L229"
+    },
+    {
+      "id": "classcodelibrary_stringduplicationfiltering_stringduplicationfiltering_classcodelibrary_stringduplicationfiltering_stringduplicationfiltering_removenumbers",
+      "label": ".RemoveNumbers()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "Manual Dedup Methods",
+      "file_type": "code",
+      "metadata": {
+        "namespace": "ClassCodeLibrary.StringDuplicationFiltering",
+        "scope_chain": [
+          "s120"
+        ]
+      },
+      "norm_label": ".removenumbers()",
+      "source_file": "ClassCodeLibrary/StringDuplicationFiltering/StringDuplicationFiltering.cs",
+      "source_location": "L215"
+    },
+    {
+      "id": "classcodelibrary_stringduplicationfiltering_stringduplicationfiltering_classcodelibrary_stringduplicationfiltering_stringduplicationfiltering_removespecialchars",
+      "label": ".RemoveSpecialChars()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "Manual Dedup Methods",
+      "file_type": "code",
+      "metadata": {
+        "namespace": "ClassCodeLibrary.StringDuplicationFiltering",
+        "scope_chain": [
+          "s120"
+        ]
+      },
+      "norm_label": ".removespecialchars()",
+      "source_file": "ClassCodeLibrary/StringDuplicationFiltering/StringDuplicationFiltering.cs",
+      "source_location": "L201"
+    },
+    {
+      "id": "classcodelibrary_stringduplicationfiltering_stringduplicationfiltering_classcodelibrary_stringduplicationfiltering_stringduplicationfiltering_removeupperchars",
+      "label": ".RemoveUpperChars()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "Manual Dedup Methods",
+      "file_type": "code",
+      "metadata": {
+        "namespace": "ClassCodeLibrary.StringDuplicationFiltering",
+        "scope_chain": [
+          "s120"
+        ]
+      },
+      "norm_label": ".removeupperchars()",
+      "source_file": "ClassCodeLibrary/StringDuplicationFiltering/StringDuplicationFiltering.cs",
+      "source_location": "L243"
+    },
+    {
+      "id": "classcodelibrary_stringduplicationfiltering_stringduplicationfilteringlinq_classcodelibrary_stringduplicationfiltering_stringduplicationfilteringlinq_executecode",
+      "label": ".ExecuteCode()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 5,
+      "community_name": "LINQ Dedup Methods",
+      "file_type": "code",
+      "metadata": {
+        "namespace": "ClassCodeLibrary.StringDuplicationFiltering",
+        "scope_chain": [
+          "s98"
+        ],
+        "unresolved_calls": [
+          {
+            "callee": "WriteLine",
+            "receiver_type": "Console",
+            "lang": "csharp",
+            "line": "L19"
+          }
+        ]
+      },
+      "norm_label": ".executecode()",
+      "source_file": "ClassCodeLibrary/StringDuplicationFiltering/StringDuplicationFilteringLinq.cs",
+      "source_location": "L13"
+    },
+    {
+      "id": "classcodelibrary_stringduplicationfiltering_stringduplicationfilteringlinq_classcodelibrary_stringduplicationfiltering_stringduplicationfilteringlinq_removeduplicatelowercharslinq",
+      "label": ".RemoveDuplicateLowerCharsLinq()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 5,
+      "community_name": "LINQ Dedup Methods",
+      "file_type": "code",
+      "metadata": {
+        "namespace": "ClassCodeLibrary.StringDuplicationFiltering",
+        "scope_chain": [
+          "s98"
+        ]
+      },
+      "norm_label": ".removeduplicatelowercharslinq()",
+      "source_file": "ClassCodeLibrary/StringDuplicationFiltering/StringDuplicationFilteringLinq.cs",
+      "source_location": "L77"
+    },
+    {
+      "id": "classcodelibrary_stringduplicationfiltering_stringduplicationfilteringlinq_classcodelibrary_stringduplicationfiltering_stringduplicationfilteringlinq_removeduplicatenumberslinq",
+      "label": ".RemoveDuplicateNumbersLinq()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 5,
+      "community_name": "LINQ Dedup Methods",
+      "file_type": "code",
+      "metadata": {
+        "namespace": "ClassCodeLibrary.StringDuplicationFiltering",
+        "scope_chain": [
+          "s98"
+        ]
+      },
+      "norm_label": ".removeduplicatenumberslinq()",
+      "source_file": "ClassCodeLibrary/StringDuplicationFiltering/StringDuplicationFilteringLinq.cs",
+      "source_location": "L68"
+    },
+    {
+      "id": "classcodelibrary_stringduplicationfiltering_stringduplicationfilteringlinq_classcodelibrary_stringduplicationfiltering_stringduplicationfilteringlinq_removeduplicateslinq",
+      "label": ".RemoveDuplicatesLinq()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 5,
+      "community_name": "LINQ Dedup Methods",
+      "file_type": "code",
+      "metadata": {
+        "namespace": "ClassCodeLibrary.StringDuplicationFiltering",
+        "scope_chain": [
+          "s98"
+        ]
+      },
+      "norm_label": ".removeduplicateslinq()",
+      "source_file": "ClassCodeLibrary/StringDuplicationFiltering/StringDuplicationFilteringLinq.cs",
+      "source_location": "L53"
+    },
+    {
+      "id": "classcodelibrary_stringduplicationfiltering_stringduplicationfilteringlinq_classcodelibrary_stringduplicationfiltering_stringduplicationfilteringlinq_removeduplicatespecialcharslinq",
+      "label": ".RemoveDuplicateSpecialCharsLinq()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 5,
+      "community_name": "LINQ Dedup Methods",
+      "file_type": "code",
+      "metadata": {
+        "namespace": "ClassCodeLibrary.StringDuplicationFiltering",
+        "scope_chain": [
+          "s98"
+        ]
+      },
+      "norm_label": ".removeduplicatespecialcharslinq()",
+      "source_file": "ClassCodeLibrary/StringDuplicationFiltering/StringDuplicationFilteringLinq.cs",
+      "source_location": "L59"
+    },
+    {
+      "id": "classcodelibrary_stringduplicationfiltering_stringduplicationfilteringlinq_classcodelibrary_stringduplicationfiltering_stringduplicationfilteringlinq_removeduplicateuppercharslinq",
+      "label": ".RemoveDuplicateUpperCharsLinq()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 5,
+      "community_name": "LINQ Dedup Methods",
+      "file_type": "code",
+      "metadata": {
+        "namespace": "ClassCodeLibrary.StringDuplicationFiltering",
+        "scope_chain": [
+          "s98"
+        ]
+      },
+      "norm_label": ".removeduplicateuppercharslinq()",
+      "source_file": "ClassCodeLibrary/StringDuplicationFiltering/StringDuplicationFilteringLinq.cs",
+      "source_location": "L86"
+    },
+    {
+      "id": "classcodelibrary_stringduplicationfiltering_stringduplicationfilteringlinq_classcodelibrary_stringduplicationfiltering_stringduplicationfilteringlinq_removelowercharslinq",
+      "label": ".RemoveLowerCharsLinq()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 5,
+      "community_name": "LINQ Dedup Methods",
+      "file_type": "code",
+      "metadata": {
+        "namespace": "ClassCodeLibrary.StringDuplicationFiltering",
+        "scope_chain": [
+          "s98"
+        ]
+      },
+      "norm_label": ".removelowercharslinq()",
+      "source_file": "ClassCodeLibrary/StringDuplicationFiltering/StringDuplicationFilteringLinq.cs",
+      "source_location": "L107"
+    },
+    {
+      "id": "classcodelibrary_stringduplicationfiltering_stringduplicationfilteringlinq_classcodelibrary_stringduplicationfiltering_stringduplicationfilteringlinq_removenumberslinq",
+      "label": ".RemoveNumbersLinq()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 5,
+      "community_name": "LINQ Dedup Methods",
+      "file_type": "code",
+      "metadata": {
+        "namespace": "ClassCodeLibrary.StringDuplicationFiltering",
+        "scope_chain": [
+          "s98"
+        ]
+      },
+      "norm_label": ".removenumberslinq()",
+      "source_file": "ClassCodeLibrary/StringDuplicationFiltering/StringDuplicationFilteringLinq.cs",
+      "source_location": "L101"
+    },
+    {
+      "id": "classcodelibrary_stringduplicationfiltering_stringduplicationfilteringlinq_classcodelibrary_stringduplicationfiltering_stringduplicationfilteringlinq_removespecialcharslinq",
+      "label": ".RemoveSpecialCharsLinq()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 5,
+      "community_name": "LINQ Dedup Methods",
+      "file_type": "code",
+      "metadata": {
+        "namespace": "ClassCodeLibrary.StringDuplicationFiltering",
+        "scope_chain": [
+          "s98"
+        ]
+      },
+      "norm_label": ".removespecialcharslinq()",
+      "source_file": "ClassCodeLibrary/StringDuplicationFiltering/StringDuplicationFilteringLinq.cs",
+      "source_location": "L95"
+    },
+    {
+      "id": "classcodelibrary_stringduplicationfiltering_stringduplicationfilteringlinq_classcodelibrary_stringduplicationfiltering_stringduplicationfilteringlinq_removeuppercharslinq",
+      "label": ".RemoveUpperCharsLinq()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 5,
+      "community_name": "LINQ Dedup Methods",
+      "file_type": "code",
+      "metadata": {
+        "namespace": "ClassCodeLibrary.StringDuplicationFiltering",
+        "scope_chain": [
+          "s98"
+        ]
+      },
+      "norm_label": ".removeuppercharslinq()",
+      "source_file": "ClassCodeLibrary/StringDuplicationFiltering/StringDuplicationFilteringLinq.cs",
+      "source_location": "L113"
+    },
+    {
+      "id": "opencode_opencode",
+      "label": "opencode.json",
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "OpenCode Project Config",
+      "file_type": "code",
+      "norm_label": "opencode.json",
+      "source_file": ".opencode/opencode.json",
+      "source_location": "L1"
+    },
+    {
+      "id": "opencode_opencode_agents",
+      "label": "agents",
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "OpenCode Project Config",
+      "file_type": "code",
+      "norm_label": "agents",
+      "source_file": ".opencode/opencode.json",
+      "source_location": "L23"
+    },
+    {
+      "id": "opencode_opencode_agents_default",
+      "label": "default",
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "OpenCode Project Config",
+      "file_type": "code",
+      "norm_label": "default",
+      "source_file": ".opencode/opencode.json",
+      "source_location": "L24"
+    },
+    {
+      "id": "opencode_opencode_agents_list",
+      "label": "list",
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "OpenCode Project Config",
+      "file_type": "code",
+      "norm_label": "list",
+      "source_file": ".opencode/opencode.json",
+      "source_location": "L25"
+    },
+    {
+      "id": "opencode_opencode_commands",
+      "label": "commands",
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "OpenCode Project Config",
+      "file_type": "code",
+      "norm_label": "commands",
+      "source_file": ".opencode/opencode.json",
+      "source_location": "L38"
+    },
+    {
+      "id": "opencode_opencode_commands_custom",
+      "label": "custom",
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "OpenCode Project Config",
+      "file_type": "code",
+      "norm_label": "custom",
+      "source_file": ".opencode/opencode.json",
+      "source_location": "L39"
+    },
+    {
+      "id": "opencode_opencode_instructions",
+      "label": "instructions",
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "OpenCode Project Config",
+      "file_type": "code",
+      "norm_label": "instructions",
+      "source_file": ".opencode/opencode.json",
+      "source_location": "L22"
+    },
+    {
+      "id": "opencode_opencode_lsp",
+      "label": "lsp",
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "OpenCode Project Config",
+      "file_type": "code",
+      "norm_label": "lsp",
+      "source_file": ".opencode/opencode.json",
+      "source_location": "L68"
+    },
+    {
+      "id": "opencode_opencode_model",
+      "label": "model",
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "OpenCode Project Config",
+      "file_type": "code",
+      "norm_label": "model",
+      "source_file": ".opencode/opencode.json",
+      "source_location": "L4"
+    },
+    {
+      "id": "opencode_opencode_plugin",
+      "label": "plugin",
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "OpenCode Project Config",
+      "file_type": "code",
+      "norm_label": "plugin",
+      "source_file": ".opencode/opencode.json",
+      "source_location": "L69"
+    },
+    {
+      "id": "opencode_opencode_project",
+      "label": "project",
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "OpenCode Project Config",
+      "file_type": "code",
+      "norm_label": "project",
+      "source_file": ".opencode/opencode.json",
+      "source_location": "L17"
+    },
+    {
+      "id": "opencode_opencode_project_description",
+      "label": "description",
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "OpenCode Project Config",
+      "file_type": "code",
+      "norm_label": "description",
+      "source_file": ".opencode/opencode.json",
+      "source_location": "L19"
+    },
+    {
+      "id": "opencode_opencode_project_name",
+      "label": "name",
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "OpenCode Project Config",
+      "file_type": "code",
+      "norm_label": "name",
+      "source_file": ".opencode/opencode.json",
+      "source_location": "L18"
+    },
+    {
+      "id": "opencode_opencode_project_type",
+      "label": "type",
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "OpenCode Project Config",
+      "file_type": "code",
+      "norm_label": "type",
+      "source_file": ".opencode/opencode.json",
+      "source_location": "L20"
+    },
+    {
+      "id": "opencode_opencode_schema",
+      "label": "$schema",
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "OpenCode Project Config",
+      "file_type": "code",
+      "norm_label": "$schema",
+      "source_file": ".opencode/opencode.json",
+      "source_location": "L2"
+    },
+    {
+      "id": "opencode_opencode_skills",
+      "label": "skills",
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "OpenCode Project Config",
+      "file_type": "code",
+      "norm_label": "skills",
+      "source_file": ".opencode/opencode.json",
+      "source_location": "L32"
+    },
+    {
+      "id": "opencode_opencode_skills_enabled",
+      "label": "enabled",
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "OpenCode Project Config",
+      "file_type": "code",
+      "norm_label": "enabled",
+      "source_file": ".opencode/opencode.json",
+      "source_location": "L33"
+    },
+    {
+      "id": "opencode_opencode_small_model",
+      "label": "small_model",
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "OpenCode Project Config",
+      "file_type": "code",
+      "norm_label": "small_model",
+      "source_file": ".opencode/opencode.json",
+      "source_location": "L5"
+    },
+    {
+      "id": "opencode_opencode_version",
+      "label": "version",
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "OpenCode Project Config",
+      "file_type": "code",
+      "norm_label": "version",
+      "source_file": ".opencode/opencode.json",
+      "source_location": "L3"
+    },
+    {
+      "id": "classcodelibrary_secondlargestnumber_secondlargestnumber",
+      "label": "SecondLargestNumber.cs",
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "Exercise Entry Points",
+      "file_type": "code",
+      "norm_label": "secondlargestnumber.cs",
+      "source_file": "ClassCodeLibrary/SecondLargestNumber/SecondLargestNumber.cs",
+      "source_location": "L1"
+    },
+    {
+      "id": "classcodelibrary_stringduplicationfiltering_stringduplicationfiltering",
+      "label": "StringDuplicationFiltering.cs",
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "Exercise Entry Points",
+      "file_type": "code",
+      "norm_label": "stringduplicationfiltering.cs",
+      "source_file": "ClassCodeLibrary/StringDuplicationFiltering/StringDuplicationFiltering.cs",
+      "source_location": "L1"
+    },
+    {
+      "id": "classcodelibrary_stringduplicationfiltering_stringduplicationfilteringlinq",
+      "label": "StringDuplicationFilteringLinq.cs",
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "Exercise Entry Points",
+      "file_type": "code",
+      "norm_label": "stringduplicationfilteringlinq.cs",
+      "source_file": "ClassCodeLibrary/StringDuplicationFiltering/StringDuplicationFilteringLinq.cs",
+      "source_location": "L1"
+    },
+    {
+      "id": "classcodelibrary_uniquecharactercounter_uniquecharactercounter",
+      "label": "UniqueCharacterCounter.cs",
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "Exercise Entry Points",
+      "file_type": "code",
+      "norm_label": "uniquecharactercounter.cs",
+      "source_file": "ClassCodeLibrary/UniqueCharacterCounter/UniqueCharacterCounter.cs",
+      "source_location": "L1"
+    },
+    {
+      "id": "csharp_namespace:63eb8a2923eb8381",
+      "label": "ClassCodeLibrary.SecondLargestNumber",
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "Exercise Entry Points",
+      "file_type": "code",
+      "metadata": {
+        "kind": "csharp_namespace",
+        "namespace": "ClassCodeLibrary.SecondLargestNumber"
+      },
+      "norm_label": "classcodelibrary.secondlargestnumber",
+      "source_file": "ClassCodeLibrary/SecondLargestNumber/SecondLargestNumber.cs",
+      "source_location": "L7",
+      "type": "namespace"
+    },
+    {
+      "id": "csharp_namespace:7140432ede450e3e",
+      "label": "ClassCodeLibrary.StringDuplicationFiltering",
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "Exercise Entry Points",
+      "file_type": "code",
+      "metadata": {
+        "kind": "csharp_namespace",
+        "namespace": "ClassCodeLibrary.StringDuplicationFiltering"
+      },
+      "norm_label": "classcodelibrary.stringduplicationfiltering",
+      "source_file": "ClassCodeLibrary/StringDuplicationFiltering/StringDuplicationFiltering.cs",
+      "source_location": "L7",
+      "type": "namespace"
+    },
+    {
+      "id": "csharp_namespace:9f58dcf1b59d9e12",
+      "label": "ClassCodeLibrary.UniqueCharacterCounter",
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "Exercise Entry Points",
+      "file_type": "code",
+      "metadata": {
+        "kind": "csharp_namespace",
+        "namespace": "ClassCodeLibrary.UniqueCharacterCounter"
+      },
+      "norm_label": "classcodelibrary.uniquecharactercounter",
+      "source_file": "ClassCodeLibrary/UniqueCharacterCounter/UniqueCharacterCounter.cs",
+      "source_location": "L7",
+      "type": "namespace"
+    },
+    {
+      "id": "csharp_namespace:fcf595cde63678ff",
+      "label": "MainConsoleApp",
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "Exercise Entry Points",
+      "file_type": "code",
+      "metadata": {
+        "kind": "csharp_namespace",
+        "namespace": "MainConsoleApp"
+      },
+      "norm_label": "mainconsoleapp",
+      "source_file": "MainConsoleApp/Program.cs",
+      "source_location": "L7",
+      "type": "namespace"
+    },
+    {
+      "id": "mainconsoleapp_program",
+      "label": "Program.cs",
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "Exercise Entry Points",
+      "file_type": "code",
+      "norm_label": "program.cs",
+      "source_file": "MainConsoleApp/Program.cs",
+      "source_location": "L1"
+    },
+    {
+      "id": "classcodelibrary_customarraysorter_customarraysorter",
+      "label": "CustomArraySorter.cs",
+      "_origin": "ast",
+      "community": 10,
+      "community_name": "Custom Array Sorter",
+      "file_type": "code",
+      "norm_label": "customarraysorter.cs",
+      "source_file": "ClassCodeLibrary/CustomArraySorter/CustomArraySorter.cs",
+      "source_location": "L1"
+    },
+    {
+      "id": "csharp_namespace:21e638adeb1b5419",
+      "label": "ClassCodeLibrary.CustomArraySorter",
+      "_origin": "ast",
+      "community": 10,
+      "community_name": "Custom Array Sorter",
+      "file_type": "code",
+      "metadata": {
+        "kind": "csharp_namespace",
+        "namespace": "ClassCodeLibrary.CustomArraySorter"
+      },
+      "norm_label": "classcodelibrary.customarraysorter",
+      "source_file": "ClassCodeLibrary/CustomArraySorter/CustomArraySorter.cs",
+      "source_location": "L7",
+      "type": "namespace"
+    },
+    {
+      "id": "classcodelibrary_vowelsinuniquecity_vowelsinuniquecity",
+      "label": "VowelsInUniqueCity.cs",
+      "_origin": "ast",
+      "community": 11,
+      "community_name": "Vowels City Exercise",
+      "file_type": "code",
+      "norm_label": "vowelsinuniquecity.cs",
+      "source_file": "ClassCodeLibrary/VowelsInUniqueCity/VowelsInUniqueCity.cs",
+      "source_location": "L1"
+    },
+    {
+      "id": "csharp_namespace:e6b02231a74e458a",
+      "label": "ClassCodeLibrary.VowelsInUniqueCity",
+      "_origin": "ast",
+      "community": 11,
+      "community_name": "Vowels City Exercise",
+      "file_type": "code",
+      "metadata": {
+        "kind": "csharp_namespace",
+        "namespace": "ClassCodeLibrary.VowelsInUniqueCity"
+      },
+      "norm_label": "classcodelibrary.vowelsinuniquecity",
+      "source_file": "ClassCodeLibrary/VowelsInUniqueCity/VowelsInUniqueCity.cs",
+      "source_location": "L6",
+      "type": "namespace"
+    },
+    {
+      "id": "opencode_opencode_models_muse_spark_1_3_contributor_free",
+      "label": "muse-spark-1.3-contributor-free",
+      "_origin": "ast",
+      "community": 12,
+      "community_name": "Model Configuration",
+      "file_type": "code",
+      "norm_label": "muse-spark-1.3-contributor-free",
+      "source_file": ".opencode/opencode.json",
+      "source_location": "L9"
+    },
+    {
+      "id": "opencode_opencode_muse_spark_1_3_contributor_free_options",
+      "label": "options",
+      "_origin": "ast",
+      "community": 12,
+      "community_name": "Model Configuration",
+      "file_type": "code",
+      "norm_label": "options",
+      "source_file": ".opencode/opencode.json",
+      "source_location": "L10"
+    },
+    {
+      "id": "opencode_opencode_opencode_models",
+      "label": "models",
+      "_origin": "ast",
+      "community": 12,
+      "community_name": "Model Configuration",
+      "file_type": "code",
+      "norm_label": "models",
+      "source_file": ".opencode/opencode.json",
+      "source_location": "L8"
+    },
+    {
+      "id": "opencode_opencode_options_reasoningeffort",
+      "label": "reasoningEffort",
+      "_origin": "ast",
+      "community": 12,
+      "community_name": "Model Configuration",
+      "file_type": "code",
+      "norm_label": "reasoningeffort",
+      "source_file": ".opencode/opencode.json",
+      "source_location": "L11"
+    },
+    {
+      "id": "opencode_opencode_provider",
+      "label": "provider",
+      "_origin": "ast",
+      "community": 12,
+      "community_name": "Model Configuration",
+      "file_type": "code",
+      "norm_label": "provider",
+      "source_file": ".opencode/opencode.json",
+      "source_location": "L6"
+    },
+    {
+      "id": "opencode_opencode_provider_opencode",
+      "label": "opencode",
+      "_origin": "ast",
+      "community": 12,
+      "community_name": "Model Configuration",
+      "file_type": "code",
+      "norm_label": "opencode",
+      "source_file": ".opencode/opencode.json",
+      "source_location": "L7"
+    },
+    {
+      "id": "opencode_plugins_graphify",
+      "label": "graphify.js",
+      "_origin": "ast",
+      "community": 17,
+      "community_name": "Graphify Reminder Plugin",
+      "file_type": "code",
+      "norm_label": "graphify.js",
+      "source_file": ".opencode/plugins/graphify.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "opencode_plugins_graphify_rationale_5",
+      "label": "IMPORTANT: keep the reminder string free of backticks and $(...) constructs.",
+      "_origin": "ast",
+      "community": 17,
+      "community_name": "Graphify Reminder Plugin",
+      "file_type": "rationale",
+      "norm_label": "important: keep the reminder string free of backticks and $(...) constructs.",
+      "source_file": ".opencode/plugins/graphify.js",
+      "source_location": "L5"
+    },
+    {
+      "id": "opencode_opencode_github_enabled",
+      "label": "enabled",
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "MCP GitHub Integration",
+      "file_type": "code",
+      "norm_label": "enabled",
+      "source_file": ".opencode/opencode.json",
+      "source_location": "L79"
+    },
+    {
+      "id": "opencode_opencode_github_headers",
+      "label": "headers",
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "MCP GitHub Integration",
+      "file_type": "code",
+      "norm_label": "headers",
+      "source_file": ".opencode/opencode.json",
+      "source_location": "L81"
+    },
+    {
+      "id": "opencode_opencode_github_oauth",
+      "label": "oauth",
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "MCP GitHub Integration",
+      "file_type": "code",
+      "norm_label": "oauth",
+      "source_file": ".opencode/opencode.json",
+      "source_location": "L80"
+    },
+    {
+      "id": "opencode_opencode_github_type",
+      "label": "type",
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "MCP GitHub Integration",
+      "file_type": "code",
+      "norm_label": "type",
+      "source_file": ".opencode/opencode.json",
+      "source_location": "L77"
+    },
+    {
+      "id": "opencode_opencode_github_url",
+      "label": "url",
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "MCP GitHub Integration",
+      "file_type": "code",
+      "norm_label": "url",
+      "source_file": ".opencode/opencode.json",
+      "source_location": "L78"
+    },
+    {
+      "id": "opencode_opencode_headers_authorization",
+      "label": "Authorization",
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "MCP GitHub Integration",
+      "file_type": "code",
+      "norm_label": "authorization",
+      "source_file": ".opencode/opencode.json",
+      "source_location": "L82"
+    },
+    {
+      "id": "opencode_opencode_mcp",
+      "label": "mcp",
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "MCP GitHub Integration",
+      "file_type": "code",
+      "norm_label": "mcp",
+      "source_file": ".opencode/opencode.json",
+      "source_location": "L70"
+    },
+    {
+      "id": "opencode_opencode_mcp_github",
+      "label": "github",
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "MCP GitHub Integration",
+      "file_type": "code",
+      "norm_label": "github",
+      "source_file": ".opencode/opencode.json",
+      "source_location": "L76"
+    },
+    {
+      "id": "opencode_opencode_mcp_ui_skills",
+      "label": "ui-skills",
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "MCP GitHub Integration",
+      "file_type": "code",
+      "norm_label": "ui-skills",
+      "source_file": ".opencode/opencode.json",
+      "source_location": "L71"
+    },
+    {
+      "id": "opencode_opencode_ui_skills_enabled",
+      "label": "enabled",
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "MCP GitHub Integration",
+      "file_type": "code",
+      "norm_label": "enabled",
+      "source_file": ".opencode/opencode.json",
+      "source_location": "L74"
+    },
+    {
+      "id": "opencode_opencode_ui_skills_type",
+      "label": "type",
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "MCP GitHub Integration",
+      "file_type": "code",
+      "norm_label": "type",
+      "source_file": ".opencode/opencode.json",
+      "source_location": "L72"
+    },
+    {
+      "id": "opencode_opencode_ui_skills_url",
+      "label": "url",
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "MCP GitHub Integration",
+      "file_type": "code",
+      "norm_label": "url",
+      "source_file": ".opencode/opencode.json",
+      "source_location": "L73"
+    },
+    {
+      "id": "opencode_opencode_bash_chmod_777",
+      "label": "chmod 777 *",
+      "_origin": "ast",
+      "community": 6,
+      "community_name": "Permission Guardrails",
+      "file_type": "code",
+      "norm_label": "chmod 777 *",
+      "source_file": ".opencode/opencode.json",
+      "source_location": "L65"
+    },
+    {
+      "id": "opencode_opencode_bash_rm_rf",
+      "label": "rm -rf *",
+      "_origin": "ast",
+      "community": 6,
+      "community_name": "Permission Guardrails",
+      "file_type": "code",
+      "norm_label": "rm -rf *",
+      "source_file": ".opencode/opencode.json",
+      "source_location": "L63"
+    },
+    {
+      "id": "opencode_opencode_bash_sudo",
+      "label": "sudo *",
+      "_origin": "ast",
+      "community": 6,
+      "community_name": "Permission Guardrails",
+      "file_type": "code",
+      "norm_label": "sudo *",
+      "source_file": ".opencode/opencode.json",
+      "source_location": "L64"
+    },
+    {
+      "id": "opencode_opencode_permission",
+      "label": "permission",
+      "_origin": "ast",
+      "community": 6,
+      "community_name": "Permission Guardrails",
+      "file_type": "code",
+      "norm_label": "permission",
+      "source_file": ".opencode/opencode.json",
+      "source_location": "L54"
+    },
+    {
+      "id": "opencode_opencode_permission_bash",
+      "label": "bash",
+      "_origin": "ast",
+      "community": 6,
+      "community_name": "Permission Guardrails",
+      "file_type": "code",
+      "norm_label": "bash",
+      "source_file": ".opencode/opencode.json",
+      "source_location": "L61"
+    },
+    {
+      "id": "opencode_opencode_permission_edit",
+      "label": "edit",
+      "_origin": "ast",
+      "community": 6,
+      "community_name": "Permission Guardrails",
+      "file_type": "code",
+      "norm_label": "edit",
+      "source_file": ".opencode/opencode.json",
+      "source_location": "L57"
+    },
+    {
+      "id": "opencode_opencode_permission_glob",
+      "label": "glob",
+      "_origin": "ast",
+      "community": 6,
+      "community_name": "Permission Guardrails",
+      "file_type": "code",
+      "norm_label": "glob",
+      "source_file": ".opencode/opencode.json",
+      "source_location": "L58"
+    },
+    {
+      "id": "opencode_opencode_permission_grep",
+      "label": "grep",
+      "_origin": "ast",
+      "community": 6,
+      "community_name": "Permission Guardrails",
+      "file_type": "code",
+      "norm_label": "grep",
+      "source_file": ".opencode/opencode.json",
+      "source_location": "L59"
+    },
+    {
+      "id": "opencode_opencode_permission_read",
+      "label": "read",
+      "_origin": "ast",
+      "community": 6,
+      "community_name": "Permission Guardrails",
+      "file_type": "code",
+      "norm_label": "read",
+      "source_file": ".opencode/opencode.json",
+      "source_location": "L55"
+    },
+    {
+      "id": "opencode_opencode_permission_task",
+      "label": "task",
+      "_origin": "ast",
+      "community": 6,
+      "community_name": "Permission Guardrails",
+      "file_type": "code",
+      "norm_label": "task",
+      "source_file": ".opencode/opencode.json",
+      "source_location": "L60"
+    },
+    {
+      "id": "opencode_opencode_permission_write",
+      "label": "write",
+      "_origin": "ast",
+      "community": 6,
+      "community_name": "Permission Guardrails",
+      "file_type": "code",
+      "norm_label": "write",
+      "source_file": ".opencode/opencode.json",
+      "source_location": "L56"
+    },
+    {
+      "id": "classcodelibrary_classcodelibrary",
+      "label": "ClassCodeLibrary.csproj",
+      "_origin": "ast",
+      "community": 9,
+      "community_name": "Solution Project Structure",
+      "file_type": "code",
+      "norm_label": "classcodelibrary.csproj",
+      "source_file": "ClassCodeLibrary/ClassCodeLibrary.csproj",
+      "source_location": null
+    },
+    {
+      "id": "csharpcodepractice",
+      "label": "CSharpCodePractice.slnx",
+      "_origin": "ast",
+      "community": 9,
+      "community_name": "Solution Project Structure",
+      "file_type": "code",
+      "norm_label": "csharpcodepractice.slnx",
+      "source_file": "CSharpCodePractice.slnx",
+      "source_location": null
+    },
+    {
+      "id": "mainconsoleapp_mainconsoleapp",
+      "label": "MainConsoleApp.csproj",
+      "_origin": "ast",
+      "community": 9,
+      "community_name": "Solution Project Structure",
+      "file_type": "code",
+      "norm_label": "mainconsoleapp.csproj",
+      "source_file": "MainConsoleApp/MainConsoleApp.csproj",
+      "source_location": null
+    },
+    {
+      "id": "classcodelibrary_classcodelibrary_csproj_framework_net10_0",
+      "label": "net10.0",
+      "_origin": "ast",
+      "community": 9,
+      "community_name": "Solution Project Structure",
+      "file_type": "concept",
+      "norm_label": "net10.0",
+      "source_file": "ClassCodeLibrary/ClassCodeLibrary.csproj",
+      "source_location": null
+    },
+    {
+      "id": "classcodelibrary_classcodelibrary_csproj_sdk_microsoft_net_sdk",
+      "label": "Microsoft.NET.Sdk",
+      "_origin": "ast",
+      "community": 9,
+      "community_name": "Solution Project Structure",
+      "file_type": "concept",
+      "norm_label": "microsoft.net.sdk",
+      "source_file": "ClassCodeLibrary/ClassCodeLibrary.csproj",
+      "source_location": null
+    },
+    {
+      "id": "mainconsoleapp_mainconsoleapp_csproj_framework_net10_0",
+      "label": "net10.0",
+      "_origin": "ast",
+      "community": 9,
+      "community_name": "Solution Project Structure",
+      "file_type": "concept",
+      "norm_label": "net10.0",
+      "source_file": "MainConsoleApp/MainConsoleApp.csproj",
+      "source_location": null
+    },
+    {
+      "id": "mainconsoleapp_mainconsoleapp_csproj_sdk_microsoft_net_sdk",
+      "label": "Microsoft.NET.Sdk",
+      "_origin": "ast",
+      "community": 9,
+      "community_name": "Solution Project Structure",
+      "file_type": "concept",
+      "norm_label": "microsoft.net.sdk",
+      "source_file": "MainConsoleApp/MainConsoleApp.csproj",
+      "source_location": null
+    },
+    {
+      "id": "_opencode_skills_csharp_development_async_console_entry",
+      "label": "Async console entry point with cancellation",
+      "_origin": "semantic",
+      "author": "opencode",
+      "captured_at": null,
+      "community": 14,
+      "community_name": "Vowel Test Strategy",
+      "contributor": null,
+      "file_type": "concept",
+      "norm_label": "async console entry point with cancellation",
+      "source_file": ".opencode/skills/csharp-development.md",
+      "source_location": null,
+      "source_url": null
+    },
+    {
+      "id": "_opencode_skills_testing_strategy_test_stack",
+      "label": "xunit Moq Bogus FluentAssertions test stack",
+      "_origin": "semantic",
+      "author": "opencode",
+      "captured_at": null,
+      "community": 14,
+      "community_name": "Vowel Test Strategy",
+      "contributor": null,
+      "file_type": "concept",
+      "norm_label": "xunit moq bogus fluentassertions test stack",
+      "source_file": ".opencode/skills/testing-strategy.md",
+      "source_location": null,
+      "source_url": null
+    },
+    {
+      "id": "_opencode_skills_csharp_development_second_largest_one_pass",
+      "label": "Second largest in one pass O(n)",
+      "_origin": "semantic",
+      "author": "opencode",
+      "captured_at": null,
+      "community": 15,
+      "community_name": "Second Largest Pattern",
+      "contributor": null,
+      "file_type": "concept",
+      "norm_label": "second largest in one pass o(n)",
+      "source_file": ".opencode/skills/csharp-development.md",
+      "source_location": null,
+      "source_url": null
+    },
+    {
+      "id": "_opencode_skills_csharp_development_records_pattern_matching",
+      "label": "Records with pattern matching",
+      "_origin": "semantic",
+      "author": "opencode",
+      "captured_at": null,
+      "community": 29,
+      "community_name": "Records Pattern Matching",
+      "contributor": null,
+      "file_type": "concept",
+      "norm_label": "records with pattern matching",
+      "source_file": ".opencode/skills/csharp-development.md",
+      "source_location": null,
+      "source_url": null
+    },
+    {
+      "id": "_opencode_skills_testing_strategy_exercise_edge_case_tests",
+      "label": "Exercise edge-case tests with should_when naming",
+      "_origin": "semantic",
+      "author": "opencode",
+      "captured_at": null,
+      "community": 31,
+      "community_name": "Edge Case Test Naming",
+      "contributor": null,
+      "file_type": "concept",
+      "norm_label": "exercise edge-case tests with should_when naming",
+      "source_file": ".opencode/skills/testing-strategy.md",
+      "source_location": null,
+      "source_url": null
+    },
+    {
+      "id": "_opencode_skills_csharp_development_linq_comparison",
+      "label": "LINQ comparison kept beside manual version",
+      "_origin": "semantic",
+      "author": "opencode",
+      "captured_at": null,
+      "community": 8,
+      "community_name": "Manual-First Practice",
+      "contributor": null,
+      "file_type": "concept",
+      "norm_label": "linq comparison kept beside manual version",
+      "source_file": ".opencode/skills/csharp-development.md",
+      "source_location": null,
+      "source_url": null
+    },
+    {
+      "id": "_opencode_skills_csharp_development_manual_first_practice",
+      "label": "Manual-first practice (no built-ins before LINQ)",
+      "_origin": "semantic",
+      "author": "opencode",
+      "captured_at": null,
+      "community": 8,
+      "community_name": "Manual-First Practice",
+      "contributor": null,
+      "file_type": "concept",
+      "norm_label": "manual-first practice (no built-ins before linq)",
+      "source_file": ".opencode/skills/csharp-development.md",
+      "source_location": null,
+      "source_url": null
+    },
+    {
+      "id": "images_vowelsinuniquecity_screenshot_20250129_160357_console_output",
+      "label": "Terminal console output listing City and Vowels per city",
+      "_origin": "semantic",
+      "author": null,
+      "captured_at": null,
+      "community": 13,
+      "community_name": "Exercise Screenshot Evidence",
+      "contributor": null,
+      "file_type": "concept",
+      "norm_label": "terminal console output listing city and vowels per city",
+      "source_file": "Images/VowelsInUniqueCity Screenshot_20250129_160357.png",
+      "source_location": null,
+      "source_url": null
+    },
+    {
+      "id": "images_vowelsinuniquecity_screenshot_20250129_160357_program_harness",
+      "label": "Program.cs demo harness with region-gated exercise calls",
+      "_origin": "semantic",
+      "author": null,
+      "captured_at": null,
+      "community": 13,
+      "community_name": "Exercise Screenshot Evidence",
+      "contributor": null,
+      "file_type": "concept",
+      "norm_label": "program.cs demo harness with region-gated exercise calls",
+      "source_file": "Images/VowelsInUniqueCity Screenshot_20250129_160357.png",
+      "source_location": null,
+      "source_url": null
+    },
+    {
+      "id": "images_vowelsinuniquecity_screenshot_20250129_160357_vowels_exercise",
+      "label": "VowelsInUniqueCity C# exercise",
+      "_origin": "semantic",
+      "author": null,
+      "captured_at": null,
+      "community": 13,
+      "community_name": "Exercise Screenshot Evidence",
+      "contributor": null,
+      "file_type": "concept",
+      "norm_label": "vowelsinuniquecity c# exercise",
+      "source_file": "Images/VowelsInUniqueCity Screenshot_20250129_160357.png",
+      "source_location": null,
+      "source_url": null
+    },
+    {
+      "id": "images_vowelsinuniquecity_screenshot_20250129_160357_vscode_layout",
+      "label": "VS Code workspace layout with Explorer editor and terminal",
+      "_origin": "semantic",
+      "author": null,
+      "captured_at": null,
+      "community": 13,
+      "community_name": "Exercise Screenshot Evidence",
+      "contributor": null,
+      "file_type": "concept",
+      "norm_label": "vs code workspace layout with explorer editor and terminal",
+      "source_file": "Images/VowelsInUniqueCity Screenshot_20250129_160357.png",
+      "source_location": null,
+      "source_url": null
+    },
+    {
+      "id": "images_vowelsinuniquecity_screenshot_20250129_160357_screenshot",
+      "label": "VowelsInUniqueCity VS Code Screenshot",
+      "_origin": "semantic",
+      "author": null,
+      "captured_at": null,
+      "community": 13,
+      "community_name": "Exercise Screenshot Evidence",
+      "contributor": null,
+      "file_type": "image",
+      "norm_label": "vowelsinuniquecity vs code screenshot",
+      "source_file": "Images/VowelsInUniqueCity Screenshot_20250129_160357.png",
+      "source_location": null,
+      "source_url": null
+    },
+    {
+      "id": "classcodelibrary_vowelsinuniquecity_vowelsinuniquecity_findvowels",
+      "label": "FindVowels manual vowel scan",
+      "_origin": "semantic",
+      "author": null,
+      "captured_at": null,
+      "community": 14,
+      "community_name": "Vowel Test Strategy",
+      "contributor": null,
+      "file_type": "concept",
+      "norm_label": "findvowels manual vowel scan",
+      "source_file": "ClassCodeLibrary/VowelsInUniqueCity/VowelsInUniqueCity.md",
+      "source_location": null,
+      "source_url": null
+    },
+    {
+      "id": "classcodelibrary_vowelsinuniquecity_vowelsinuniquecity_removeduplicates",
+      "label": "RemoveDuplicates for city array",
+      "_origin": "semantic",
+      "author": null,
+      "captured_at": null,
+      "community": 14,
+      "community_name": "Vowel Test Strategy",
+      "contributor": null,
+      "file_type": "concept",
+      "norm_label": "removeduplicates for city array",
+      "source_file": "ClassCodeLibrary/VowelsInUniqueCity/VowelsInUniqueCity.md",
+      "source_location": null,
+      "source_url": null
+    },
+    {
+      "id": "classcodelibrary_customarraysorter_customarraysorter_sortgivenarray",
+      "label": "SortGivenArray generic method with sortOrder flag",
+      "_origin": "semantic",
+      "author": null,
+      "captured_at": null,
+      "community": 15,
+      "community_name": "Second Largest Pattern",
+      "contributor": null,
+      "file_type": "concept",
+      "norm_label": "sortgivenarray generic method with sortorder flag",
+      "source_file": "ClassCodeLibrary/CustomArraySorter/CustomArraySorter.md",
+      "source_location": null,
+      "source_url": null
+    },
+    {
+      "id": "classcodelibrary_secondlargestnumber_secondlargestnumber_findsecondlargest",
+      "label": "FindSecondLargest single traversal O(n) O(1)",
+      "_origin": "semantic",
+      "author": null,
+      "captured_at": null,
+      "community": 15,
+      "community_name": "Second Largest Pattern",
+      "contributor": null,
+      "file_type": "concept",
+      "norm_label": "findsecondlargest single traversal o(n) o(1)",
+      "source_file": "ClassCodeLibrary/SecondLargestNumber/SecondLargestNumber.md",
+      "source_location": null,
+      "source_url": null
+    },
+    {
+      "id": "classcodelibrary_customarraysorter_customarraysorter_bubble_sort",
+      "label": "Custom Bubble Sort O(n^2)",
+      "_origin": "semantic",
+      "author": null,
+      "captured_at": null,
+      "community": 16,
+      "community_name": "Bubble Sort Notes",
+      "contributor": null,
+      "file_type": "concept",
+      "norm_label": "custom bubble sort o(n^2)",
+      "source_file": "ClassCodeLibrary/CustomArraySorter/CustomArraySorter.md",
+      "source_location": null,
+      "source_url": null
+    },
+    {
+      "id": "classcodelibrary_customarraysorter_customarraysorter_inbuilt_sort",
+      "label": "Inbuilt sorting with Array.Sort",
+      "_origin": "semantic",
+      "author": null,
+      "captured_at": null,
+      "community": 16,
+      "community_name": "Bubble Sort Notes",
+      "contributor": null,
+      "file_type": "concept",
+      "norm_label": "inbuilt sorting with array.sort",
+      "source_file": "ClassCodeLibrary/CustomArraySorter/CustomArraySorter.md",
+      "source_location": null,
+      "source_url": null
+    },
+    {
+      "id": "readme_sorting_nested_loops",
+      "label": "Nested loops arrays and custom sorting",
+      "_origin": "semantic",
+      "author": null,
+      "captured_at": null,
+      "community": 16,
+      "community_name": "Bubble Sort Notes",
+      "contributor": null,
+      "file_type": "concept",
+      "norm_label": "nested loops arrays and custom sorting",
+      "source_file": "README.md",
+      "source_location": null,
+      "source_url": null
+    },
+    {
+      "id": "_github_workflows_dotnet_dotnet_build_test_pipeline",
+      "label": "Restore Build Test Pipeline",
+      "_origin": "semantic",
+      "author": null,
+      "captured_at": null,
+      "community": 18,
+      "community_name": "CI Build Pipeline",
+      "contributor": null,
+      "file_type": "concept",
+      "norm_label": "restore build test pipeline",
+      "source_file": ".github/workflows/dotnet.yml",
+      "source_location": null,
+      "source_url": null
+    },
+    {
+      "id": "_github_workflows_dotnet_dotnet_ci_workflow",
+      "label": ".NET CI Workflow",
+      "_origin": "semantic",
+      "author": null,
+      "captured_at": null,
+      "community": 18,
+      "community_name": "CI Build Pipeline",
+      "contributor": null,
+      "file_type": "document",
+      "norm_label": ".net ci workflow",
+      "source_file": ".github/workflows/dotnet.yml",
+      "source_location": null,
+      "source_url": null
+    },
+    {
+      "id": "_opencode_commands_build_build_command",
+      "label": "Build Command",
+      "_origin": "semantic",
+      "author": null,
+      "captured_at": null,
+      "community": 19,
+      "community_name": "Build Command",
+      "contributor": null,
+      "file_type": "concept",
+      "norm_label": "build command",
+      "source_file": ".opencode/commands/build.md",
+      "source_location": null,
+      "source_url": null
+    },
+    {
+      "id": "_opencode_commands_clean_clean_command",
+      "label": "Clean Command",
+      "_origin": "semantic",
+      "author": null,
+      "captured_at": null,
+      "community": 20,
+      "community_name": "Clean Command",
+      "contributor": null,
+      "file_type": "concept",
+      "norm_label": "clean command",
+      "source_file": ".opencode/commands/clean.md",
+      "source_location": null,
+      "source_url": null
+    },
+    {
+      "id": "_opencode_commands_dotnet_clean_dotnet_clean_command",
+      "label": "Dotnet Clean Command",
+      "_origin": "semantic",
+      "author": null,
+      "captured_at": null,
+      "community": 21,
+      "community_name": "Dotnet Clean Command",
+      "contributor": null,
+      "file_type": "concept",
+      "norm_label": "dotnet clean command",
+      "source_file": ".opencode/commands/dotnet-clean.md",
+      "source_location": null,
+      "source_url": null
+    },
+    {
+      "id": "_opencode_commands_dotnet_lint_dotnet_lint_command",
+      "label": "Dotnet Lint Command",
+      "_origin": "semantic",
+      "author": null,
+      "captured_at": null,
+      "community": 22,
+      "community_name": "Dotnet Lint Command",
+      "contributor": null,
+      "file_type": "concept",
+      "norm_label": "dotnet lint command",
+      "source_file": ".opencode/commands/dotnet-lint.md",
+      "source_location": null,
+      "source_url": null
+    },
+    {
+      "id": "_opencode_commands_dotnet_publish_dotnet_publish_command",
+      "label": "Dotnet Publish Command",
+      "_origin": "semantic",
+      "author": null,
+      "captured_at": null,
+      "community": 23,
+      "community_name": "Dotnet Publish Command",
+      "contributor": null,
+      "file_type": "concept",
+      "norm_label": "dotnet publish command",
+      "source_file": ".opencode/commands/dotnet-publish.md",
+      "source_location": null,
+      "source_url": null
+    },
+    {
+      "id": "_opencode_commands_dotnet_run_dotnet_run_command",
+      "label": "Dotnet Run Command",
+      "_origin": "semantic",
+      "author": null,
+      "captured_at": null,
+      "community": 24,
+      "community_name": "Dotnet Run Command",
+      "contributor": null,
+      "file_type": "concept",
+      "norm_label": "dotnet run command",
+      "source_file": ".opencode/commands/dotnet-run.md",
+      "source_location": null,
+      "source_url": null
+    },
+    {
+      "id": "_opencode_commands_format_format_command",
+      "label": "Format Command",
+      "_origin": "semantic",
+      "author": null,
+      "captured_at": null,
+      "community": 25,
+      "community_name": "Format Command",
+      "contributor": null,
+      "file_type": "concept",
+      "norm_label": "format command",
+      "source_file": ".opencode/commands/format.md",
+      "source_location": null,
+      "source_url": null
+    },
+    {
+      "id": "_opencode_commands_lint_lint_command",
+      "label": "Lint Command",
+      "_origin": "semantic",
+      "author": null,
+      "captured_at": null,
+      "community": 26,
+      "community_name": "Lint Command",
+      "contributor": null,
+      "file_type": "concept",
+      "norm_label": "lint command",
+      "source_file": ".opencode/commands/lint.md",
+      "source_location": null,
+      "source_url": null
+    },
+    {
+      "id": "_opencode_commands_run_run_command",
+      "label": "Run Command",
+      "_origin": "semantic",
+      "author": null,
+      "captured_at": null,
+      "community": 27,
+      "community_name": "Run Command",
+      "contributor": null,
+      "file_type": "concept",
+      "norm_label": "run command",
+      "source_file": ".opencode/commands/run.md",
+      "source_location": null,
+      "source_url": null
+    },
+    {
+      "id": "_opencode_commands_test_test_command",
+      "label": "Test Command",
+      "_origin": "semantic",
+      "author": null,
+      "captured_at": null,
+      "community": 28,
+      "community_name": "Test Command",
+      "contributor": null,
+      "file_type": "concept",
+      "norm_label": "test command",
+      "source_file": ".opencode/commands/test.md",
+      "source_location": null,
+      "source_url": null
+    },
+    {
+      "id": "_opencode_agents_code_reviewer_code_reviewer",
+      "label": "Code Reviewer Agent",
+      "_origin": "semantic",
+      "author": null,
+      "captured_at": null,
+      "community": 3,
+      "community_name": "Agent Command Suite",
+      "contributor": null,
+      "file_type": "concept",
+      "norm_label": "code reviewer agent",
+      "source_file": ".opencode/agents/code-reviewer.md",
+      "source_location": null,
+      "source_url": null
+    },
+    {
+      "id": "_opencode_agents_csharp_practice_assistant_csharp_practice_assistant",
+      "label": "C# Practice Assistant Agent",
+      "_origin": "semantic",
+      "author": null,
+      "captured_at": null,
+      "community": 3,
+      "community_name": "Agent Command Suite",
+      "contributor": null,
+      "file_type": "concept",
+      "norm_label": "c# practice assistant agent",
+      "source_file": ".opencode/agents/csharp-practice-assistant.md",
+      "source_location": null,
+      "source_url": null
+    },
+    {
+      "id": "_opencode_agents_documentation_writer_documentation_writer",
+      "label": "Documentation Writer Agent",
+      "_origin": "semantic",
+      "author": null,
+      "captured_at": null,
+      "community": 3,
+      "community_name": "Agent Command Suite",
+      "contributor": null,
+      "file_type": "concept",
+      "norm_label": "documentation writer agent",
+      "source_file": ".opencode/agents/documentation-writer.md",
+      "source_location": null,
+      "source_url": null
+    },
+    {
+      "id": "_opencode_agents_test_writer_test_writer",
+      "label": "Test Writer Agent",
+      "_origin": "semantic",
+      "author": null,
+      "captured_at": null,
+      "community": 3,
+      "community_name": "Agent Command Suite",
+      "contributor": null,
+      "file_type": "concept",
+      "norm_label": "test writer agent",
+      "source_file": ".opencode/agents/test-writer.md",
+      "source_location": null,
+      "source_url": null
+    },
+    {
+      "id": "_opencode_commands_dotnet_build_dotnet_build_command",
+      "label": "Dotnet Build Command",
+      "_origin": "semantic",
+      "author": null,
+      "captured_at": null,
+      "community": 3,
+      "community_name": "Agent Command Suite",
+      "contributor": null,
+      "file_type": "concept",
+      "norm_label": "dotnet build command",
+      "source_file": ".opencode/commands/dotnet-build.md",
+      "source_location": null,
+      "source_url": null
+    },
+    {
+      "id": "_opencode_commands_dotnet_test_dotnet_test_command",
+      "label": "Dotnet Test Command",
+      "_origin": "semantic",
+      "author": null,
+      "captured_at": null,
+      "community": 3,
+      "community_name": "Agent Command Suite",
+      "contributor": null,
+      "file_type": "concept",
+      "norm_label": "dotnet test command",
+      "source_file": ".opencode/commands/dotnet-test.md",
+      "source_location": null,
+      "source_url": null
+    },
+    {
+      "id": "_opencode_lsp_default_csharp_ls",
+      "label": "C# Language Server csharp-ls",
+      "_origin": "semantic",
+      "author": null,
+      "captured_at": null,
+      "community": 3,
+      "community_name": "Agent Command Suite",
+      "contributor": null,
+      "file_type": "concept",
+      "norm_label": "c# language server csharp-ls",
+      "source_file": ".opencode/lsp/default.md",
+      "source_location": null,
+      "source_url": null
+    },
+    {
+      "id": "_opencode_lsp_default_json_language_server",
+      "label": "JSON Language Server",
+      "_origin": "semantic",
+      "author": null,
+      "captured_at": null,
+      "community": 3,
+      "community_name": "Agent Command Suite",
+      "contributor": null,
+      "file_type": "concept",
+      "norm_label": "json language server",
+      "source_file": ".opencode/lsp/default.md",
+      "source_location": null,
+      "source_url": null
+    },
+    {
+      "id": "_opencode_readme_csharpcodepractice_slnx",
+      "label": "CSharpCodePractice Single Solution",
+      "_origin": "semantic",
+      "author": null,
+      "captured_at": null,
+      "community": 3,
+      "community_name": "Agent Command Suite",
+      "contributor": null,
+      "file_type": "concept",
+      "norm_label": "csharpcodepractice single solution",
+      "source_file": ".opencode/README.md",
+      "source_location": null,
+      "source_url": null
+    },
+    {
+      "id": "_opencode_lsp_default_lsp_configuration",
+      "label": "LSP Configuration",
+      "_origin": "semantic",
+      "author": null,
+      "captured_at": null,
+      "community": 3,
+      "community_name": "Agent Command Suite",
+      "contributor": null,
+      "file_type": "document",
+      "norm_label": "lsp configuration",
+      "source_file": ".opencode/lsp/default.md",
+      "source_location": null,
+      "source_url": null
+    },
+    {
+      "id": "_opencode_permissions_default_permission_policy",
+      "label": "Default Permission Policy",
+      "_origin": "semantic",
+      "author": null,
+      "captured_at": null,
+      "community": 3,
+      "community_name": "Agent Command Suite",
+      "contributor": null,
+      "file_type": "document",
+      "norm_label": "default permission policy",
+      "source_file": ".opencode/permissions/default.md",
+      "source_location": null,
+      "source_url": null
+    },
+    {
+      "id": "_opencode_readme_opencode_configuration",
+      "label": "OpenCode Configuration",
+      "_origin": "semantic",
+      "author": null,
+      "captured_at": null,
+      "community": 3,
+      "community_name": "Agent Command Suite",
+      "contributor": null,
+      "file_type": "document",
+      "norm_label": "opencode configuration",
+      "source_file": ".opencode/README.md",
+      "source_location": null,
+      "source_url": null
+    },
+    {
+      "id": "_opencode_skills_graphify_skill_fast_path_existing_graph",
+      "label": "Fast path: query existing graph instead of rebuild",
+      "_origin": "semantic",
+      "author": null,
+      "captured_at": null,
+      "community": 30,
+      "community_name": "Graph Query Fast Path",
+      "contributor": null,
+      "file_type": "concept",
+      "norm_label": "fast path: query existing graph instead of rebuild",
+      "source_file": ".opencode/skills/graphify/SKILL.md",
+      "source_location": null,
+      "source_url": null
+    },
+    {
+      "id": "classcodelibrary_customarraysorter_customarraysorter_icomparable_reference_types",
+      "label": "IComparable generic ordering and array reference-type semantics",
+      "_origin": "semantic",
+      "author": null,
+      "captured_at": null,
+      "community": 32,
+      "community_name": "Generic Ordering Semantics",
+      "contributor": null,
+      "file_type": "concept",
+      "norm_label": "icomparable generic ordering and array reference-type semantics",
+      "source_file": "ClassCodeLibrary/CustomArraySorter/CustomArraySorter.md",
+      "source_location": null,
+      "source_url": null
+    },
+    {
+      "id": "license_mit_license",
+      "label": "MIT License Aslam Nazeer Shaikh",
+      "_origin": "semantic",
+      "author": null,
+      "captured_at": null,
+      "community": 33,
+      "community_name": "MIT License",
+      "contributor": null,
+      "file_type": "document",
+      "norm_label": "mit license aslam nazeer shaikh",
+      "source_file": "LICENSE.txt",
+      "source_location": null,
+      "source_url": null
+    },
+    {
+      "id": "readme_string_manipulation",
+      "label": "String and character manipulation practice",
+      "_origin": "semantic",
+      "author": null,
+      "captured_at": null,
+      "community": 34,
+      "community_name": "String Practice Focus",
+      "contributor": null,
+      "file_type": "concept",
+      "norm_label": "string and character manipulation practice",
+      "source_file": "README.md",
+      "source_location": null,
+      "source_url": null
+    },
+    {
+      "id": "_opencode_skills_graphify_references_add_watch_ingest_and_watch",
+      "label": "Ingest URL and watch folder",
+      "_origin": "semantic",
+      "author": null,
+      "captured_at": null,
+      "community": 7,
+      "community_name": "Graphify Pipeline Docs",
+      "contributor": null,
+      "file_type": "concept",
+      "norm_label": "ingest url and watch folder",
+      "source_file": ".opencode/skills/graphify/references/add-watch.md",
+      "source_location": null,
+      "source_url": null
+    },
+    {
+      "id": "_opencode_skills_graphify_references_exports_extra_exports",
+      "label": "Extra exports (wiki neo4j falkordb svg graphml mcp benchmark)",
+      "_origin": "semantic",
+      "author": null,
+      "captured_at": null,
+      "community": 7,
+      "community_name": "Graphify Pipeline Docs",
+      "contributor": null,
+      "file_type": "concept",
+      "norm_label": "extra exports (wiki neo4j falkordb svg graphml mcp benchmark)",
+      "source_file": ".opencode/skills/graphify/references/exports.md",
+      "source_location": null,
+      "source_url": null
+    },
+    {
+      "id": "_opencode_skills_graphify_references_extraction_spec_extraction_rules",
+      "label": "Extraction rules (EXTRACTED INFERRED AMBIGUOUS, node IDs, confidence rubric)",
+      "_origin": "semantic",
+      "author": null,
+      "captured_at": null,
+      "community": 7,
+      "community_name": "Graphify Pipeline Docs",
+      "contributor": null,
+      "file_type": "concept",
+      "norm_label": "extraction rules (extracted inferred ambiguous, node ids, confidence rubric)",
+      "source_file": ".opencode/skills/graphify/references/extraction-spec.md",
+      "source_location": null,
+      "source_url": null
+    },
+    {
+      "id": "_opencode_skills_graphify_references_github_and_merge_clone_and_merge",
+      "label": "GitHub clone and cross-repo merge",
+      "_origin": "semantic",
+      "author": null,
+      "captured_at": null,
+      "community": 7,
+      "community_name": "Graphify Pipeline Docs",
+      "contributor": null,
+      "file_type": "concept",
+      "norm_label": "github clone and cross-repo merge",
+      "source_file": ".opencode/skills/graphify/references/github-and-merge.md",
+      "source_location": null,
+      "source_url": null
+    },
+    {
+      "id": "_opencode_skills_graphify_references_hooks_commit_hook",
+      "label": "Post-commit hook and CLAUDE.md integration",
+      "_origin": "semantic",
+      "author": null,
+      "captured_at": null,
+      "community": 7,
+      "community_name": "Graphify Pipeline Docs",
+      "contributor": null,
+      "file_type": "concept",
+      "norm_label": "post-commit hook and claude.md integration",
+      "source_file": ".opencode/skills/graphify/references/hooks.md",
+      "source_location": null,
+      "source_url": null
+    },
+    {
+      "id": "_opencode_skills_graphify_references_query_query_path_explain",
+      "label": "Query path explain with vocab expansion and save-result",
+      "_origin": "semantic",
+      "author": null,
+      "captured_at": null,
+      "community": 7,
+      "community_name": "Graphify Pipeline Docs",
+      "contributor": null,
+      "file_type": "concept",
+      "norm_label": "query path explain with vocab expansion and save-result",
+      "source_file": ".opencode/skills/graphify/references/query.md",
+      "source_location": null,
+      "source_url": null
+    },
+    {
+      "id": "_opencode_skills_graphify_references_transcribe_whisper_transcription",
+      "label": "Whisper transcription for video audio",
+      "_origin": "semantic",
+      "author": null,
+      "captured_at": null,
+      "community": 7,
+      "community_name": "Graphify Pipeline Docs",
+      "contributor": null,
+      "file_type": "concept",
+      "norm_label": "whisper transcription for video audio",
+      "source_file": ".opencode/skills/graphify/references/transcribe.md",
+      "source_location": null,
+      "source_url": null
+    },
+    {
+      "id": "_opencode_skills_graphify_references_update_incremental_update",
+      "label": "Incremental update and cluster-only",
+      "_origin": "semantic",
+      "author": null,
+      "captured_at": null,
+      "community": 7,
+      "community_name": "Graphify Pipeline Docs",
+      "contributor": null,
+      "file_type": "concept",
+      "norm_label": "incremental update and cluster-only",
+      "source_file": ".opencode/skills/graphify/references/update.md",
+      "source_location": null,
+      "source_url": null
+    },
+    {
+      "id": "agents_graphify_workflow",
+      "label": "Graphify query path explain update workflow",
+      "_origin": "semantic",
+      "author": null,
+      "captured_at": null,
+      "community": 7,
+      "community_name": "Graphify Pipeline Docs",
+      "contributor": null,
+      "file_type": "concept",
+      "norm_label": "graphify query path explain update workflow",
+      "source_file": "AGENTS.md",
+      "source_location": null,
+      "source_url": null
+    },
+    {
+      "id": "_opencode_skills_graphify_skill_full_pipeline",
+      "label": "Graphify full pipeline (detect extract build cluster report)",
+      "_origin": "semantic",
+      "author": null,
+      "captured_at": null,
+      "community": 7,
+      "community_name": "Graphify Pipeline Docs",
+      "contributor": null,
+      "file_type": "document",
+      "norm_label": "graphify full pipeline (detect extract build cluster report)",
+      "source_file": ".opencode/skills/graphify/SKILL.md",
+      "source_location": null,
+      "source_url": null
+    },
+    {
+      "id": "classcodelibrary_stringduplicationfiltering_stringduplicationfiltering_manual_dedup",
+      "label": "Manual string deduplication without LINQ collections",
+      "_origin": "semantic",
+      "author": null,
+      "captured_at": null,
+      "community": 8,
+      "community_name": "Manual-First Practice",
+      "contributor": null,
+      "file_type": "concept",
+      "norm_label": "manual string deduplication without linq collections",
+      "source_file": "ClassCodeLibrary/StringDuplicationFiltering/StringDuplicationFiltering.md",
+      "source_location": null,
+      "source_url": null
+    },
+    {
+      "id": "classcodelibrary_stringduplicationfiltering_stringduplicationfilteringlinq_linq_reference",
+      "label": "LINQ reference (Distinct Where GroupBy Select Char helpers)",
+      "_origin": "semantic",
+      "author": null,
+      "captured_at": null,
+      "community": 8,
+      "community_name": "Manual-First Practice",
+      "contributor": null,
+      "file_type": "concept",
+      "norm_label": "linq reference (distinct where groupby select char helpers)",
+      "source_file": "ClassCodeLibrary/StringDuplicationFiltering/StringDuplicationFilteringLinq.md",
+      "source_location": null,
+      "source_url": null
+    },
+    {
+      "id": "classcodelibrary_uniquecharactercounter_uniquecharactercounter_ascii_counting",
+      "label": "ASCII array character counting O(n) O(1)",
+      "_origin": "semantic",
+      "author": null,
+      "captured_at": null,
+      "community": 8,
+      "community_name": "Manual-First Practice",
+      "contributor": null,
+      "file_type": "concept",
+      "norm_label": "ascii array character counting o(n) o(1)",
+      "source_file": "ClassCodeLibrary/UniqueCharacterCounter/UniqueCharacterCounter.md",
+      "source_location": null,
+      "source_url": null
+    },
+    {
+      "id": "readme_practice_basics_without_inbuilt",
+      "label": "Practice basics without inbuilt methods",
+      "_origin": "semantic",
+      "author": null,
+      "captured_at": null,
+      "community": 8,
+      "community_name": "Manual-First Practice",
+      "contributor": null,
+      "file_type": "concept",
+      "norm_label": "practice basics without inbuilt methods",
+      "source_file": "README.md",
+      "source_location": null,
+      "source_url": null
+    },
+    {
+      "id": "agents_repo_conventions",
+      "label": "CSharpCodePractice repo conventions and toolchain",
+      "_origin": "semantic",
+      "author": null,
+      "captured_at": null,
+      "community": 8,
+      "community_name": "Manual-First Practice",
+      "contributor": null,
+      "file_type": "document",
+      "norm_label": "csharpcodepractice repo conventions and toolchain",
+      "source_file": "AGENTS.md",
+      "source_location": null,
+      "source_url": null
+    }
+  ],
+  "links": [
+    {
+      "source": "classcodelibrary_customarraysorter_customarraysorter_classcodelibrary_customarraysorter_customarraysorter_sortgivenarray",
+      "target": "classcodelibrary_customarraysorter_customarraysorter_classcodelibrary_customarraysorter_customarraysorter_printarray",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "ClassCodeLibrary/CustomArraySorter/CustomArraySorter.cs",
+      "source_location": "L43",
+      "weight": 1.0
+    },
+    {
+      "source": "classcodelibrary_customarraysorter_customarraysorter_classcodelibrary_customarraysorter_customarraysorter_sortgivenarray",
+      "target": "classcodelibrary_customarraysorter_customarraysorter_classcodelibrary_customarraysorter_customarraysorter_custombubblesort",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "ClassCodeLibrary/CustomArraySorter/CustomArraySorter.cs",
+      "source_location": "L46",
+      "weight": 1.0
+    },
+    {
+      "source": "classcodelibrary_stringduplicationfiltering_stringduplicationfiltering_classcodelibrary_stringduplicationfiltering_stringduplicationfiltering_removeduplicatelowerchars",
+      "target": "classcodelibrary_stringduplicationfiltering_stringduplicationfiltering_classcodelibrary_stringduplicationfiltering_stringduplicationfiltering_islower",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "ClassCodeLibrary/StringDuplicationFiltering/StringDuplicationFiltering.cs",
+      "source_location": "L143",
+      "weight": 1.0
+    },
+    {
+      "source": "classcodelibrary_stringduplicationfiltering_stringduplicationfiltering_classcodelibrary_stringduplicationfiltering_stringduplicationfiltering_removeduplicatenumbers",
+      "target": "classcodelibrary_stringduplicationfiltering_stringduplicationfiltering_classcodelibrary_stringduplicationfiltering_stringduplicationfiltering_isdigit",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "ClassCodeLibrary/StringDuplicationFiltering/StringDuplicationFiltering.cs",
+      "source_location": "L111",
+      "weight": 1.0
+    },
+    {
+      "source": "classcodelibrary_stringduplicationfiltering_stringduplicationfiltering_classcodelibrary_stringduplicationfiltering_stringduplicationfiltering_removeduplicatespecialchars",
+      "target": "classcodelibrary_stringduplicationfiltering_stringduplicationfiltering_classcodelibrary_stringduplicationfiltering_stringduplicationfiltering_isletterordigit",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "ClassCodeLibrary/StringDuplicationFiltering/StringDuplicationFiltering.cs",
+      "source_location": "L79",
+      "weight": 1.0
+    },
+    {
+      "source": "classcodelibrary_stringduplicationfiltering_stringduplicationfiltering_classcodelibrary_stringduplicationfiltering_stringduplicationfiltering_removeduplicateupperchars",
+      "target": "classcodelibrary_stringduplicationfiltering_stringduplicationfiltering_classcodelibrary_stringduplicationfiltering_stringduplicationfiltering_isupper",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "ClassCodeLibrary/StringDuplicationFiltering/StringDuplicationFiltering.cs",
+      "source_location": "L175",
+      "weight": 1.0
+    },
+    {
+      "source": "classcodelibrary_stringduplicationfiltering_stringduplicationfiltering_classcodelibrary_stringduplicationfiltering_stringduplicationfiltering_removelowerchars",
+      "target": "classcodelibrary_stringduplicationfiltering_stringduplicationfiltering_classcodelibrary_stringduplicationfiltering_stringduplicationfiltering_islower",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "ClassCodeLibrary/StringDuplicationFiltering/StringDuplicationFiltering.cs",
+      "source_location": "L234",
+      "weight": 1.0
+    },
+    {
+      "source": "classcodelibrary_stringduplicationfiltering_stringduplicationfiltering_classcodelibrary_stringduplicationfiltering_stringduplicationfiltering_removenumbers",
+      "target": "classcodelibrary_stringduplicationfiltering_stringduplicationfiltering_classcodelibrary_stringduplicationfiltering_stringduplicationfiltering_isdigit",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "ClassCodeLibrary/StringDuplicationFiltering/StringDuplicationFiltering.cs",
+      "source_location": "L220",
+      "weight": 1.0
+    },
+    {
+      "source": "classcodelibrary_stringduplicationfiltering_stringduplicationfiltering_classcodelibrary_stringduplicationfiltering_stringduplicationfiltering_removespecialchars",
+      "target": "classcodelibrary_stringduplicationfiltering_stringduplicationfiltering_classcodelibrary_stringduplicationfiltering_stringduplicationfiltering_isletterordigit",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "ClassCodeLibrary/StringDuplicationFiltering/StringDuplicationFiltering.cs",
+      "source_location": "L206",
+      "weight": 1.0
+    },
+    {
+      "source": "classcodelibrary_stringduplicationfiltering_stringduplicationfiltering_classcodelibrary_stringduplicationfiltering_stringduplicationfiltering_removeupperchars",
+      "target": "classcodelibrary_stringduplicationfiltering_stringduplicationfiltering_classcodelibrary_stringduplicationfiltering_stringduplicationfiltering_isupper",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "ClassCodeLibrary/StringDuplicationFiltering/StringDuplicationFiltering.cs",
+      "source_location": "L248",
+      "weight": 1.0
+    },
+    {
+      "source": "classcodelibrary_vowelsinuniquecity_vowelsinuniquecity_classcodelibrary_vowelsinuniquecity_vowelsinuniquecity_executecode",
+      "target": "classcodelibrary_vowelsinuniquecity_vowelsinuniquecity_classcodelibrary_vowelsinuniquecity_vowelsinuniquecity_removeduplicates",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "ClassCodeLibrary/VowelsInUniqueCity/VowelsInUniqueCity.cs",
+      "source_location": "L16",
+      "weight": 1.0
+    },
+    {
+      "source": "classcodelibrary_vowelsinuniquecity_vowelsinuniquecity_classcodelibrary_vowelsinuniquecity_vowelsinuniquecity_executecode",
+      "target": "classcodelibrary_vowelsinuniquecity_vowelsinuniquecity_classcodelibrary_vowelsinuniquecity_vowelsinuniquecity_findvowels",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "ClassCodeLibrary/VowelsInUniqueCity/VowelsInUniqueCity.cs",
+      "source_location": "L21",
+      "weight": 1.0
+    },
+    {
+      "source": "mainconsoleapp_program_mainconsoleapp_program_main",
+      "target": "classcodelibrary_stringduplicationfiltering_stringduplicationfiltering_classcodelibrary_stringduplicationfiltering_stringduplicationfiltering_executecode",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "MainConsoleApp/Program.cs",
+      "source_location": "L75",
+      "weight": 1.0
+    },
+    {
+      "source": "mainconsoleapp_program",
+      "target": "csharp_namespace:21e638adeb1b5419",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "metadata": {
+        "using_kind": "namespace",
+        "target_fqn": "ClassCodeLibrary.CustomArraySorter",
+        "scope_kind": "file"
+      },
+      "source_file": "MainConsoleApp/Program.cs",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "mainconsoleapp_program",
+      "target": "csharp_namespace:63eb8a2923eb8381",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "metadata": {
+        "using_kind": "namespace",
+        "target_fqn": "ClassCodeLibrary.SecondLargestNumber",
+        "scope_kind": "file"
+      },
+      "source_file": "MainConsoleApp/Program.cs",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "mainconsoleapp_program",
+      "target": "csharp_namespace:7140432ede450e3e",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "metadata": {
+        "using_kind": "namespace",
+        "target_fqn": "ClassCodeLibrary.StringDuplicationFiltering",
+        "scope_kind": "file"
+      },
+      "source_file": "MainConsoleApp/Program.cs",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "mainconsoleapp_program",
+      "target": "csharp_namespace:9f58dcf1b59d9e12",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "metadata": {
+        "using_kind": "namespace",
+        "target_fqn": "ClassCodeLibrary.UniqueCharacterCounter",
+        "scope_kind": "file"
+      },
+      "source_file": "MainConsoleApp/Program.cs",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "mainconsoleapp_program",
+      "target": "csharp_namespace:e6b02231a74e458a",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "metadata": {
+        "using_kind": "namespace",
+        "target_fqn": "ClassCodeLibrary.VowelsInUniqueCity",
+        "scope_kind": "file"
+      },
+      "source_file": "MainConsoleApp/Program.cs",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "classcodelibrary_customarraysorter_customarraysorter",
+      "target": "csharp_namespace:21e638adeb1b5419",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "ClassCodeLibrary/CustomArraySorter/CustomArraySorter.cs",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "classcodelibrary_customarraysorter_customarraysorter",
+      "target": "classcodelibrary_customarraysorter_customarraysorter_classcodelibrary_customarraysorter_customarraysorter",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "ClassCodeLibrary/CustomArraySorter/CustomArraySorter.cs",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
+      "source": "classcodelibrary_secondlargestnumber_secondlargestnumber",
+      "target": "csharp_namespace:63eb8a2923eb8381",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "ClassCodeLibrary/SecondLargestNumber/SecondLargestNumber.cs",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "classcodelibrary_secondlargestnumber_secondlargestnumber",
+      "target": "classcodelibrary_secondlargestnumber_secondlargestnumber_classcodelibrary_secondlargestnumber_secondlargestnumber",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "ClassCodeLibrary/SecondLargestNumber/SecondLargestNumber.cs",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
+      "source": "classcodelibrary_stringduplicationfiltering_stringduplicationfiltering",
+      "target": "csharp_namespace:7140432ede450e3e",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "ClassCodeLibrary/StringDuplicationFiltering/StringDuplicationFiltering.cs",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "classcodelibrary_stringduplicationfiltering_stringduplicationfiltering",
+      "target": "classcodelibrary_stringduplicationfiltering_stringduplicationfiltering_classcodelibrary_stringduplicationfiltering_stringduplicationfiltering",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "ClassCodeLibrary/StringDuplicationFiltering/StringDuplicationFiltering.cs",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
+      "source": "classcodelibrary_stringduplicationfiltering_stringduplicationfilteringlinq",
+      "target": "csharp_namespace:7140432ede450e3e",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "ClassCodeLibrary/StringDuplicationFiltering/StringDuplicationFilteringLinq.cs",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "classcodelibrary_stringduplicationfiltering_stringduplicationfilteringlinq",
+      "target": "classcodelibrary_stringduplicationfiltering_stringduplicationfilteringlinq_classcodelibrary_stringduplicationfiltering_stringduplicationfilteringlinq",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "ClassCodeLibrary/StringDuplicationFiltering/StringDuplicationFilteringLinq.cs",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "classcodelibrary_uniquecharactercounter_uniquecharactercounter",
+      "target": "csharp_namespace:9f58dcf1b59d9e12",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "ClassCodeLibrary/UniqueCharacterCounter/UniqueCharacterCounter.cs",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "classcodelibrary_uniquecharactercounter_uniquecharactercounter",
+      "target": "classcodelibrary_uniquecharactercounter_uniquecharactercounter_classcodelibrary_uniquecharactercounter_uniquecharactercounter",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "ClassCodeLibrary/UniqueCharacterCounter/UniqueCharacterCounter.cs",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
+      "source": "classcodelibrary_vowelsinuniquecity_vowelsinuniquecity",
+      "target": "csharp_namespace:e6b02231a74e458a",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "ClassCodeLibrary/VowelsInUniqueCity/VowelsInUniqueCity.cs",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "classcodelibrary_vowelsinuniquecity_vowelsinuniquecity",
+      "target": "classcodelibrary_vowelsinuniquecity_vowelsinuniquecity_classcodelibrary_vowelsinuniquecity_vowelsinuniquecity",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "ClassCodeLibrary/VowelsInUniqueCity/VowelsInUniqueCity.cs",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "csharpcodepractice",
+      "target": "classcodelibrary_classcodelibrary",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "CSharpCodePractice.slnx",
+      "weight": 1.0
+    },
+    {
+      "source": "csharpcodepractice",
+      "target": "mainconsoleapp_mainconsoleapp",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "CSharpCodePractice.slnx",
+      "weight": 1.0
+    },
+    {
+      "source": "mainconsoleapp_program",
+      "target": "csharp_namespace:fcf595cde63678ff",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "MainConsoleApp/Program.cs",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "mainconsoleapp_program",
+      "target": "mainconsoleapp_program_mainconsoleapp_program",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "MainConsoleApp/Program.cs",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
+      "source": "opencode_opencode",
+      "target": "opencode_opencode_project",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".opencode/opencode.json",
+      "source_location": "L17",
+      "weight": 1.0
+    },
+    {
+      "source": "opencode_opencode",
+      "target": "opencode_opencode_schema",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".opencode/opencode.json",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "opencode_opencode",
+      "target": "opencode_opencode_instructions",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".opencode/opencode.json",
+      "source_location": "L22",
+      "weight": 1.0
+    },
+    {
+      "source": "opencode_opencode",
+      "target": "opencode_opencode_agents",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".opencode/opencode.json",
+      "source_location": "L23",
+      "weight": 1.0
+    },
+    {
+      "source": "opencode_opencode",
+      "target": "opencode_opencode_version",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".opencode/opencode.json",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "opencode_opencode",
+      "target": "opencode_opencode_skills",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".opencode/opencode.json",
+      "source_location": "L32",
+      "weight": 1.0
+    },
+    {
+      "source": "opencode_opencode",
+      "target": "opencode_opencode_commands",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".opencode/opencode.json",
+      "source_location": "L38",
+      "weight": 1.0
+    },
+    {
+      "source": "opencode_opencode",
+      "target": "opencode_opencode_model",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".opencode/opencode.json",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "opencode_opencode",
+      "target": "opencode_opencode_small_model",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".opencode/opencode.json",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "opencode_opencode",
+      "target": "opencode_opencode_permission",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".opencode/opencode.json",
+      "source_location": "L54",
+      "weight": 1.0
+    },
+    {
+      "source": "opencode_opencode",
+      "target": "opencode_opencode_provider",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".opencode/opencode.json",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "opencode_opencode",
+      "target": "opencode_opencode_lsp",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".opencode/opencode.json",
+      "source_location": "L68",
+      "weight": 1.0
+    },
+    {
+      "source": "opencode_opencode",
+      "target": "opencode_opencode_plugin",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".opencode/opencode.json",
+      "source_location": "L69",
+      "weight": 1.0
+    },
+    {
+      "source": "opencode_opencode",
+      "target": "opencode_opencode_mcp",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".opencode/opencode.json",
+      "source_location": "L70",
+      "weight": 1.0
+    },
+    {
+      "source": "opencode_opencode_agents",
+      "target": "opencode_opencode_agents_default",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".opencode/opencode.json",
+      "source_location": "L24",
+      "weight": 1.0
+    },
+    {
+      "source": "opencode_opencode_agents",
+      "target": "opencode_opencode_agents_list",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".opencode/opencode.json",
+      "source_location": "L25",
+      "weight": 1.0
+    },
+    {
+      "source": "opencode_opencode_commands",
+      "target": "opencode_opencode_commands_custom",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".opencode/opencode.json",
+      "source_location": "L39",
+      "weight": 1.0
+    },
+    {
+      "source": "opencode_opencode_github_headers",
+      "target": "opencode_opencode_headers_authorization",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".opencode/opencode.json",
+      "source_location": "L82",
+      "weight": 1.0
+    },
+    {
+      "source": "opencode_opencode_mcp",
+      "target": "opencode_opencode_mcp_ui_skills",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".opencode/opencode.json",
+      "source_location": "L71",
+      "weight": 1.0
+    },
+    {
+      "source": "opencode_opencode_mcp",
+      "target": "opencode_opencode_mcp_github",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".opencode/opencode.json",
+      "source_location": "L76",
+      "weight": 1.0
+    },
+    {
+      "source": "opencode_opencode_mcp_github",
+      "target": "opencode_opencode_github_type",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".opencode/opencode.json",
+      "source_location": "L77",
+      "weight": 1.0
+    },
+    {
+      "source": "opencode_opencode_mcp_github",
+      "target": "opencode_opencode_github_url",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".opencode/opencode.json",
+      "source_location": "L78",
+      "weight": 1.0
+    },
+    {
+      "source": "opencode_opencode_mcp_github",
+      "target": "opencode_opencode_github_enabled",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".opencode/opencode.json",
+      "source_location": "L79",
+      "weight": 1.0
+    },
+    {
+      "source": "opencode_opencode_mcp_github",
+      "target": "opencode_opencode_github_oauth",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".opencode/opencode.json",
+      "source_location": "L80",
+      "weight": 1.0
+    },
+    {
+      "source": "opencode_opencode_mcp_github",
+      "target": "opencode_opencode_github_headers",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".opencode/opencode.json",
+      "source_location": "L81",
+      "weight": 1.0
+    },
+    {
+      "source": "opencode_opencode_mcp_ui_skills",
+      "target": "opencode_opencode_ui_skills_type",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".opencode/opencode.json",
+      "source_location": "L72",
+      "weight": 1.0
+    },
+    {
+      "source": "opencode_opencode_mcp_ui_skills",
+      "target": "opencode_opencode_ui_skills_url",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".opencode/opencode.json",
+      "source_location": "L73",
+      "weight": 1.0
+    },
+    {
+      "source": "opencode_opencode_mcp_ui_skills",
+      "target": "opencode_opencode_ui_skills_enabled",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".opencode/opencode.json",
+      "source_location": "L74",
+      "weight": 1.0
+    },
+    {
+      "source": "opencode_opencode_models_muse_spark_1_3_contributor_free",
+      "target": "opencode_opencode_muse_spark_1_3_contributor_free_options",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".opencode/opencode.json",
+      "source_location": "L10",
+      "weight": 1.0
+    },
+    {
+      "source": "opencode_opencode_muse_spark_1_3_contributor_free_options",
+      "target": "opencode_opencode_options_reasoningeffort",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".opencode/opencode.json",
+      "source_location": "L11",
+      "weight": 1.0
+    },
+    {
+      "source": "opencode_opencode_opencode_models",
+      "target": "opencode_opencode_models_muse_spark_1_3_contributor_free",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".opencode/opencode.json",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
+      "source": "opencode_opencode_permission",
+      "target": "opencode_opencode_permission_read",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".opencode/opencode.json",
+      "source_location": "L55",
+      "weight": 1.0
+    },
+    {
+      "source": "opencode_opencode_permission",
+      "target": "opencode_opencode_permission_write",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".opencode/opencode.json",
+      "source_location": "L56",
+      "weight": 1.0
+    },
+    {
+      "source": "opencode_opencode_permission",
+      "target": "opencode_opencode_permission_edit",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".opencode/opencode.json",
+      "source_location": "L57",
+      "weight": 1.0
+    },
+    {
+      "source": "opencode_opencode_permission",
+      "target": "opencode_opencode_permission_glob",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".opencode/opencode.json",
+      "source_location": "L58",
+      "weight": 1.0
+    },
+    {
+      "source": "opencode_opencode_permission",
+      "target": "opencode_opencode_permission_grep",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".opencode/opencode.json",
+      "source_location": "L59",
+      "weight": 1.0
+    },
+    {
+      "source": "opencode_opencode_permission",
+      "target": "opencode_opencode_permission_task",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".opencode/opencode.json",
+      "source_location": "L60",
+      "weight": 1.0
+    },
+    {
+      "source": "opencode_opencode_permission",
+      "target": "opencode_opencode_permission_bash",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".opencode/opencode.json",
+      "source_location": "L61",
+      "weight": 1.0
+    },
+    {
+      "source": "opencode_opencode_permission_bash",
+      "target": "opencode_opencode_bash_rm_rf",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".opencode/opencode.json",
+      "source_location": "L63",
+      "weight": 1.0
+    },
+    {
+      "source": "opencode_opencode_permission_bash",
+      "target": "opencode_opencode_bash_sudo",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".opencode/opencode.json",
+      "source_location": "L64",
+      "weight": 1.0
+    },
+    {
+      "source": "opencode_opencode_permission_bash",
+      "target": "opencode_opencode_bash_chmod_777",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".opencode/opencode.json",
+      "source_location": "L65",
+      "weight": 1.0
+    },
+    {
+      "source": "opencode_opencode_project",
+      "target": "opencode_opencode_project_name",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".opencode/opencode.json",
+      "source_location": "L18",
+      "weight": 1.0
+    },
+    {
+      "source": "opencode_opencode_project",
+      "target": "opencode_opencode_project_description",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".opencode/opencode.json",
+      "source_location": "L19",
+      "weight": 1.0
+    },
+    {
+      "source": "opencode_opencode_project",
+      "target": "opencode_opencode_project_type",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".opencode/opencode.json",
+      "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "opencode_opencode_provider",
+      "target": "opencode_opencode_provider_opencode",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".opencode/opencode.json",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "opencode_opencode_provider_opencode",
+      "target": "opencode_opencode_opencode_models",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".opencode/opencode.json",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "opencode_opencode_skills",
+      "target": "opencode_opencode_skills_enabled",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".opencode/opencode.json",
+      "source_location": "L33",
+      "weight": 1.0
+    },
+    {
+      "source": "opencode_plugins_graphify",
+      "target": "opencode_plugins_graphify_setup",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".opencode/plugins/graphify.js",
+      "source_location": "L15",
+      "weight": 1.0
+    },
+    {
+      "source": "mainconsoleapp_mainconsoleapp",
+      "target": "classcodelibrary_classcodelibrary",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "MainConsoleApp/MainConsoleApp.csproj",
+      "weight": 1.0
+    },
+    {
+      "source": "classcodelibrary_customarraysorter_customarraysorter_classcodelibrary_customarraysorter_customarraysorter",
+      "target": "classcodelibrary_customarraysorter_customarraysorter_classcodelibrary_customarraysorter_customarraysorter_printarray",
+      "relation": "method",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "ClassCodeLibrary/CustomArraySorter/CustomArraySorter.cs",
+      "source_location": "L101",
+      "weight": 1.0
+    },
+    {
+      "source": "classcodelibrary_customarraysorter_customarraysorter_classcodelibrary_customarraysorter_customarraysorter",
+      "target": "classcodelibrary_customarraysorter_customarraysorter_classcodelibrary_customarraysorter_customarraysorter_sortgivenarray",
+      "relation": "method",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "ClassCodeLibrary/CustomArraySorter/CustomArraySorter.cs",
+      "source_location": "L23",
+      "weight": 1.0
+    },
+    {
+      "source": "classcodelibrary_customarraysorter_customarraysorter_classcodelibrary_customarraysorter_customarraysorter",
+      "target": "classcodelibrary_customarraysorter_customarraysorter_classcodelibrary_customarraysorter_customarraysorter_custombubblesort",
+      "relation": "method",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "ClassCodeLibrary/CustomArraySorter/CustomArraySorter.cs",
+      "source_location": "L66",
+      "weight": 1.0
+    },
+    {
+      "source": "classcodelibrary_secondlargestnumber_secondlargestnumber_classcodelibrary_secondlargestnumber_secondlargestnumber",
+      "target": "classcodelibrary_secondlargestnumber_secondlargestnumber_classcodelibrary_secondlargestnumber_secondlargestnumber_findsecondlargestnumber",
+      "relation": "method",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "ClassCodeLibrary/SecondLargestNumber/SecondLargestNumber.cs",
+      "source_location": "L22",
+      "weight": 1.0
+    },
+    {
+      "source": "classcodelibrary_stringduplicationfiltering_stringduplicationfiltering_classcodelibrary_stringduplicationfiltering_stringduplicationfiltering",
+      "target": "classcodelibrary_stringduplicationfiltering_stringduplicationfiltering_classcodelibrary_stringduplicationfiltering_stringduplicationfiltering_removeduplicatenumbers",
+      "relation": "method",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "ClassCodeLibrary/StringDuplicationFiltering/StringDuplicationFiltering.cs",
+      "source_location": "L105",
+      "weight": 1.0
+    },
+    {
+      "source": "classcodelibrary_stringduplicationfiltering_stringduplicationfiltering_classcodelibrary_stringduplicationfiltering_stringduplicationfiltering",
+      "target": "classcodelibrary_stringduplicationfiltering_stringduplicationfiltering_classcodelibrary_stringduplicationfiltering_stringduplicationfiltering_executecode",
+      "relation": "method",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "ClassCodeLibrary/StringDuplicationFiltering/StringDuplicationFiltering.cs",
+      "source_location": "L11",
+      "weight": 1.0
+    },
+    {
+      "source": "classcodelibrary_stringduplicationfiltering_stringduplicationfiltering_classcodelibrary_stringduplicationfiltering_stringduplicationfiltering",
+      "target": "classcodelibrary_stringduplicationfiltering_stringduplicationfiltering_classcodelibrary_stringduplicationfiltering_stringduplicationfiltering_removeduplicatelowerchars",
+      "relation": "method",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "ClassCodeLibrary/StringDuplicationFiltering/StringDuplicationFiltering.cs",
+      "source_location": "L137",
+      "weight": 1.0
+    },
+    {
+      "source": "classcodelibrary_stringduplicationfiltering_stringduplicationfiltering_classcodelibrary_stringduplicationfiltering_stringduplicationfiltering",
+      "target": "classcodelibrary_stringduplicationfiltering_stringduplicationfiltering_classcodelibrary_stringduplicationfiltering_stringduplicationfiltering_removeduplicateupperchars",
+      "relation": "method",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "ClassCodeLibrary/StringDuplicationFiltering/StringDuplicationFiltering.cs",
+      "source_location": "L169",
+      "weight": 1.0
+    },
+    {
+      "source": "classcodelibrary_stringduplicationfiltering_stringduplicationfiltering_classcodelibrary_stringduplicationfiltering_stringduplicationfiltering",
+      "target": "classcodelibrary_stringduplicationfiltering_stringduplicationfiltering_classcodelibrary_stringduplicationfiltering_stringduplicationfiltering_removespecialchars",
+      "relation": "method",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "ClassCodeLibrary/StringDuplicationFiltering/StringDuplicationFiltering.cs",
+      "source_location": "L201",
+      "weight": 1.0
+    },
+    {
+      "source": "classcodelibrary_stringduplicationfiltering_stringduplicationfiltering_classcodelibrary_stringduplicationfiltering_stringduplicationfiltering",
+      "target": "classcodelibrary_stringduplicationfiltering_stringduplicationfiltering_classcodelibrary_stringduplicationfiltering_stringduplicationfiltering_removenumbers",
+      "relation": "method",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "ClassCodeLibrary/StringDuplicationFiltering/StringDuplicationFiltering.cs",
+      "source_location": "L215",
+      "weight": 1.0
+    },
+    {
+      "source": "classcodelibrary_stringduplicationfiltering_stringduplicationfiltering_classcodelibrary_stringduplicationfiltering_stringduplicationfiltering",
+      "target": "classcodelibrary_stringduplicationfiltering_stringduplicationfiltering_classcodelibrary_stringduplicationfiltering_stringduplicationfiltering_removelowerchars",
+      "relation": "method",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "ClassCodeLibrary/StringDuplicationFiltering/StringDuplicationFiltering.cs",
+      "source_location": "L229",
+      "weight": 1.0
+    },
+    {
+      "source": "classcodelibrary_stringduplicationfiltering_stringduplicationfiltering_classcodelibrary_stringduplicationfiltering_stringduplicationfiltering",
+      "target": "classcodelibrary_stringduplicationfiltering_stringduplicationfiltering_classcodelibrary_stringduplicationfiltering_stringduplicationfiltering_removeupperchars",
+      "relation": "method",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "ClassCodeLibrary/StringDuplicationFiltering/StringDuplicationFiltering.cs",
+      "source_location": "L243",
+      "weight": 1.0
+    },
+    {
+      "source": "classcodelibrary_stringduplicationfiltering_stringduplicationfiltering_classcodelibrary_stringduplicationfiltering_stringduplicationfiltering",
+      "target": "classcodelibrary_stringduplicationfiltering_stringduplicationfiltering_classcodelibrary_stringduplicationfiltering_stringduplicationfiltering_isletterordigit",
+      "relation": "method",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "ClassCodeLibrary/StringDuplicationFiltering/StringDuplicationFiltering.cs",
+      "source_location": "L257",
+      "weight": 1.0
+    },
+    {
+      "source": "classcodelibrary_stringduplicationfiltering_stringduplicationfiltering_classcodelibrary_stringduplicationfiltering_stringduplicationfiltering",
+      "target": "classcodelibrary_stringduplicationfiltering_stringduplicationfiltering_classcodelibrary_stringduplicationfiltering_stringduplicationfiltering_isdigit",
+      "relation": "method",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "ClassCodeLibrary/StringDuplicationFiltering/StringDuplicationFiltering.cs",
+      "source_location": "L263",
+      "weight": 1.0
+    },
+    {
+      "source": "classcodelibrary_stringduplicationfiltering_stringduplicationfiltering_classcodelibrary_stringduplicationfiltering_stringduplicationfiltering",
+      "target": "classcodelibrary_stringduplicationfiltering_stringduplicationfiltering_classcodelibrary_stringduplicationfiltering_stringduplicationfiltering_islower",
+      "relation": "method",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "ClassCodeLibrary/StringDuplicationFiltering/StringDuplicationFiltering.cs",
+      "source_location": "L269",
+      "weight": 1.0
+    },
+    {
+      "source": "classcodelibrary_stringduplicationfiltering_stringduplicationfiltering_classcodelibrary_stringduplicationfiltering_stringduplicationfiltering",
+      "target": "classcodelibrary_stringduplicationfiltering_stringduplicationfiltering_classcodelibrary_stringduplicationfiltering_stringduplicationfiltering_isupper",
+      "relation": "method",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "ClassCodeLibrary/StringDuplicationFiltering/StringDuplicationFiltering.cs",
+      "source_location": "L275",
+      "weight": 1.0
+    },
+    {
+      "source": "classcodelibrary_stringduplicationfiltering_stringduplicationfiltering_classcodelibrary_stringduplicationfiltering_stringduplicationfiltering",
+      "target": "classcodelibrary_stringduplicationfiltering_stringduplicationfiltering_classcodelibrary_stringduplicationfiltering_stringduplicationfiltering_removeduplicates",
+      "relation": "method",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "ClassCodeLibrary/StringDuplicationFiltering/StringDuplicationFiltering.cs",
+      "source_location": "L50",
+      "weight": 1.0
+    },
+    {
+      "source": "classcodelibrary_stringduplicationfiltering_stringduplicationfiltering_classcodelibrary_stringduplicationfiltering_stringduplicationfiltering",
+      "target": "classcodelibrary_stringduplicationfiltering_stringduplicationfiltering_classcodelibrary_stringduplicationfiltering_stringduplicationfiltering_removeduplicatespecialchars",
+      "relation": "method",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "ClassCodeLibrary/StringDuplicationFiltering/StringDuplicationFiltering.cs",
+      "source_location": "L73",
+      "weight": 1.0
+    },
+    {
+      "source": "classcodelibrary_stringduplicationfiltering_stringduplicationfilteringlinq_classcodelibrary_stringduplicationfiltering_stringduplicationfilteringlinq",
+      "target": "classcodelibrary_stringduplicationfiltering_stringduplicationfilteringlinq_classcodelibrary_stringduplicationfiltering_stringduplicationfilteringlinq_removenumberslinq",
+      "relation": "method",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "ClassCodeLibrary/StringDuplicationFiltering/StringDuplicationFilteringLinq.cs",
+      "source_location": "L101",
+      "weight": 1.0
+    },
+    {
+      "source": "classcodelibrary_stringduplicationfiltering_stringduplicationfilteringlinq_classcodelibrary_stringduplicationfiltering_stringduplicationfilteringlinq",
+      "target": "classcodelibrary_stringduplicationfiltering_stringduplicationfilteringlinq_classcodelibrary_stringduplicationfiltering_stringduplicationfilteringlinq_removelowercharslinq",
+      "relation": "method",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "ClassCodeLibrary/StringDuplicationFiltering/StringDuplicationFilteringLinq.cs",
+      "source_location": "L107",
+      "weight": 1.0
+    },
+    {
+      "source": "classcodelibrary_stringduplicationfiltering_stringduplicationfilteringlinq_classcodelibrary_stringduplicationfiltering_stringduplicationfilteringlinq",
+      "target": "classcodelibrary_stringduplicationfiltering_stringduplicationfilteringlinq_classcodelibrary_stringduplicationfiltering_stringduplicationfilteringlinq_removeuppercharslinq",
+      "relation": "method",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "ClassCodeLibrary/StringDuplicationFiltering/StringDuplicationFilteringLinq.cs",
+      "source_location": "L113",
+      "weight": 1.0
+    },
+    {
+      "source": "classcodelibrary_stringduplicationfiltering_stringduplicationfilteringlinq_classcodelibrary_stringduplicationfiltering_stringduplicationfilteringlinq",
+      "target": "classcodelibrary_stringduplicationfiltering_stringduplicationfilteringlinq_classcodelibrary_stringduplicationfiltering_stringduplicationfilteringlinq_executecode",
+      "relation": "method",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "ClassCodeLibrary/StringDuplicationFiltering/StringDuplicationFilteringLinq.cs",
+      "source_location": "L13",
+      "weight": 1.0
+    },
+    {
+      "source": "classcodelibrary_stringduplicationfiltering_stringduplicationfilteringlinq_classcodelibrary_stringduplicationfiltering_stringduplicationfilteringlinq",
+      "target": "classcodelibrary_stringduplicationfiltering_stringduplicationfilteringlinq_classcodelibrary_stringduplicationfiltering_stringduplicationfilteringlinq_removeduplicateslinq",
+      "relation": "method",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "ClassCodeLibrary/StringDuplicationFiltering/StringDuplicationFilteringLinq.cs",
+      "source_location": "L53",
+      "weight": 1.0
+    },
+    {
+      "source": "classcodelibrary_stringduplicationfiltering_stringduplicationfilteringlinq_classcodelibrary_stringduplicationfiltering_stringduplicationfilteringlinq",
+      "target": "classcodelibrary_stringduplicationfiltering_stringduplicationfilteringlinq_classcodelibrary_stringduplicationfiltering_stringduplicationfilteringlinq_removeduplicatespecialcharslinq",
+      "relation": "method",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "ClassCodeLibrary/StringDuplicationFiltering/StringDuplicationFilteringLinq.cs",
+      "source_location": "L59",
+      "weight": 1.0
+    },
+    {
+      "source": "classcodelibrary_stringduplicationfiltering_stringduplicationfilteringlinq_classcodelibrary_stringduplicationfiltering_stringduplicationfilteringlinq",
+      "target": "classcodelibrary_stringduplicationfiltering_stringduplicationfilteringlinq_classcodelibrary_stringduplicationfiltering_stringduplicationfilteringlinq_removeduplicatenumberslinq",
+      "relation": "method",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "ClassCodeLibrary/StringDuplicationFiltering/StringDuplicationFilteringLinq.cs",
+      "source_location": "L68",
+      "weight": 1.0
+    },
+    {
+      "source": "classcodelibrary_stringduplicationfiltering_stringduplicationfilteringlinq_classcodelibrary_stringduplicationfiltering_stringduplicationfilteringlinq",
+      "target": "classcodelibrary_stringduplicationfiltering_stringduplicationfilteringlinq_classcodelibrary_stringduplicationfiltering_stringduplicationfilteringlinq_removeduplicatelowercharslinq",
+      "relation": "method",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "ClassCodeLibrary/StringDuplicationFiltering/StringDuplicationFilteringLinq.cs",
+      "source_location": "L77",
+      "weight": 1.0
+    },
+    {
+      "source": "classcodelibrary_stringduplicationfiltering_stringduplicationfilteringlinq_classcodelibrary_stringduplicationfiltering_stringduplicationfilteringlinq",
+      "target": "classcodelibrary_stringduplicationfiltering_stringduplicationfilteringlinq_classcodelibrary_stringduplicationfiltering_stringduplicationfilteringlinq_removeduplicateuppercharslinq",
+      "relation": "method",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "ClassCodeLibrary/StringDuplicationFiltering/StringDuplicationFilteringLinq.cs",
+      "source_location": "L86",
+      "weight": 1.0
+    },
+    {
+      "source": "classcodelibrary_stringduplicationfiltering_stringduplicationfilteringlinq_classcodelibrary_stringduplicationfiltering_stringduplicationfilteringlinq",
+      "target": "classcodelibrary_stringduplicationfiltering_stringduplicationfilteringlinq_classcodelibrary_stringduplicationfiltering_stringduplicationfilteringlinq_removespecialcharslinq",
+      "relation": "method",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "ClassCodeLibrary/StringDuplicationFiltering/StringDuplicationFilteringLinq.cs",
+      "source_location": "L95",
+      "weight": 1.0
+    },
+    {
+      "source": "classcodelibrary_uniquecharactercounter_uniquecharactercounter_classcodelibrary_uniquecharactercounter_uniquecharactercounter",
+      "target": "classcodelibrary_uniquecharactercounter_uniquecharactercounter_classcodelibrary_uniquecharactercounter_uniquecharactercounter_countuniquecharacters",
+      "relation": "method",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "ClassCodeLibrary/UniqueCharacterCounter/UniqueCharacterCounter.cs",
+      "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "classcodelibrary_vowelsinuniquecity_vowelsinuniquecity_classcodelibrary_vowelsinuniquecity_vowelsinuniquecity",
+      "target": "classcodelibrary_vowelsinuniquecity_vowelsinuniquecity_classcodelibrary_vowelsinuniquecity_vowelsinuniquecity_executecode",
+      "relation": "method",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "ClassCodeLibrary/VowelsInUniqueCity/VowelsInUniqueCity.cs",
+      "source_location": "L10",
+      "weight": 1.0
+    },
+    {
+      "source": "classcodelibrary_vowelsinuniquecity_vowelsinuniquecity_classcodelibrary_vowelsinuniquecity_vowelsinuniquecity",
+      "target": "classcodelibrary_vowelsinuniquecity_vowelsinuniquecity_classcodelibrary_vowelsinuniquecity_vowelsinuniquecity_removeduplicates",
+      "relation": "method",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "ClassCodeLibrary/VowelsInUniqueCity/VowelsInUniqueCity.cs",
+      "source_location": "L36",
+      "weight": 1.0
+    },
+    {
+      "source": "classcodelibrary_vowelsinuniquecity_vowelsinuniquecity_classcodelibrary_vowelsinuniquecity_vowelsinuniquecity",
+      "target": "classcodelibrary_vowelsinuniquecity_vowelsinuniquecity_classcodelibrary_vowelsinuniquecity_vowelsinuniquecity_findvowels",
+      "relation": "method",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "ClassCodeLibrary/VowelsInUniqueCity/VowelsInUniqueCity.cs",
+      "source_location": "L83",
+      "weight": 1.0
+    },
+    {
+      "source": "mainconsoleapp_program_mainconsoleapp_program",
+      "target": "mainconsoleapp_program_mainconsoleapp_program_main",
+      "relation": "method",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "MainConsoleApp/Program.cs",
+      "source_location": "L11",
+      "weight": 1.0
+    },
+    {
+      "source": "opencode_plugins_graphify_rationale_5",
+      "target": "opencode_plugins_graphify",
+      "relation": "rationale_for",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".opencode/plugins/graphify.js",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "classcodelibrary_classcodelibrary",
+      "target": "classcodelibrary_classcodelibrary_csproj_framework_net10_0",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "ClassCodeLibrary/ClassCodeLibrary.csproj",
+      "weight": 1.0
+    },
+    {
+      "source": "classcodelibrary_classcodelibrary",
+      "target": "classcodelibrary_classcodelibrary_csproj_sdk_microsoft_net_sdk",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "ClassCodeLibrary/ClassCodeLibrary.csproj",
+      "weight": 1.0
+    },
+    {
+      "source": "mainconsoleapp_mainconsoleapp",
+      "target": "mainconsoleapp_mainconsoleapp_csproj_framework_net10_0",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "MainConsoleApp/MainConsoleApp.csproj",
+      "weight": 1.0
+    },
+    {
+      "source": "mainconsoleapp_mainconsoleapp",
+      "target": "mainconsoleapp_mainconsoleapp_csproj_sdk_microsoft_net_sdk",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "MainConsoleApp/MainConsoleApp.csproj",
+      "weight": 1.0
+    },
+    {
+      "source": "_github_workflows_dotnet_dotnet_ci_workflow",
+      "target": "_github_workflows_dotnet_dotnet_build_test_pipeline",
+      "relation": "implements",
+      "_origin": "semantic",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".github/workflows/dotnet.yml",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "_opencode_agents_code_reviewer_code_reviewer",
+      "target": "_opencode_agents_test_writer_test_writer",
+      "relation": "references",
+      "_origin": "semantic",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".opencode/agents/code-reviewer.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "_opencode_agents_documentation_writer_documentation_writer",
+      "target": "_opencode_readme_opencode_configuration",
+      "relation": "references",
+      "_origin": "semantic",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".opencode/agents/documentation-writer.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "_opencode_commands_dotnet_build_dotnet_build_command",
+      "target": "_opencode_readme_csharpcodepractice_slnx",
+      "relation": "references",
+      "_origin": "semantic",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".opencode/commands/dotnet-build.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "_opencode_commands_dotnet_test_dotnet_test_command",
+      "target": "_opencode_readme_csharpcodepractice_slnx",
+      "relation": "references",
+      "_origin": "semantic",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".opencode/commands/dotnet-test.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "_opencode_lsp_default_lsp_configuration",
+      "target": "_opencode_lsp_default_csharp_ls",
+      "relation": "references",
+      "_origin": "semantic",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".opencode/lsp/default.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "_opencode_lsp_default_lsp_configuration",
+      "target": "_opencode_lsp_default_json_language_server",
+      "relation": "references",
+      "_origin": "semantic",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".opencode/lsp/default.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "_opencode_readme_opencode_configuration",
+      "target": "_opencode_agents_code_reviewer_code_reviewer",
+      "relation": "references",
+      "_origin": "semantic",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".opencode/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "_opencode_readme_opencode_configuration",
+      "target": "_opencode_agents_csharp_practice_assistant_csharp_practice_assistant",
+      "relation": "references",
+      "_origin": "semantic",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".opencode/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "_opencode_readme_opencode_configuration",
+      "target": "_opencode_agents_test_writer_test_writer",
+      "relation": "references",
+      "_origin": "semantic",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".opencode/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "_opencode_readme_opencode_configuration",
+      "target": "_opencode_lsp_default_lsp_configuration",
+      "relation": "references",
+      "_origin": "semantic",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".opencode/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "_opencode_readme_opencode_configuration",
+      "target": "_opencode_permissions_default_permission_policy",
+      "relation": "references",
+      "_origin": "semantic",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".opencode/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "_opencode_readme_opencode_configuration",
+      "target": "_opencode_readme_csharpcodepractice_slnx",
+      "relation": "references",
+      "_origin": "semantic",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".opencode/README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "_opencode_skills_csharp_development_async_console_entry",
+      "target": "classcodelibrary_vowelsinuniquecity_vowelsinuniquecity_findvowels",
+      "relation": "references",
+      "_origin": "semantic",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".opencode/skills/csharp-development.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "_opencode_skills_csharp_development_linq_comparison",
+      "target": "classcodelibrary_stringduplicationfiltering_stringduplicationfilteringlinq_linq_reference",
+      "relation": "references",
+      "_origin": "semantic",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".opencode/skills/csharp-development.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "_opencode_skills_csharp_development_manual_first_practice",
+      "target": "classcodelibrary_stringduplicationfiltering_stringduplicationfiltering_manual_dedup",
+      "relation": "references",
+      "_origin": "semantic",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".opencode/skills/csharp-development.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "_opencode_skills_csharp_development_second_largest_one_pass",
+      "target": "classcodelibrary_secondlargestnumber_secondlargestnumber_findsecondlargest",
+      "relation": "references",
+      "_origin": "semantic",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".opencode/skills/csharp-development.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "_opencode_skills_graphify_skill_full_pipeline",
+      "target": "_opencode_skills_graphify_references_add_watch_ingest_and_watch",
+      "relation": "references",
+      "_origin": "semantic",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".opencode/skills/graphify/SKILL.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "_opencode_skills_graphify_skill_full_pipeline",
+      "target": "_opencode_skills_graphify_references_exports_extra_exports",
+      "relation": "references",
+      "_origin": "semantic",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".opencode/skills/graphify/SKILL.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "_opencode_skills_graphify_skill_full_pipeline",
+      "target": "_opencode_skills_graphify_references_extraction_spec_extraction_rules",
+      "relation": "references",
+      "_origin": "semantic",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".opencode/skills/graphify/SKILL.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "_opencode_skills_graphify_skill_full_pipeline",
+      "target": "_opencode_skills_graphify_references_github_and_merge_clone_and_merge",
+      "relation": "references",
+      "_origin": "semantic",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".opencode/skills/graphify/SKILL.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "_opencode_skills_graphify_skill_full_pipeline",
+      "target": "_opencode_skills_graphify_references_hooks_commit_hook",
+      "relation": "references",
+      "_origin": "semantic",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".opencode/skills/graphify/SKILL.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "_opencode_skills_graphify_skill_full_pipeline",
+      "target": "_opencode_skills_graphify_references_query_query_path_explain",
+      "relation": "references",
+      "_origin": "semantic",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".opencode/skills/graphify/SKILL.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "_opencode_skills_graphify_skill_full_pipeline",
+      "target": "_opencode_skills_graphify_references_transcribe_whisper_transcription",
+      "relation": "references",
+      "_origin": "semantic",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".opencode/skills/graphify/SKILL.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "_opencode_skills_graphify_skill_full_pipeline",
+      "target": "_opencode_skills_graphify_references_update_incremental_update",
+      "relation": "references",
+      "_origin": "semantic",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".opencode/skills/graphify/SKILL.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "_opencode_skills_testing_strategy_test_stack",
+      "target": "classcodelibrary_vowelsinuniquecity_vowelsinuniquecity_findvowels",
+      "relation": "references",
+      "_origin": "semantic",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".opencode/skills/testing-strategy.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "agents_graphify_workflow",
+      "target": "_opencode_skills_graphify_skill_full_pipeline",
+      "relation": "references",
+      "_origin": "semantic",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AGENTS.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "agents_repo_conventions",
+      "target": "_opencode_skills_csharp_development_manual_first_practice",
+      "relation": "references",
+      "_origin": "semantic",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AGENTS.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "images_vowelsinuniquecity_screenshot_20250129_160357_program_harness",
+      "target": "images_vowelsinuniquecity_screenshot_20250129_160357_vowels_exercise",
+      "relation": "references",
+      "_origin": "semantic",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Images/VowelsInUniqueCity Screenshot_20250129_160357.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "images_vowelsinuniquecity_screenshot_20250129_160357_screenshot",
+      "target": "images_vowelsinuniquecity_screenshot_20250129_160357_console_output",
+      "relation": "references",
+      "_origin": "semantic",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Images/VowelsInUniqueCity Screenshot_20250129_160357.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "images_vowelsinuniquecity_screenshot_20250129_160357_screenshot",
+      "target": "images_vowelsinuniquecity_screenshot_20250129_160357_program_harness",
+      "relation": "references",
+      "_origin": "semantic",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Images/VowelsInUniqueCity Screenshot_20250129_160357.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "images_vowelsinuniquecity_screenshot_20250129_160357_screenshot",
+      "target": "images_vowelsinuniquecity_screenshot_20250129_160357_vscode_layout",
+      "relation": "references",
+      "_origin": "semantic",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Images/VowelsInUniqueCity Screenshot_20250129_160357.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "classcodelibrary_secondlargestnumber_secondlargestnumber_findsecondlargest",
+      "target": "classcodelibrary_customarraysorter_customarraysorter_sortgivenarray",
+      "relation": "conceptually_related_to",
+      "_origin": "semantic",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "ClassCodeLibrary/SecondLargestNumber/SecondLargestNumber.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "_opencode_skills_graphify_references_query_query_path_explain",
+      "target": "_opencode_skills_graphify_references_update_incremental_update",
+      "relation": "conceptually_related_to",
+      "_origin": "semantic",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": ".opencode/skills/graphify/references/query.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "classcodelibrary_customarraysorter_customarraysorter_bubble_sort",
+      "target": "classcodelibrary_customarraysorter_customarraysorter_inbuilt_sort",
+      "relation": "conceptually_related_to",
+      "_origin": "semantic",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "ClassCodeLibrary/CustomArraySorter/CustomArraySorter.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "classcodelibrary_stringduplicationfiltering_stringduplicationfiltering_manual_dedup",
+      "target": "classcodelibrary_stringduplicationfiltering_stringduplicationfilteringlinq_linq_reference",
+      "relation": "conceptually_related_to",
+      "_origin": "semantic",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "ClassCodeLibrary/StringDuplicationFiltering/StringDuplicationFiltering.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "classcodelibrary_vowelsinuniquecity_vowelsinuniquecity_findvowels",
+      "target": "classcodelibrary_vowelsinuniquecity_vowelsinuniquecity_removeduplicates",
+      "relation": "conceptually_related_to",
+      "_origin": "semantic",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "ClassCodeLibrary/VowelsInUniqueCity/VowelsInUniqueCity.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "readme_practice_basics_without_inbuilt",
+      "target": "_opencode_skills_csharp_development_manual_first_practice",
+      "relation": "conceptually_related_to",
+      "_origin": "semantic",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "readme_sorting_nested_loops",
+      "target": "classcodelibrary_customarraysorter_customarraysorter_bubble_sort",
+      "relation": "conceptually_related_to",
+      "_origin": "semantic",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "images_vowelsinuniquecity_screenshot_20250129_160357_console_output",
+      "target": "images_vowelsinuniquecity_screenshot_20250129_160357_vowels_exercise",
+      "relation": "references",
+      "_origin": "semantic",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "Images/VowelsInUniqueCity Screenshot_20250129_160357.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "classcodelibrary_uniquecharactercounter_uniquecharactercounter_ascii_counting",
+      "target": "classcodelibrary_stringduplicationfiltering_stringduplicationfiltering_manual_dedup",
+      "relation": "shares_data_with",
+      "_origin": "semantic",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "ClassCodeLibrary/UniqueCharacterCounter/UniqueCharacterCounter.md",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": [
+    {
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "id": "dotnet_single_slnx_command_suite",
+      "label": "Single-slnx dotnet command suite",
+      "nodes": [
+        "_opencode_commands_build_build_command",
+        "_opencode_commands_test_test_command",
+        "_opencode_commands_run_run_command",
+        "_opencode_commands_clean_clean_command",
+        "_opencode_commands_lint_lint_command",
+        "_opencode_commands_format_format_command"
+      ],
+      "relation": "form",
+      "source_file": ".opencode/README.md"
+    },
+    {
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "id": "graphify_pipeline_flow",
+      "label": "Graphify detect extract build query flow",
+      "nodes": [
+        "_opencode_skills_graphify_skill_full_pipeline",
+        "_opencode_skills_graphify_references_extraction_spec_extraction_rules",
+        "_opencode_skills_graphify_references_query_query_path_explain"
+      ],
+      "relation": "participate_in",
+      "source_file": ".opencode/skills/graphify/SKILL.md"
+    },
+    {
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "id": "manual_first_exercise_pattern",
+      "label": "Manual-first exercise pattern across notes",
+      "nodes": [
+        "classcodelibrary_customarraysorter_customarraysorter_bubble_sort",
+        "classcodelibrary_stringduplicationfiltering_stringduplicationfiltering_manual_dedup",
+        "classcodelibrary_uniquecharactercounter_uniquecharactercounter_ascii_counting"
+      ],
+      "relation": "participate_in",
+      "source_file": "AGENTS.md"
+    },
+    {
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "id": "opencode_agent_team",
+      "label": "CSharpCodePractice agent team",
+      "nodes": [
+        "_opencode_agents_csharp_practice_assistant_csharp_practice_assistant",
+        "_opencode_agents_code_reviewer_code_reviewer",
+        "_opencode_agents_test_writer_test_writer",
+        "_opencode_agents_documentation_writer_documentation_writer"
+      ],
+      "relation": "form",
+      "source_file": ".opencode/README.md"
+    }
+  ],
+  "built_at_commit": "551f7e0c39d596a3c272b7b2b458405ee9804aaf"
+}

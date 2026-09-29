@@ -1,0 +1,332 @@
+{
+  ".config/dotnet-tools.json": {
+    "mtime": 1790499432.3773823,
+    "seen": 1790514915.2918248,
+    "ast_hash": "ead44f52f1e8774db6ecb55f02a3377c",
+    "semantic_hash": "ead44f52f1e8774db6ecb55f02a3377c"
+  },
+  ".opencode/opencode.json": {
+    "mtime": 1790692758.4538918,
+    "seen": 1790692815.4617128,
+    "ast_hash": "b0e4ca8f6353d88540bf57f68faebc21",
+    "semantic_hash": ""
+  },
+  ".opencode/plugins/graphify.js": {
+    "mtime": 1790692764.545684,
+    "seen": 1790692815.461714,
+    "ast_hash": "3d25514c4906ef9b2434652ff590651a",
+    "semantic_hash": ""
+  },
+  ".vscode/settings.json": {
+    "mtime": 1790498718.6533456,
+    "seen": 1790514915.291829,
+    "ast_hash": "835880b3c42fc0d8e5307768032dad9a",
+    "semantic_hash": "835880b3c42fc0d8e5307768032dad9a"
+  },
+  "CSharpCodePractice.slnx": {
+    "mtime": 1790498672.7665856,
+    "seen": 1790514915.291829,
+    "ast_hash": "1f655c5e198e4388d0edc7d6031b8e02",
+    "semantic_hash": "1f655c5e198e4388d0edc7d6031b8e02"
+  },
+  "ClassCodeLibrary/ClassCodeLibrary.csproj": {
+    "mtime": 1790498341.249048,
+    "seen": 1790514915.29183,
+    "ast_hash": "4258e11a2b535b27f62d0cc8ecdeccc5",
+    "semantic_hash": "4258e11a2b535b27f62d0cc8ecdeccc5"
+  },
+  "ClassCodeLibrary/CustomArraySorter/CustomArraySorter.cs": {
+    "mtime": 1790498052.0480208,
+    "seen": 1790514915.29183,
+    "ast_hash": "c1465350a88b7fb74319985a2715a04f",
+    "semantic_hash": "c1465350a88b7fb74319985a2715a04f"
+  },
+  "ClassCodeLibrary/SecondLargestNumber/SecondLargestNumber.cs": {
+    "mtime": 1790498052.0481791,
+    "seen": 1790514915.291831,
+    "ast_hash": "05793295f64e7f8ac6d30048f70c1296",
+    "semantic_hash": "05793295f64e7f8ac6d30048f70c1296"
+  },
+  "ClassCodeLibrary/StringDuplicationFiltering/StringDuplicationFiltering.cs": {
+    "mtime": 1790498052.0483265,
+    "seen": 1790514915.291831,
+    "ast_hash": "efc529692cc5696444ad2f242f5795eb",
+    "semantic_hash": "efc529692cc5696444ad2f242f5795eb"
+  },
+  "ClassCodeLibrary/StringDuplicationFiltering/StringDuplicationFilteringLinq.cs": {
+    "mtime": 1790498052.0484488,
+    "seen": 1790514915.291831,
+    "ast_hash": "4f811ce26096bea25ca37de2c564ef23",
+    "semantic_hash": "4f811ce26096bea25ca37de2c564ef23"
+  },
+  "ClassCodeLibrary/UniqueCharacterCounter/UniqueCharacterCounter.cs": {
+    "mtime": 1790498052.0486033,
+    "seen": 1790514915.291832,
+    "ast_hash": "4df4f3b81f5015d432eaa263841041a5",
+    "semantic_hash": "4df4f3b81f5015d432eaa263841041a5"
+  },
+  "ClassCodeLibrary/VowelsInUniqueCity/VowelsInUniqueCity.cs": {
+    "mtime": 1790498052.0487719,
+    "seen": 1790514915.291832,
+    "ast_hash": "32e9b4aeda43c8ee26f568af101f8080",
+    "semantic_hash": "32e9b4aeda43c8ee26f568af101f8080"
+  },
+  "MainConsoleApp/MainConsoleApp.csproj": {
+    "mtime": 1790498341.2490492,
+    "seen": 1790514915.291832,
+    "ast_hash": "7a3276e7fda9335d3d94d4f0f57b487e",
+    "semantic_hash": "7a3276e7fda9335d3d94d4f0f57b487e"
+  },
+  "MainConsoleApp/Program.cs": {
+    "mtime": 1790498052.0497842,
+    "seen": 1790514915.2918332,
+    "ast_hash": "bf1e1f8ae37b694a093540b0ea2c925c",
+    "semantic_hash": "bf1e1f8ae37b694a093540b0ea2c925c"
+  },
+  ".github/workflows/dotnet.yml": {
+    "mtime": 1790498341.2490487,
+    "seen": 1790514915.2918332,
+    "ast_hash": "a14a739fd0ea3b439f3772afffd6606f",
+    "semantic_hash": "a14a739fd0ea3b439f3772afffd6606f"
+  },
+  ".opencode/README.md": {
+    "mtime": 1790499366.892252,
+    "seen": 1790514915.291834,
+    "ast_hash": "e5289ef469c854cc4783476588b1aa10",
+    "semantic_hash": "e5289ef469c854cc4783476588b1aa10"
+  },
+  ".opencode/agents/code-reviewer.md": {
+    "mtime": 1790499384.1762383,
+    "seen": 1790514915.291834,
+    "ast_hash": "ad889e55b66dfd037f0c319c02451f80",
+    "semantic_hash": "ad889e55b66dfd037f0c319c02451f80"
+  },
+  ".opencode/agents/csharp-practice-assistant.md": {
+    "mtime": 1790499384.1762476,
+    "seen": 1790514915.291834,
+    "ast_hash": "55b0cb284c0960e6923389770479e680",
+    "semantic_hash": "55b0cb284c0960e6923389770479e680"
+  },
+  ".opencode/agents/documentation-writer.md": {
+    "mtime": 1790499384.1766343,
+    "seen": 1790514915.2918348,
+    "ast_hash": "939813e562544cbf23551bfb3bc4fed0",
+    "semantic_hash": "939813e562544cbf23551bfb3bc4fed0"
+  },
+  ".opencode/agents/test-writer.md": {
+    "mtime": 1790499384.1762302,
+    "seen": 1790514915.2918348,
+    "ast_hash": "df4283deba7e91ac2cd6a48a9e2abc31",
+    "semantic_hash": "df4283deba7e91ac2cd6a48a9e2abc31"
+  },
+  ".opencode/commands/build.md": {
+    "mtime": 1790499425.3402736,
+    "seen": 1790514915.2918348,
+    "ast_hash": "55263e171941ad27225cb3d7d3b6579a",
+    "semantic_hash": "55263e171941ad27225cb3d7d3b6579a"
+  },
+  ".opencode/commands/clean.md": {
+    "mtime": 1790499425.3402967,
+    "seen": 1790514915.2918358,
+    "ast_hash": "d0241d1fcb5079006ac194ada475674e",
+    "semantic_hash": "d0241d1fcb5079006ac194ada475674e"
+  },
+  ".opencode/commands/dotnet-build.md": {
+    "mtime": 1790499416.7983208,
+    "seen": 1790514915.2918358,
+    "ast_hash": "22c9a89380a2f108598bb8f8edfb14d6",
+    "semantic_hash": "22c9a89380a2f108598bb8f8edfb14d6"
+  },
+  ".opencode/commands/dotnet-clean.md": {
+    "mtime": 1790499416.7983763,
+    "seen": 1790514915.2918358,
+    "ast_hash": "077fc8ac4a51de435d36447a157d25b1",
+    "semantic_hash": "077fc8ac4a51de435d36447a157d25b1"
+  },
+  ".opencode/commands/dotnet-lint.md": {
+    "mtime": 1790499416.8002927,
+    "seen": 1790514915.291837,
+    "ast_hash": "9843d290baefbe26c707bc20d2dcb6ab",
+    "semantic_hash": "9843d290baefbe26c707bc20d2dcb6ab"
+  },
+  ".opencode/commands/dotnet-publish.md": {
+    "mtime": 1790499416.7984095,
+    "seen": 1790514915.291837,
+    "ast_hash": "a07ef9e99d5f2fd6d1e63b8b83257f1e",
+    "semantic_hash": "a07ef9e99d5f2fd6d1e63b8b83257f1e"
+  },
+  ".opencode/commands/dotnet-run.md": {
+    "mtime": 1790499416.7982028,
+    "seen": 1790514915.291837,
+    "ast_hash": "0010f0479f572cb63ba14baa87abd76d",
+    "semantic_hash": "0010f0479f572cb63ba14baa87abd76d"
+  },
+  ".opencode/commands/dotnet-test.md": {
+    "mtime": 1790499416.7982728,
+    "seen": 1790514915.291838,
+    "ast_hash": "6bcc2386c5458e3012ab7ad786d5f0d6",
+    "semantic_hash": "6bcc2386c5458e3012ab7ad786d5f0d6"
+  },
+  ".opencode/commands/format.md": {
+    "mtime": 1790499425.3401725,
+    "seen": 1790514915.291838,
+    "ast_hash": "55f2671a43e9f6a8612ef800efe34e86",
+    "semantic_hash": "55f2671a43e9f6a8612ef800efe34e86"
+  },
+  ".opencode/commands/lint.md": {
+    "mtime": 1790499425.3402472,
+    "seen": 1790514915.291838,
+    "ast_hash": "247580642fd819812de72b2d0a4a699c",
+    "semantic_hash": "247580642fd819812de72b2d0a4a699c"
+  },
+  ".opencode/commands/run.md": {
+    "mtime": 1790499425.3401759,
+    "seen": 1790514915.291839,
+    "ast_hash": "71e63c650513c2c3f19c95568240b3ab",
+    "semantic_hash": "71e63c650513c2c3f19c95568240b3ab"
+  },
+  ".opencode/commands/test.md": {
+    "mtime": 1790499425.340206,
+    "seen": 1790514915.291839,
+    "ast_hash": "47a720f197879c4e47b62bcfb1b50ff1",
+    "semantic_hash": "47a720f197879c4e47b62bcfb1b50ff1"
+  },
+  ".opencode/lsp/default.md": {
+    "mtime": 1790499405.918415,
+    "seen": 1790514915.29184,
+    "ast_hash": "285e8ba8da3ffbf644b7f467c6348899",
+    "semantic_hash": "285e8ba8da3ffbf644b7f467c6348899"
+  },
+  ".opencode/permissions/default.md": {
+    "mtime": 1790499405.918411,
+    "seen": 1790514915.29184,
+    "ast_hash": "e13ebe5c1f521bfa492a780f4af79aba",
+    "semantic_hash": "e13ebe5c1f521bfa492a780f4af79aba"
+  },
+  ".opencode/skills/csharp-development.md": {
+    "mtime": 1790499405.9036553,
+    "seen": 1790514915.29184,
+    "ast_hash": "591f75514c8bf06ac8bb7810ed00b97d",
+    "semantic_hash": "591f75514c8bf06ac8bb7810ed00b97d"
+  },
+  ".opencode/skills/graphify/SKILL.md": {
+    "mtime": 1790499352.0135002,
+    "seen": 1790514915.291841,
+    "ast_hash": "2e9858a59406dd2af786cf4cb74bc610",
+    "semantic_hash": "2e9858a59406dd2af786cf4cb74bc610"
+  },
+  ".opencode/skills/graphify/references/add-watch.md": {
+    "mtime": 1790499352.013263,
+    "seen": 1790514915.291841,
+    "ast_hash": "d59d027fe449f06aa03905a01184e779",
+    "semantic_hash": "d59d027fe449f06aa03905a01184e779"
+  },
+  ".opencode/skills/graphify/references/exports.md": {
+    "mtime": 1790499352.0123787,
+    "seen": 1790514915.291841,
+    "ast_hash": "9da2a2152e60a22f07f05fed5158f287",
+    "semantic_hash": "9da2a2152e60a22f07f05fed5158f287"
+  },
+  ".opencode/skills/graphify/references/extraction-spec.md": {
+    "mtime": 1790499352.012595,
+    "seen": 1790514915.291842,
+    "ast_hash": "42fef56a01698118f7fd722acdadea34",
+    "semantic_hash": "42fef56a01698118f7fd722acdadea34"
+  },
+  ".opencode/skills/graphify/references/github-and-merge.md": {
+    "mtime": 1790499352.0119512,
+    "seen": 1790514915.291842,
+    "ast_hash": "cde13df085e4c492aeb7ba298a996d0d",
+    "semantic_hash": "cde13df085e4c492aeb7ba298a996d0d"
+  },
+  ".opencode/skills/graphify/references/hooks.md": {
+    "mtime": 1790499352.0130467,
+    "seen": 1790514915.291842,
+    "ast_hash": "3f545db6ce646650bb9de588f5512a27",
+    "semantic_hash": "3f545db6ce646650bb9de588f5512a27"
+  },
+  ".opencode/skills/graphify/references/query.md": {
+    "mtime": 1790499352.0121787,
+    "seen": 1790514915.2918432,
+    "ast_hash": "3c46f8ad006874260614ed8657d02307",
+    "semantic_hash": "3c46f8ad006874260614ed8657d02307"
+  },
+  ".opencode/skills/graphify/references/transcribe.md": {
+    "mtime": 1790499352.0117211,
+    "seen": 1790514915.2918432,
+    "ast_hash": "67b6a5fa6c0974e18f60db9f8932fbd8",
+    "semantic_hash": "67b6a5fa6c0974e18f60db9f8932fbd8"
+  },
+  ".opencode/skills/graphify/references/update.md": {
+    "mtime": 1790499352.012824,
+    "seen": 1790514915.2918432,
+    "ast_hash": "9378bd03d56baaf78bd738ab3848f142",
+    "semantic_hash": "9378bd03d56baaf78bd738ab3848f142"
+  },
+  ".opencode/skills/testing-strategy.md": {
+    "mtime": 1790499405.9166405,
+    "seen": 1790514915.2918441,
+    "ast_hash": "b9c7d9251ea10796684ddf9708492d79",
+    "semantic_hash": "b9c7d9251ea10796684ddf9708492d79"
+  },
+  "AGENTS.md": {
+    "mtime": 1790499432.377376,
+    "seen": 1790514915.2918441,
+    "ast_hash": "4a192f2c86182f647b33fbf2f25f700f",
+    "semantic_hash": "4a192f2c86182f647b33fbf2f25f700f"
+  },
+  "ClassCodeLibrary/CustomArraySorter/CustomArraySorter.md": {
+    "mtime": 1790498052.048093,
+    "seen": 1790514915.291845,
+    "ast_hash": "4e2720d7b40c0130a52756459b80196e",
+    "semantic_hash": "4e2720d7b40c0130a52756459b80196e"
+  },
+  "ClassCodeLibrary/SecondLargestNumber/SecondLargestNumber.md": {
+    "mtime": 1790498052.0482318,
+    "seen": 1790514915.291845,
+    "ast_hash": "de6ae0cf949e07090172bc66e5ca90e3",
+    "semantic_hash": "de6ae0cf949e07090172bc66e5ca90e3"
+  },
+  "ClassCodeLibrary/StringDuplicationFiltering/StringDuplicationFiltering.md": {
+    "mtime": 1790498052.0483897,
+    "seen": 1790514915.291845,
+    "ast_hash": "fca68513ffd8764b76f74aa9d5d876d7",
+    "semantic_hash": "fca68513ffd8764b76f74aa9d5d876d7"
+  },
+  "ClassCodeLibrary/StringDuplicationFiltering/StringDuplicationFilteringLinq.md": {
+    "mtime": 1790498052.0485117,
+    "seen": 1790514915.2918458,
+    "ast_hash": "d6450a3ac5f94b2891834b83744abe6e",
+    "semantic_hash": "d6450a3ac5f94b2891834b83744abe6e"
+  },
+  "ClassCodeLibrary/UniqueCharacterCounter/UniqueCharacterCounter.md": {
+    "mtime": 1790498052.0486667,
+    "seen": 1790514915.2918458,
+    "ast_hash": "109ed77693a4eec55a0fb8197f592c96",
+    "semantic_hash": "109ed77693a4eec55a0fb8197f592c96"
+  },
+  "ClassCodeLibrary/VowelsInUniqueCity/VowelsInUniqueCity.md": {
+    "mtime": 1790498052.048827,
+    "seen": 1790514915.2918458,
+    "ast_hash": "357ce81f89a6e1ad8166d2899af7e708",
+    "semantic_hash": "357ce81f89a6e1ad8166d2899af7e708"
+  },
+  "LICENSE.txt": {
+    "mtime": 1790498052.049641,
+    "seen": 1790514915.291847,
+    "ast_hash": "75d44a9a760b8a695261b9529ab6f8f7",
+    "semantic_hash": "75d44a9a760b8a695261b9529ab6f8f7"
+  },
+  "README.md": {
+    "mtime": 1790498052.0498347,
+    "seen": 1790514915.291847,
+    "ast_hash": "3c8a307b64b7644413616be73bf7f4bb",
+    "semantic_hash": "3c8a307b64b7644413616be73bf7f4bb"
+  },
+  "Images/VowelsInUniqueCity Screenshot_20250129_160357.png": {
+    "mtime": 1790498052.0495605,
+    "seen": 1790514915.291847,
+    "ast_hash": "cb10224d2cc2653682eccf4d7039be61",
+    "semantic_hash": "cb10224d2cc2653682eccf4d7039be61"
+  }
+}

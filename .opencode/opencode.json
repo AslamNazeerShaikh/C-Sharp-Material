@@ -66,10 +66,7 @@
     }
   },
   "lsp": true,
-  "plugin": [
-    "@dietrichgebert/ponytail",
-    ".opencode/plugins/graphify.js"
-  ],
+  "plugin": [],
   "mcp": {
     "ui-skills": {
       "type": "remote",

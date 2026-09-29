@@ -27,6 +27,10 @@ add pure functions to the library (return values, no `Console`), add a menu entr
 | VowelsInUniqueCity | Strings | manual dedupe+vowels / LINQ Distinct | O(n²) manual / O(n) LINQ |
 | MethodKinds | Fundamentals | static vs instance vs extension | O(1) |
 
+## Question Bank
+
+Scenario-based interview MCQs with answers and explanations: [`docs/question-bank/`](docs/question-bank/) — 80 questions across method design, async/await, LINQ, OOP, DI, records/structs, `ref`/`out`/`in`, exceptions, `var`/`dynamic`, nullables, performance, collections, delegates, and modern C#.
+
 ## Commands
 
 - `dotnet build`

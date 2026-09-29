@@ -13,6 +13,7 @@ C# logic-building practice repo. Solution `CSharpCodePractice.slnx`: `MainConsol
 
 - New exercise = `ClassCodeLibrary/<Category>/<Topic>/` (`Arrays`, `Strings`, ...) with implementation `.cs` + `PROBLEM.md` (copy `docs/PROBLEM_TEMPLATE.md`), plus tests in `CSharpCodePractice.Tests/<Category>/<Topic>Tests.cs` and a menu entry in `MainConsoleApp/Program.cs`.
 - Library is pure: return values, no `Console`, no `ExecuteCode()`; `ArgumentNullException.ThrowIfNull` guards on public APIs.
+- Interview Q&A bank lives in `docs/question-bank/` (one file per topic, questions + answers + explanations); link new bank files from `docs/question-bank/README.md`.
 - Practice-first: manual implementation (`MethodName`) before the LINQ/built-in shortcut (`MethodNameLinq`, `SortWithBuiltIn` vs `SortWithBubbleSort`); for strings use one `static partial class` (`*.cs` manual + `*.Linq.cs`).
 - Use `SortDirection` enum (`ClassCodeLibrary/Common`), never `bool sortOrder`; use `StringBuilder` instead of `string +=` in loops.
 - XML doc comments (`///`) on all public types/members; UTC timestamps (`DateTime.UtcNow`, never `DateTime.Now`).

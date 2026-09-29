@@ -1,6 +1,6 @@
 # CSharpCodePractice — agent instructions
 
-C# logic-building practice repo. Single solution `CSharpCodePractice.slnx`: `MainConsoleApp/` (Exe demos) + `ClassCodeLibrary/` (one folder per exercise, `<Topic>.cs` + `<Topic>.md` notes).
+C# logic-building practice repo. Solution `CSharpCodePractice.slnx`: `MainConsoleApp/` (menu demo runner, only place with `Console` output) + `ClassCodeLibrary/` (pure logic, grouped by category) + `CSharpCodePractice.Tests/` (xUnit, mirrors library).
 
 ## Toolchain
 
@@ -11,8 +11,10 @@ C# logic-building practice repo. Single solution `CSharpCodePractice.slnx`: `Mai
 
 ## Conventions
 
-- New exercise = new folder under `ClassCodeLibrary/` with implementation `.cs` + notes `.md`, mirroring the existing pairs.
-- Practice-first: manual implementation before the LINQ/built-in shortcut; keep both where instructive.
+- New exercise = `ClassCodeLibrary/<Category>/<Topic>/` (`Arrays`, `Strings`, ...) with implementation `.cs` + `PROBLEM.md` (copy `docs/PROBLEM_TEMPLATE.md`), plus tests in `CSharpCodePractice.Tests/<Category>/<Topic>Tests.cs` and a menu entry in `MainConsoleApp/Program.cs`.
+- Library is pure: return values, no `Console`, no `ExecuteCode()`; `ArgumentNullException.ThrowIfNull` guards on public APIs.
+- Practice-first: manual implementation (`MethodName`) before the LINQ/built-in shortcut (`MethodNameLinq`, `SortWithBuiltIn` vs `SortWithBubbleSort`); for strings use one `static partial class` (`*.cs` manual + `*.Linq.cs`).
+- Use `SortDirection` enum (`ClassCodeLibrary/Common`), never `bool sortOrder`; use `StringBuilder` instead of `string +=` in loops.
 - XML doc comments (`///`) on all public types/members; UTC timestamps (`DateTime.UtcNow`, never `DateTime.Now`).
 - Never install toolchains, packages, or tools automatically — give copy-pasteable commands instead.
 

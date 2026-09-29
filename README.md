@@ -25,6 +25,7 @@ add pure functions to the library (return values, no `Console`), add a menu entr
 | StringDuplicationFiltering | Strings | manual scan vs LINQ+HashSet | O(n²) manual / O(n) LINQ |
 | UniqueCharacterCounter | Strings | single pass / LINQ GroupBy | O(n) |
 | VowelsInUniqueCity | Strings | manual dedupe+vowels / LINQ Distinct | O(n²) manual / O(n) LINQ |
+| MethodKinds | Fundamentals | static vs instance vs extension | O(1) |
 
 ## Commands
 

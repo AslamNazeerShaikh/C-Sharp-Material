@@ -1,6 +1,7 @@
 ﻿using ClassCodeLibrary.Arrays.CustomArraySorter;
 using ClassCodeLibrary.Arrays.SecondLargestNumber;
 using ClassCodeLibrary.Common;
+using ClassCodeLibrary.Fundamentals.MethodKinds;
 using ClassCodeLibrary.Strings.StringDuplicationFiltering;
 using ClassCodeLibrary.Strings.UniqueCharacterCounter;
 using ClassCodeLibrary.Strings.VowelsInUniqueCity;
@@ -19,6 +20,7 @@ public static class Program
         ["3"] = ("Custom array sorter", DemoCustomArraySorter),
         ["4"] = ("Second largest number", DemoSecondLargestNumber),
         ["5"] = ("String duplication filtering", DemoStringDuplicationFiltering),
+        ["6"] = ("Method kinds (static vs instance vs extension)", DemoMethodKinds),
     };
 
     /// <summary>
@@ -51,7 +53,7 @@ public static class Program
             }
             else
             {
-                Console.WriteLine("Unknown choice. Try 1-5 or q.");
+                Console.WriteLine("Unknown choice. Try 1-6 or q.");
             }
 
             Console.WriteLine();
@@ -132,6 +134,27 @@ public static class Program
                 Console.WriteLine($"[{string.Join(", ", testCase)}] -> Error: {ex.Message}");
             }
         }
+    }
+
+    private static void DemoMethodKinds()
+    {
+        Console.WriteLine($"Static pure: Calculator.Add(2, 3) = {Calculator.Add(2, 3)}");
+
+        int byRef = 0;
+        Calculator.AddIntoRef(2, 3, ref byRef);
+        Console.WriteLine($"Static with ref: result = {byRef} (ref works on static)");
+
+        var accumulator = new Accumulator();
+        accumulator.Add(2);
+        accumulator.Add(3);
+        Console.WriteLine($"Instance stateful: accumulator.Total = {accumulator.Total}");
+
+        IAdder adder = new Adder();
+        Console.WriteLine(
+            $"Instance via interface (DI/mockable): adder.Add(2, 3) = {adder.Add(2, 3)}"
+        );
+
+        Console.WriteLine($"Extension: 4.IsEven() = {4.IsEven()}, 2.AddTo(3) = {2.AddTo(3)}");
     }
 
     private static void DemoStringDuplicationFiltering()

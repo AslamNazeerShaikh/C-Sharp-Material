@@ -1,0 +1,539 @@
+{
+  "communities": {
+    "0": [
+      "cancellationtoken",
+      "classcodelibrary_fundamentals_methodkinds_methodkinds",
+      "classcodelibrary_fundamentals_methodkinds_methodkinds_classcodelibrary_fundamentals_methodkinds_accumulator",
+      "classcodelibrary_fundamentals_methodkinds_methodkinds_classcodelibrary_fundamentals_methodkinds_accumulator_add",
+      "classcodelibrary_fundamentals_methodkinds_methodkinds_classcodelibrary_fundamentals_methodkinds_accumulator_reset",
+      "classcodelibrary_fundamentals_methodkinds_methodkinds_classcodelibrary_fundamentals_methodkinds_accumulator_total",
+      "classcodelibrary_fundamentals_methodkinds_methodkinds_classcodelibrary_fundamentals_methodkinds_adder",
+      "classcodelibrary_fundamentals_methodkinds_methodkinds_classcodelibrary_fundamentals_methodkinds_adder_add",
+      "classcodelibrary_fundamentals_methodkinds_methodkinds_classcodelibrary_fundamentals_methodkinds_calculator",
+      "classcodelibrary_fundamentals_methodkinds_methodkinds_classcodelibrary_fundamentals_methodkinds_calculator_add",
+      "classcodelibrary_fundamentals_methodkinds_methodkinds_classcodelibrary_fundamentals_methodkinds_calculator_addasync",
+      "classcodelibrary_fundamentals_methodkinds_methodkinds_classcodelibrary_fundamentals_methodkinds_calculator_addintoref",
+      "classcodelibrary_fundamentals_methodkinds_methodkinds_classcodelibrary_fundamentals_methodkinds_iadder",
+      "classcodelibrary_fundamentals_methodkinds_methodkinds_classcodelibrary_fundamentals_methodkinds_iadder_add",
+      "classcodelibrary_fundamentals_methodkinds_methodkinds_classcodelibrary_fundamentals_methodkinds_intextensions",
+      "classcodelibrary_fundamentals_methodkinds_methodkinds_classcodelibrary_fundamentals_methodkinds_intextensions_addto",
+      "classcodelibrary_fundamentals_methodkinds_methodkinds_classcodelibrary_fundamentals_methodkinds_intextensions_iseven",
+      "classcodelibrary_fundamentals_methodkinds_methodkinds_cs_task",
+      "csharp_namespace:ec50243d69f42ab2",
+      "csharpcodepractice_tests_fundamentals_methodkindstests",
+      "csharpcodepractice_tests_fundamentals_methodkindstests_cs_fact",
+      "csharpcodepractice_tests_fundamentals_methodkindstests_cs_task",
+      "csharpcodepractice_tests_fundamentals_methodkindstests_csharpcodepractice_tests_fundamentals_methodkindstests",
+      "csharpcodepractice_tests_fundamentals_methodkindstests_csharpcodepractice_tests_fundamentals_methodkindstests_accumulator_instanceskeepindependentstate",
+      "csharpcodepractice_tests_fundamentals_methodkindstests_csharpcodepractice_tests_fundamentals_methodkindstests_adder_implementsiadder_usableviainterface",
+      "csharpcodepractice_tests_fundamentals_methodkindstests_csharpcodepractice_tests_fundamentals_methodkindstests_calculator_add_returnssum",
+      "csharpcodepractice_tests_fundamentals_methodkindstests_csharpcodepractice_tests_fundamentals_methodkindstests_calculator_addasync_returnssum",
+      "csharpcodepractice_tests_fundamentals_methodkindstests_csharpcodepractice_tests_fundamentals_methodkindstests_calculator_addintoref_writesresult_provingrefworksonstatic",
+      "csharpcodepractice_tests_fundamentals_methodkindstests_csharpcodepractice_tests_fundamentals_methodkindstests_intextensions_workasinstancestylecalls",
+      "mainconsoleapp_program_mainconsoleapp_program_demomethodkinds"
+    ],
+    "1": [
+      "classcodelibrary_strings_stringduplicationfiltering_stringduplicationfiltering",
+      "classcodelibrary_strings_stringduplicationfiltering_stringduplicationfiltering_classcodelibrary_strings_stringduplicationfiltering_stringduplicationfiltering_containschar",
+      "classcodelibrary_strings_stringduplicationfiltering_stringduplicationfiltering_classcodelibrary_strings_stringduplicationfiltering_stringduplicationfiltering_isdigit",
+      "classcodelibrary_strings_stringduplicationfiltering_stringduplicationfiltering_classcodelibrary_strings_stringduplicationfiltering_stringduplicationfiltering_isletterordigit",
+      "classcodelibrary_strings_stringduplicationfiltering_stringduplicationfiltering_classcodelibrary_strings_stringduplicationfiltering_stringduplicationfiltering_islower",
+      "classcodelibrary_strings_stringduplicationfiltering_stringduplicationfiltering_classcodelibrary_strings_stringduplicationfiltering_stringduplicationfiltering_isupper",
+      "classcodelibrary_strings_stringduplicationfiltering_stringduplicationfiltering_classcodelibrary_strings_stringduplicationfiltering_stringduplicationfiltering_removeduplicatelowerchars",
+      "classcodelibrary_strings_stringduplicationfiltering_stringduplicationfiltering_classcodelibrary_strings_stringduplicationfiltering_stringduplicationfiltering_removeduplicatenumbers",
+      "classcodelibrary_strings_stringduplicationfiltering_stringduplicationfiltering_classcodelibrary_strings_stringduplicationfiltering_stringduplicationfiltering_removeduplicates",
+      "classcodelibrary_strings_stringduplicationfiltering_stringduplicationfiltering_classcodelibrary_strings_stringduplicationfiltering_stringduplicationfiltering_removeduplicatespecialchars",
+      "classcodelibrary_strings_stringduplicationfiltering_stringduplicationfiltering_classcodelibrary_strings_stringduplicationfiltering_stringduplicationfiltering_removeduplicateupperchars",
+      "classcodelibrary_strings_stringduplicationfiltering_stringduplicationfiltering_classcodelibrary_strings_stringduplicationfiltering_stringduplicationfiltering_removelowerchars",
+      "classcodelibrary_strings_stringduplicationfiltering_stringduplicationfiltering_classcodelibrary_strings_stringduplicationfiltering_stringduplicationfiltering_removenumbers",
+      "classcodelibrary_strings_stringduplicationfiltering_stringduplicationfiltering_classcodelibrary_strings_stringduplicationfiltering_stringduplicationfiltering_removespecialchars",
+      "classcodelibrary_strings_stringduplicationfiltering_stringduplicationfiltering_classcodelibrary_strings_stringduplicationfiltering_stringduplicationfiltering_removeupperchars",
+      "classcodelibrary_strings_stringduplicationfiltering_stringduplicationfiltering_linq",
+      "classcodelibrary_strings_stringduplicationfiltering_stringduplicationfiltering_linq_classcodelibrary_strings_stringduplicationfiltering_stringduplicationfiltering",
+      "classcodelibrary_strings_stringduplicationfiltering_stringduplicationfiltering_linq_classcodelibrary_strings_stringduplicationfiltering_stringduplicationfiltering_removeduplicatelowercharslinq",
+      "classcodelibrary_strings_stringduplicationfiltering_stringduplicationfiltering_linq_classcodelibrary_strings_stringduplicationfiltering_stringduplicationfiltering_removeduplicatenumberslinq",
+      "classcodelibrary_strings_stringduplicationfiltering_stringduplicationfiltering_linq_classcodelibrary_strings_stringduplicationfiltering_stringduplicationfiltering_removeduplicateslinq",
+      "classcodelibrary_strings_stringduplicationfiltering_stringduplicationfiltering_linq_classcodelibrary_strings_stringduplicationfiltering_stringduplicationfiltering_removeduplicatespecialcharslinq",
+      "classcodelibrary_strings_stringduplicationfiltering_stringduplicationfiltering_linq_classcodelibrary_strings_stringduplicationfiltering_stringduplicationfiltering_removeduplicateuppercharslinq",
+      "classcodelibrary_strings_stringduplicationfiltering_stringduplicationfiltering_linq_classcodelibrary_strings_stringduplicationfiltering_stringduplicationfiltering_removelowercharslinq",
+      "classcodelibrary_strings_stringduplicationfiltering_stringduplicationfiltering_linq_classcodelibrary_strings_stringduplicationfiltering_stringduplicationfiltering_removenumberslinq",
+      "classcodelibrary_strings_stringduplicationfiltering_stringduplicationfiltering_linq_classcodelibrary_strings_stringduplicationfiltering_stringduplicationfiltering_removespecialcharslinq",
+      "classcodelibrary_strings_stringduplicationfiltering_stringduplicationfiltering_linq_classcodelibrary_strings_stringduplicationfiltering_stringduplicationfiltering_removeuppercharslinq",
+      "csharp_namespace:4ba74261e4ac69a1",
+      "stringbuilder"
+    ],
+    "2": [
+      "action",
+      "classcodelibrary_strings_uniquecharactercounter_uniquecharactercounter",
+      "classcodelibrary_strings_uniquecharactercounter_uniquecharactercounter_classcodelibrary_strings_uniquecharactercounter_uniquecharactercounter",
+      "classcodelibrary_strings_uniquecharactercounter_uniquecharactercounter_classcodelibrary_strings_uniquecharactercounter_uniquecharactercounter_countuniquecharacters",
+      "classcodelibrary_strings_uniquecharactercounter_uniquecharactercounter_classcodelibrary_strings_uniquecharactercounter_uniquecharactercounter_countuniquecharacterslinq",
+      "csharp_namespace:3c427f5080515730",
+      "csharp_namespace:6c7e2668671094ea",
+      "csharpcodepractice_tests_strings_stringduplicationfilteringtests",
+      "csharpcodepractice_tests_strings_uniquecharactercountertests",
+      "csharpcodepractice_tests_strings_uniquecharactercountertests_cs_argumentnullexception",
+      "csharpcodepractice_tests_strings_uniquecharactercountertests_cs_fact",
+      "csharpcodepractice_tests_strings_uniquecharactercountertests_csharpcodepractice_tests_strings_uniquecharactercountertests",
+      "csharpcodepractice_tests_strings_uniquecharactercountertests_csharpcodepractice_tests_strings_uniquecharactercountertests_count_empty_returnsempty",
+      "csharpcodepractice_tests_strings_uniquecharactercountertests_csharpcodepractice_tests_strings_uniquecharactercountertests_count_returnsexpectedcounts",
+      "csharpcodepractice_tests_strings_uniquecharactercountertests_csharpcodepractice_tests_strings_uniquecharactercountertests_count_throwswhennull",
+      "csharpcodepractice_tests_strings_uniquecharactercountertests_csharpcodepractice_tests_strings_uniquecharactercountertests_linq_matchesmanual",
+      "demo",
+      "dictionary",
+      "ireadonlydictionary",
+      "mainconsoleapp_program_mainconsoleapp_program",
+      "mainconsoleapp_program_mainconsoleapp_program_demosecondlargestnumber",
+      "mainconsoleapp_program_mainconsoleapp_program_demostringduplicationfiltering",
+      "mainconsoleapp_program_mainconsoleapp_program_demouniquecharactercounter",
+      "mainconsoleapp_program_mainconsoleapp_program_main",
+      "name"
+    ],
+    "3": [
+      "opencode_opencode",
+      "opencode_opencode_agents",
+      "opencode_opencode_agents_default",
+      "opencode_opencode_agents_list",
+      "opencode_opencode_commands",
+      "opencode_opencode_commands_custom",
+      "opencode_opencode_instructions",
+      "opencode_opencode_lsp",
+      "opencode_opencode_model",
+      "opencode_opencode_models_muse_spark_1_3_contributor_free",
+      "opencode_opencode_muse_spark_1_3_contributor_free_options",
+      "opencode_opencode_opencode_models",
+      "opencode_opencode_options_reasoningeffort",
+      "opencode_opencode_plugin",
+      "opencode_opencode_project",
+      "opencode_opencode_project_description",
+      "opencode_opencode_project_name",
+      "opencode_opencode_project_type",
+      "opencode_opencode_provider",
+      "opencode_opencode_provider_opencode",
+      "opencode_opencode_schema",
+      "opencode_opencode_skills",
+      "opencode_opencode_skills_enabled",
+      "opencode_opencode_small_model",
+      "opencode_opencode_version"
+    ],
+    "4": [
+      "argumentexception",
+      "classcodelibrary_arrays_secondlargestnumber_secondlargestnumber",
+      "classcodelibrary_arrays_secondlargestnumber_secondlargestnumber_classcodelibrary_arrays_secondlargestnumber_secondlargestnumber",
+      "classcodelibrary_arrays_secondlargestnumber_secondlargestnumber_classcodelibrary_arrays_secondlargestnumber_secondlargestnumber_findsecondlargestnumber",
+      "classcodelibrary_arrays_secondlargestnumber_secondlargestnumber_classcodelibrary_arrays_secondlargestnumber_secondlargestnumber_findsecondlargestnumberlinq",
+      "csharpcodepractice_tests_arrays_secondlargestnumbertests_cs_argumentnullexception",
+      "csharpcodepractice_tests_arrays_secondlargestnumbertests_cs_fact",
+      "csharpcodepractice_tests_arrays_secondlargestnumbertests_cs_inlinedata",
+      "csharpcodepractice_tests_arrays_secondlargestnumbertests_cs_theory",
+      "csharpcodepractice_tests_arrays_secondlargestnumbertests_csharpcodepractice_tests_arrays_secondlargestnumbertests",
+      "csharpcodepractice_tests_arrays_secondlargestnumbertests_csharpcodepractice_tests_arrays_secondlargestnumbertests_findsecondlargestnumber_handlesintminvaluesentinel",
+      "csharpcodepractice_tests_arrays_secondlargestnumbertests_csharpcodepractice_tests_arrays_secondlargestnumbertests_findsecondlargestnumber_handlesnegatives",
+      "csharpcodepractice_tests_arrays_secondlargestnumbertests_csharpcodepractice_tests_arrays_secondlargestnumbertests_findsecondlargestnumber_returnsexpectedvalue",
+      "csharpcodepractice_tests_arrays_secondlargestnumbertests_csharpcodepractice_tests_arrays_secondlargestnumbertests_findsecondlargestnumber_throwswhenallidentical",
+      "csharpcodepractice_tests_arrays_secondlargestnumbertests_csharpcodepractice_tests_arrays_secondlargestnumbertests_findsecondlargestnumber_throwswhennull",
+      "csharpcodepractice_tests_arrays_secondlargestnumbertests_csharpcodepractice_tests_arrays_secondlargestnumbertests_findsecondlargestnumber_throwswhentooshort",
+      "csharpcodepractice_tests_arrays_secondlargestnumbertests_csharpcodepractice_tests_arrays_secondlargestnumbertests_linq_matchesmanual",
+      "invalidoperationexception"
+    ],
+    "5": [
+      "classcodelibrary_strings_vowelsinuniquecity_vowelsinuniquecity",
+      "classcodelibrary_strings_vowelsinuniquecity_vowelsinuniquecity_classcodelibrary_strings_vowelsinuniquecity_vowelsinuniquecity",
+      "classcodelibrary_strings_vowelsinuniquecity_vowelsinuniquecity_classcodelibrary_strings_vowelsinuniquecity_vowelsinuniquecity_findvowels",
+      "classcodelibrary_strings_vowelsinuniquecity_vowelsinuniquecity_classcodelibrary_strings_vowelsinuniquecity_vowelsinuniquecity_findvowelslinq",
+      "classcodelibrary_strings_vowelsinuniquecity_vowelsinuniquecity_classcodelibrary_strings_vowelsinuniquecity_vowelsinuniquecity_isvowellower",
+      "classcodelibrary_strings_vowelsinuniquecity_vowelsinuniquecity_classcodelibrary_strings_vowelsinuniquecity_vowelsinuniquecity_removeduplicates",
+      "classcodelibrary_strings_vowelsinuniquecity_vowelsinuniquecity_classcodelibrary_strings_vowelsinuniquecity_vowelsinuniquecity_removeduplicateslinq",
+      "csharp_namespace:b0d2114fdbea3bcd",
+      "csharpcodepractice_tests_strings_vowelsinuniquecitytests",
+      "csharpcodepractice_tests_strings_vowelsinuniquecitytests_cs_argumentnullexception",
+      "csharpcodepractice_tests_strings_vowelsinuniquecitytests_cs_fact",
+      "csharpcodepractice_tests_strings_vowelsinuniquecitytests_csharpcodepractice_tests_strings_vowelsinuniquecitytests",
+      "csharpcodepractice_tests_strings_vowelsinuniquecitytests_csharpcodepractice_tests_strings_vowelsinuniquecitytests_findvowels_novowels_returnsempty",
+      "csharpcodepractice_tests_strings_vowelsinuniquecitytests_csharpcodepractice_tests_strings_vowelsinuniquecitytests_findvowels_returnsuniquelowercasevowels",
+      "csharpcodepractice_tests_strings_vowelsinuniquecitytests_csharpcodepractice_tests_strings_vowelsinuniquecitytests_linq_matchesmanual",
+      "csharpcodepractice_tests_strings_vowelsinuniquecitytests_csharpcodepractice_tests_strings_vowelsinuniquecitytests_methods_throwwhennull",
+      "csharpcodepractice_tests_strings_vowelsinuniquecitytests_csharpcodepractice_tests_strings_vowelsinuniquecitytests_removeduplicates_removesduplicatespreservingorder",
+      "mainconsoleapp_program_mainconsoleapp_program_demovowelsinuniquecity"
+    ],
+    "6": [
+      "classcodelibrary_arrays_customarraysorter_customarraysorter_classcodelibrary_arrays_customarraysorter_customarraysorter",
+      "classcodelibrary_arrays_customarraysorter_customarraysorter_classcodelibrary_arrays_customarraysorter_customarraysorter_sortwithbubblesort",
+      "classcodelibrary_arrays_customarraysorter_customarraysorter_classcodelibrary_arrays_customarraysorter_customarraysorter_sortwithbuiltin",
+      "classcodelibrary_common_sortdirection_classcodelibrary_common_sortdirection",
+      "classcodelibrary_common_sortdirection_classcodelibrary_common_sortdirection_ascending",
+      "classcodelibrary_common_sortdirection_classcodelibrary_common_sortdirection_descending",
+      "csharpcodepractice_tests_arrays_customarraysortertests_cs_argumentnullexception",
+      "csharpcodepractice_tests_arrays_customarraysortertests_cs_fact",
+      "csharpcodepractice_tests_arrays_customarraysortertests_csharpcodepractice_tests_arrays_customarraysortertests",
+      "csharpcodepractice_tests_arrays_customarraysortertests_csharpcodepractice_tests_arrays_customarraysortertests_bubblesort_ascending_matchesbuiltin",
+      "csharpcodepractice_tests_arrays_customarraysortertests_csharpcodepractice_tests_arrays_customarraysortertests_bubblesort_descending_matchesbuiltin",
+      "csharpcodepractice_tests_arrays_customarraysortertests_csharpcodepractice_tests_arrays_customarraysortertests_sort_doesnotmutateinput",
+      "csharpcodepractice_tests_arrays_customarraysortertests_csharpcodepractice_tests_arrays_customarraysortertests_sort_empty_returnsempty",
+      "csharpcodepractice_tests_arrays_customarraysortertests_csharpcodepractice_tests_arrays_customarraysortertests_sort_throwswhennull",
+      "csharpcodepractice_tests_arrays_customarraysortertests_csharpcodepractice_tests_arrays_customarraysortertests_sort_worksforstrings",
+      "mainconsoleapp_program_mainconsoleapp_program_democustomarraysorter"
+    ],
+    "7": [
+      "csharpcodepractice_tests_strings_stringduplicationfilteringtests_cs_argumentnullexception",
+      "csharpcodepractice_tests_strings_stringduplicationfilteringtests_cs_fact",
+      "csharpcodepractice_tests_strings_stringduplicationfilteringtests_cs_inlinedata",
+      "csharpcodepractice_tests_strings_stringduplicationfilteringtests_cs_theory",
+      "csharpcodepractice_tests_strings_stringduplicationfilteringtests_csharpcodepractice_tests_strings_stringduplicationfilteringtests",
+      "csharpcodepractice_tests_strings_stringduplicationfilteringtests_csharpcodepractice_tests_strings_stringduplicationfilteringtests_linq_matchesmanual",
+      "csharpcodepractice_tests_strings_stringduplicationfilteringtests_csharpcodepractice_tests_strings_stringduplicationfilteringtests_methods_throwwhennull",
+      "csharpcodepractice_tests_strings_stringduplicationfilteringtests_csharpcodepractice_tests_strings_stringduplicationfilteringtests_removeduplicatenumbers_keepsotherduplicates",
+      "csharpcodepractice_tests_strings_stringduplicationfilteringtests_csharpcodepractice_tests_strings_stringduplicationfilteringtests_removeduplicates_keepsfirstoccurrence",
+      "csharpcodepractice_tests_strings_stringduplicationfilteringtests_csharpcodepractice_tests_strings_stringduplicationfilteringtests_removeduplicatespecialchars_keepsletterduplicates",
+      "csharpcodepractice_tests_strings_stringduplicationfilteringtests_csharpcodepractice_tests_strings_stringduplicationfilteringtests_removelowerchars_removeslowercase",
+      "csharpcodepractice_tests_strings_stringduplicationfilteringtests_csharpcodepractice_tests_strings_stringduplicationfilteringtests_removenumbers_removesalldigits",
+      "csharpcodepractice_tests_strings_stringduplicationfilteringtests_csharpcodepractice_tests_strings_stringduplicationfilteringtests_removespecialchars_removesallspecials",
+      "csharpcodepractice_tests_strings_stringduplicationfilteringtests_csharpcodepractice_tests_strings_stringduplicationfilteringtests_removeupperchars_removesuppercase"
+    ],
+    "8": [
+      "_opencode_agents_code_reviewer_code_reviewer",
+      "_opencode_agents_csharp_practice_assistant_csharp_practice_assistant",
+      "_opencode_agents_documentation_writer_documentation_writer",
+      "_opencode_agents_test_writer_test_writer",
+      "_opencode_commands_dotnet_build_dotnet_build_command",
+      "_opencode_commands_dotnet_test_dotnet_test_command",
+      "_opencode_lsp_default_csharp_ls",
+      "_opencode_lsp_default_json_language_server",
+      "_opencode_lsp_default_lsp_configuration",
+      "_opencode_permissions_default_permission_policy",
+      "_opencode_readme_csharpcodepractice_slnx",
+      "_opencode_readme_opencode_configuration"
+    ],
+    "9": [
+      "opencode_opencode_github_enabled",
+      "opencode_opencode_github_headers",
+      "opencode_opencode_github_oauth",
+      "opencode_opencode_github_type",
+      "opencode_opencode_github_url",
+      "opencode_opencode_headers_authorization",
+      "opencode_opencode_mcp",
+      "opencode_opencode_mcp_github",
+      "opencode_opencode_mcp_ui_skills",
+      "opencode_opencode_ui_skills_enabled",
+      "opencode_opencode_ui_skills_type",
+      "opencode_opencode_ui_skills_url"
+    ],
+    "10": [
+      "classcodelibrary_arrays_customarraysorter_customarraysorter",
+      "classcodelibrary_common_sortdirection",
+      "csharp_namespace:1c8e9b3a291ac50d",
+      "csharp_namespace:5a5832d5ef17c894",
+      "csharp_namespace:86cac78683da6cda",
+      "csharp_namespace:86e3cf6c8032a361",
+      "csharp_namespace:c485cdefea068790",
+      "csharp_namespace:fcf595cde63678ff",
+      "csharpcodepractice_tests_arrays_customarraysortertests",
+      "csharpcodepractice_tests_arrays_secondlargestnumbertests",
+      "mainconsoleapp_program"
+    ],
+    "11": [
+      "opencode_opencode_bash_chmod_777",
+      "opencode_opencode_bash_rm_rf",
+      "opencode_opencode_bash_sudo",
+      "opencode_opencode_permission",
+      "opencode_opencode_permission_bash",
+      "opencode_opencode_permission_edit",
+      "opencode_opencode_permission_glob",
+      "opencode_opencode_permission_grep",
+      "opencode_opencode_permission_read",
+      "opencode_opencode_permission_task",
+      "opencode_opencode_permission_write"
+    ],
+    "12": [
+      "_opencode_skills_graphify_references_add_watch_ingest_and_watch",
+      "_opencode_skills_graphify_references_exports_extra_exports",
+      "_opencode_skills_graphify_references_extraction_spec_extraction_rules",
+      "_opencode_skills_graphify_references_github_and_merge_clone_and_merge",
+      "_opencode_skills_graphify_references_hooks_commit_hook",
+      "_opencode_skills_graphify_references_query_query_path_explain",
+      "_opencode_skills_graphify_references_transcribe_whisper_transcription",
+      "_opencode_skills_graphify_references_update_incremental_update",
+      "_opencode_skills_graphify_skill_full_pipeline",
+      "agents_graphify_workflow"
+    ],
+    "13": [
+      "classcodelibrary_classcodelibrary",
+      "csharpcodepractice",
+      "csharpcodepractice_tests_csharpcodepractice_tests",
+      "mainconsoleapp_mainconsoleapp",
+      "mainconsoleapp_mainconsoleapp_csproj_framework_net10_0",
+      "mainconsoleapp_mainconsoleapp_csproj_sdk_microsoft_net_sdk",
+      "nuget_coverlet_collector",
+      "nuget_microsoft_net_test_sdk",
+      "nuget_xunit",
+      "nuget_xunit_runner_visualstudio"
+    ],
+    "14": [
+      "images_vowelsinuniquecity_screenshot_20250129_160357_console_output",
+      "images_vowelsinuniquecity_screenshot_20250129_160357_program_harness",
+      "images_vowelsinuniquecity_screenshot_20250129_160357_screenshot",
+      "images_vowelsinuniquecity_screenshot_20250129_160357_vowels_exercise",
+      "images_vowelsinuniquecity_screenshot_20250129_160357_vscode_layout"
+    ],
+    "15": [
+      "_opencode_skills_csharp_development_manual_first_practice",
+      "agents_repo_conventions",
+      "readme_practice_basics_without_inbuilt"
+    ],
+    "16": [
+      "opencode_plugins_graphify",
+      "opencode_plugins_graphify_rationale_5",
+      "opencode_plugins_graphify_setup"
+    ],
+    "17": [
+      "_github_workflows_dotnet_dotnet_build_test_pipeline",
+      "_github_workflows_dotnet_dotnet_ci_workflow"
+    ],
+    "18": [
+      "_opencode_commands_build_build_command"
+    ],
+    "19": [
+      "_opencode_commands_clean_clean_command"
+    ],
+    "20": [
+      "_opencode_commands_dotnet_clean_dotnet_clean_command"
+    ],
+    "21": [
+      "_opencode_commands_dotnet_lint_dotnet_lint_command"
+    ],
+    "22": [
+      "_opencode_commands_dotnet_publish_dotnet_publish_command"
+    ],
+    "23": [
+      "_opencode_commands_dotnet_run_dotnet_run_command"
+    ],
+    "24": [
+      "_opencode_commands_format_format_command"
+    ],
+    "25": [
+      "_opencode_commands_lint_lint_command"
+    ],
+    "26": [
+      "_opencode_commands_run_run_command"
+    ],
+    "27": [
+      "_opencode_commands_test_test_command"
+    ],
+    "28": [
+      "_opencode_skills_csharp_development_async_console_entry"
+    ],
+    "29": [
+      "_opencode_skills_csharp_development_linq_comparison"
+    ],
+    "30": [
+      "_opencode_skills_csharp_development_records_pattern_matching"
+    ],
+    "31": [
+      "_opencode_skills_csharp_development_second_largest_one_pass"
+    ],
+    "32": [
+      "_opencode_skills_graphify_skill_fast_path_existing_graph"
+    ],
+    "33": [
+      "_opencode_skills_testing_strategy_exercise_edge_case_tests"
+    ],
+    "34": [
+      "_opencode_skills_testing_strategy_test_stack"
+    ],
+    "35": [
+      "license_mit_license"
+    ],
+    "36": [
+      "readme_sorting_nested_loops"
+    ],
+    "37": [
+      "readme_string_manipulation"
+    ]
+  },
+  "cohesion": {
+    "0": 0.1103448275862069,
+    "1": 0.13227513227513227,
+    "2": 0.11333333333333333,
+    "3": 0.08,
+    "4": 0.20915032679738563,
+    "5": 0.20915032679738563,
+    "6": 0.24166666666666667,
+    "7": 0.21978021978021978,
+    "8": 0.18181818181818182,
+    "9": 0.16666666666666666,
+    "10": 0.23636363636363636,
+    "11": 0.18181818181818182,
+    "12": 0.2222222222222222,
+    "13": 0.3333333333333333,
+    "14": 0.5,
+    "15": 0.6666666666666666,
+    "16": 0.6666666666666666,
+    "17": 1.0,
+    "18": 1.0,
+    "19": 1.0,
+    "20": 1.0,
+    "21": 1.0,
+    "22": 1.0,
+    "23": 1.0,
+    "24": 1.0,
+    "25": 1.0,
+    "26": 1.0,
+    "27": 1.0,
+    "28": 1.0,
+    "29": 1.0,
+    "30": 1.0,
+    "31": 1.0,
+    "32": 1.0,
+    "33": 1.0,
+    "34": 1.0,
+    "35": 1.0,
+    "36": 1.0,
+    "37": 1.0
+  },
+  "gods": [
+    {
+      "id": "classcodelibrary_strings_stringduplicationfiltering_stringduplicationfiltering_linq_classcodelibrary_strings_stringduplicationfiltering_stringduplicationfiltering",
+      "label": "StringDuplicationFiltering",
+      "degree": 25
+    },
+    {
+      "id": "mainconsoleapp_program_mainconsoleapp_program",
+      "label": "Program",
+      "degree": 12
+    },
+    {
+      "id": "csharpcodepractice_tests_strings_stringduplicationfilteringtests_csharpcodepractice_tests_strings_stringduplicationfilteringtests",
+      "label": "StringDuplicationFilteringTests",
+      "degree": 10
+    },
+    {
+      "id": "_opencode_skills_graphify_skill_full_pipeline",
+      "label": "Graphify full pipeline (detect extract build cluster report)",
+      "degree": 9
+    },
+    {
+      "id": "csharpcodepractice_tests_arrays_secondlargestnumbertests_csharpcodepractice_tests_arrays_secondlargestnumbertests",
+      "label": "SecondLargestNumberTests",
+      "degree": 8
+    },
+    {
+      "id": "opencode_opencode_permission",
+      "label": "permission",
+      "degree": 8
+    },
+    {
+      "id": "csharpcodepractice_tests_csharpcodepractice_tests",
+      "label": "CSharpCodePractice.Tests",
+      "degree": 8
+    },
+    {
+      "id": "csharpcodepractice_tests_fundamentals_methodkindstests_csharpcodepractice_tests_fundamentals_methodkindstests",
+      "label": "MethodKindsTests",
+      "degree": 7
+    },
+    {
+      "id": "csharpcodepractice_tests_arrays_customarraysortertests_csharpcodepractice_tests_arrays_customarraysortertests",
+      "label": "CustomArraySorterTests",
+      "degree": 7
+    },
+    {
+      "id": "_opencode_readme_opencode_configuration",
+      "label": "OpenCode Configuration",
+      "degree": 7
+    }
+  ],
+  "surprises": [
+    {
+      "source": "Practice basics without inbuilt methods",
+      "target": "Manual-first practice (no built-ins before LINQ)",
+      "source_files": [
+        "README.md",
+        ".opencode/skills/csharp-development.md"
+      ],
+      "confidence": "INFERRED",
+      "relation": "conceptually_related_to",
+      "why": "inferred connection - not explicitly stated in source; connects across different repos/directories"
+    },
+    {
+      "source": "Graphify query path explain update workflow",
+      "target": "Graphify full pipeline (detect extract build cluster report)",
+      "source_files": [
+        "AGENTS.md",
+        ".opencode/skills/graphify/SKILL.md"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "references",
+      "why": "connects across different repos/directories; peripheral node `Graphify query path explain update workflow` unexpectedly reaches hub `Graphify full pipeline (detect extract build cluster report)`"
+    },
+    {
+      "source": "ClassCodeLibrary",
+      "target": "net10.0",
+      "source_files": [
+        "ClassCodeLibrary/ClassCodeLibrary.csproj",
+        "MainConsoleApp/MainConsoleApp.csproj"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "references",
+      "why": "connects across different repos/directories"
+    },
+    {
+      "source": "ClassCodeLibrary",
+      "target": "Microsoft.NET.Sdk",
+      "source_files": [
+        "ClassCodeLibrary/ClassCodeLibrary.csproj",
+        "MainConsoleApp/MainConsoleApp.csproj"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "references",
+      "why": "connects across different repos/directories"
+    },
+    {
+      "source": "CSharpCodePractice.Tests",
+      "target": "net10.0",
+      "source_files": [
+        "CSharpCodePractice.Tests/CSharpCodePractice.Tests.csproj",
+        "MainConsoleApp/MainConsoleApp.csproj"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "references",
+      "why": "connects across different repos/directories"
+    }
+  ],
+  "questions": [
+    {
+      "type": "bridge_node",
+      "question": "Why does `Program` connect `Program` to `MethodKindsTests`, `Program.cs`, `.FindVowels`, `.SortWithBubbleSort`?",
+      "why": "High betweenness centrality (0.158) - this node is a cross-community bridge."
+    },
+    {
+      "type": "bridge_node",
+      "question": "Why does `ClassCodeLibrary.Strings.StringDuplicationFiltering` connect `StringDuplicationFiltering` to `Program`, `Program.cs`?",
+      "why": "High betweenness centrality (0.134) - this node is a cross-community bridge."
+    },
+    {
+      "type": "isolated_nodes",
+      "question": "What connects `Total`, `CSharpCodePractice.Tests.Fundamentals`, `MainConsoleApp` to the rest of the system?",
+      "why": "80 weakly-connected nodes found - possible documentation gaps or missing edges."
+    },
+    {
+      "type": "low_cohesion",
+      "question": "Should `MethodKindsTests` be split into smaller, more focused modules?",
+      "why": "Cohesion score 0.1103448275862069 - nodes in this community are weakly interconnected."
+    },
+    {
+      "type": "low_cohesion",
+      "question": "Should `StringDuplicationFiltering` be split into smaller, more focused modules?",
+      "why": "Cohesion score 0.13227513227513227 - nodes in this community are weakly interconnected."
+    },
+    {
+      "type": "low_cohesion",
+      "question": "Should `Program` be split into smaller, more focused modules?",
+      "why": "Cohesion score 0.11333333333333333 - nodes in this community are weakly interconnected."
+    },
+    {
+      "type": "low_cohesion",
+      "question": "Should `opencode.json` be split into smaller, more focused modules?",
+      "why": "Cohesion score 0.08 - nodes in this community are weakly interconnected."
+    }
+  ]
+}

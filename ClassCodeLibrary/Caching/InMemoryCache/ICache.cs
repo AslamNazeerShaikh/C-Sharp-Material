@@ -8,7 +8,8 @@ namespace ClassCodeLibrary.Caching.InMemoryCache;
 /// </summary>
 /// <typeparam name="TKey">Key type (must be non-null).</typeparam>
 /// <typeparam name="TValue">Value type.</typeparam>
-public interface ICache<TKey, TValue> where TKey : notnull
+public interface ICache<TKey, TValue>
+    where TKey : notnull
 {
     /// <summary>Number of (non-expired) entries currently stored.</summary>
     int Count { get; }
@@ -17,7 +18,10 @@ public interface ICache<TKey, TValue> where TKey : notnull
     bool TryGet(TKey key, out TValue? value);
 
     /// <summary>Asynchronously reads a value.</summary>
-    Task<(bool Success, TValue? Value)> TryGetAsync(TKey key, CancellationToken cancellationToken = default);
+    Task<(bool Success, TValue? Value)> TryGetAsync(
+        TKey key,
+        CancellationToken cancellationToken = default
+    );
 
     /// <summary>Adds a value only when the key is absent.</summary>
     bool TryAdd(TKey key, TValue value);
@@ -32,13 +36,20 @@ public interface ICache<TKey, TValue> where TKey : notnull
     bool TryUpdate(TKey key, TValue value, out TValue? oldValue);
 
     /// <summary>Asynchronously updates an existing value.</summary>
-    Task<(bool Success, TValue? OldValue)> TryUpdateAsync(TKey key, TValue value, CancellationToken cancellationToken = default);
+    Task<(bool Success, TValue? OldValue)> TryUpdateAsync(
+        TKey key,
+        TValue value,
+        CancellationToken cancellationToken = default
+    );
 
     /// <summary>Removes a value and returns it.</summary>
     bool TryRemove(TKey key, out TValue? value);
 
     /// <summary>Asynchronously removes a value.</summary>
-    Task<(bool Success, TValue? Value)> TryRemoveAsync(TKey key, CancellationToken cancellationToken = default);
+    Task<(bool Success, TValue? Value)> TryRemoveAsync(
+        TKey key,
+        CancellationToken cancellationToken = default
+    );
 
     /// <summary>Returns <c>true</c> when a non-expired entry exists for <paramref name="key"/>.</summary>
     bool ContainsKey(TKey key);

@@ -9,7 +9,8 @@ namespace ClassCodeLibrary.Caching.InMemoryCache;
 /// </summary>
 /// <typeparam name="TKey">Key type.</typeparam>
 /// <typeparam name="TValue">Value type.</typeparam>
-public sealed class ConcurrentDictionaryCache<TKey, TValue> : ICache<TKey, TValue> where TKey : notnull
+public sealed class ConcurrentDictionaryCache<TKey, TValue> : ICache<TKey, TValue>
+    where TKey : notnull
 {
     private readonly ConcurrentDictionary<TKey, CacheEntry<TValue>> _entries = new();
     private readonly TimeProvider _timeProvider;
@@ -37,13 +38,14 @@ public sealed class ConcurrentDictionaryCache<TKey, TValue> : ICache<TKey, TValu
 
     private DateTimeOffset Now => _timeProvider.GetUtcNow();
 
-    private DateTimeOffset? ComputeExpiry() =>
-        _options.DefaultTtl is { } ttl ? Now.Add(ttl) : null;
+    private DateTimeOffset? ComputeExpiry() => _options.DefaultTtl is { } ttl ? Now.Add(ttl) : null;
 
     private void CleanupExpired()
     {
         var now = Now;
-        foreach (var key in _entries.Where(kv => !kv.Value.IsAlive(now)).Select(kv => kv.Key).ToList())
+        foreach (
+            var key in _entries.Where(kv => !kv.Value.IsAlive(now)).Select(kv => kv.Key).ToList()
+        )
         {
             _entries.TryRemove(key, out _);
         }
@@ -66,7 +68,10 @@ public sealed class ConcurrentDictionaryCache<TKey, TValue> : ICache<TKey, TValu
     }
 
     /// <inheritdoc />
-    public async Task<(bool Success, TValue? Value)> TryGetAsync(TKey key, CancellationToken cancellationToken = default)
+    public async Task<(bool Success, TValue? Value)> TryGetAsync(
+        TKey key,
+        CancellationToken cancellationToken = default
+    )
     {
         cancellationToken.ThrowIfCancellationRequested();
         await Task.CompletedTask.ConfigureAwait(false);
@@ -116,7 +121,11 @@ public sealed class ConcurrentDictionaryCache<TKey, TValue> : ICache<TKey, TValu
     }
 
     /// <inheritdoc />
-    public async Task<bool> TryAddAsync(TKey key, TValue value, CancellationToken cancellationToken = default)
+    public async Task<bool> TryAddAsync(
+        TKey key,
+        TValue value,
+        CancellationToken cancellationToken = default
+    )
     {
         cancellationToken.ThrowIfCancellationRequested();
         await Task.CompletedTask.ConfigureAwait(false);
@@ -141,7 +150,11 @@ public sealed class ConcurrentDictionaryCache<TKey, TValue> : ICache<TKey, TValu
     }
 
     /// <inheritdoc />
-    public async Task<(bool Success, TValue? OldValue)> TryUpdateAsync(TKey key, TValue value, CancellationToken cancellationToken = default)
+    public async Task<(bool Success, TValue? OldValue)> TryUpdateAsync(
+        TKey key,
+        TValue value,
+        CancellationToken cancellationToken = default
+    )
     {
         cancellationToken.ThrowIfCancellationRequested();
         await Task.CompletedTask.ConfigureAwait(false);
@@ -166,7 +179,10 @@ public sealed class ConcurrentDictionaryCache<TKey, TValue> : ICache<TKey, TValu
     }
 
     /// <inheritdoc />
-    public async Task<(bool Success, TValue? Value)> TryRemoveAsync(TKey key, CancellationToken cancellationToken = default)
+    public async Task<(bool Success, TValue? Value)> TryRemoveAsync(
+        TKey key,
+        CancellationToken cancellationToken = default
+    )
     {
         cancellationToken.ThrowIfCancellationRequested();
         await Task.CompletedTask.ConfigureAwait(false);

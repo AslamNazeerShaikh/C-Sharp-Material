@@ -1,5 +1,5 @@
-using ClassCodeLibrary.Caching.InMemoryCache;
 using System.Threading;
+using ClassCodeLibrary.Caching.InMemoryCache;
 
 namespace CSharpCodePractice.Tests.Caching;
 
@@ -109,7 +109,10 @@ public class DictionaryCacheTests
     public void Ttl_ExpiresEntry()
     {
         var timeProvider = new FakeTimeProvider(DateTimeOffset.UtcNow);
-        var cache = new DictionaryCache<string, int>(timeProvider, new CacheOptions(TimeSpan.FromSeconds(5)));
+        var cache = new DictionaryCache<string, int>(
+            timeProvider,
+            new CacheOptions(TimeSpan.FromSeconds(5))
+        );
         cache.TryAdd("a", 1);
 
         timeProvider.Advance(TimeSpan.FromSeconds(10));
@@ -122,7 +125,10 @@ public class DictionaryCacheTests
     public void FrozenSnapshot_ContainsOnlyAliveEntries()
     {
         var timeProvider = new FakeTimeProvider(DateTimeOffset.UtcNow);
-        var cache = new DictionaryCache<string, int>(timeProvider, new CacheOptions(TimeSpan.FromSeconds(5)));
+        var cache = new DictionaryCache<string, int>(
+            timeProvider,
+            new CacheOptions(TimeSpan.FromSeconds(5))
+        );
         cache.TryAdd("a", 1);
         cache.TryAdd("b", 2);
         timeProvider.Advance(TimeSpan.FromSeconds(10));
@@ -144,11 +150,18 @@ public class DictionaryCacheTests
         Assert.True(found);
         Assert.Equal(1, value);
 
-        var (updated, old) = await cache.TryUpdateAsync("a", 2, TestContext.Current.CancellationToken);
+        var (updated, old) = await cache.TryUpdateAsync(
+            "a",
+            2,
+            TestContext.Current.CancellationToken
+        );
         Assert.True(updated);
         Assert.Equal(1, old);
 
-        var (removed, removedValue) = await cache.TryRemoveAsync("a", TestContext.Current.CancellationToken);
+        var (removed, removedValue) = await cache.TryRemoveAsync(
+            "a",
+            TestContext.Current.CancellationToken
+        );
         Assert.True(removed);
         Assert.Equal(2, removedValue);
     }
@@ -159,7 +172,9 @@ public class ConcurrentDictionaryCacheTests
     [Fact]
     public void Constructor_NullTimeProvider_Throws()
     {
-        Assert.Throws<ArgumentNullException>(() => new ConcurrentDictionaryCache<string, int>(null!));
+        Assert.Throws<ArgumentNullException>(() =>
+            new ConcurrentDictionaryCache<string, int>(null!)
+        );
     }
 
     [Fact]
@@ -202,7 +217,10 @@ public class ConcurrentDictionaryCacheTests
     public void Ttl_ExpiresEntry()
     {
         var timeProvider = new FakeTimeProvider(DateTimeOffset.UtcNow);
-        var cache = new ConcurrentDictionaryCache<string, int>(timeProvider, new CacheOptions(TimeSpan.FromSeconds(5)));
+        var cache = new ConcurrentDictionaryCache<string, int>(
+            timeProvider,
+            new CacheOptions(TimeSpan.FromSeconds(5))
+        );
         cache.TryAdd("a", 1);
 
         timeProvider.Advance(TimeSpan.FromSeconds(10));
@@ -221,11 +239,18 @@ public class ConcurrentDictionaryCacheTests
         Assert.True(found);
         Assert.Equal(1, value);
 
-        var (updated, old) = await cache.TryUpdateAsync("a", 2, TestContext.Current.CancellationToken);
+        var (updated, old) = await cache.TryUpdateAsync(
+            "a",
+            2,
+            TestContext.Current.CancellationToken
+        );
         Assert.True(updated);
         Assert.Equal(1, old);
 
-        var (removed, removedValue) = await cache.TryRemoveAsync("a", TestContext.Current.CancellationToken);
+        var (removed, removedValue) = await cache.TryRemoveAsync(
+            "a",
+            TestContext.Current.CancellationToken
+        );
         Assert.True(removed);
         Assert.Equal(2, removedValue);
     }

@@ -11,6 +11,5 @@ internal sealed record CacheEntry<TValue>(TValue Value, DateTimeOffset? ExpiresA
     /// <summary>
     /// Returns <c>true</c> when the entry has not expired relative to <paramref name="now"/>.
     /// </summary>
-    public bool IsAlive(DateTimeOffset now) =>
-        ExpiresAt is null || ExpiresAt > now;
+    public bool IsAlive(DateTimeOffset now) => ExpiresAt is null || ExpiresAt > now;
 }

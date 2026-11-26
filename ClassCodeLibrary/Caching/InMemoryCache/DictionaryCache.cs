@@ -8,7 +8,8 @@ namespace ClassCodeLibrary.Caching.InMemoryCache;
 /// </summary>
 /// <typeparam name="TKey">Key type.</typeparam>
 /// <typeparam name="TValue">Value type.</typeparam>
-public sealed class DictionaryCache<TKey, TValue> : ICache<TKey, TValue> where TKey : notnull
+public sealed class DictionaryCache<TKey, TValue> : ICache<TKey, TValue>
+    where TKey : notnull
 {
     private readonly Dictionary<TKey, CacheEntry<TValue>> _entries = new();
     private readonly TimeProvider _timeProvider;
@@ -36,13 +37,14 @@ public sealed class DictionaryCache<TKey, TValue> : ICache<TKey, TValue> where T
 
     private DateTimeOffset Now => _timeProvider.GetUtcNow();
 
-    private DateTimeOffset? ComputeExpiry() =>
-        _options.DefaultTtl is { } ttl ? Now.Add(ttl) : null;
+    private DateTimeOffset? ComputeExpiry() => _options.DefaultTtl is { } ttl ? Now.Add(ttl) : null;
 
     private void CleanupExpired()
     {
         var now = Now;
-        foreach (var key in _entries.Where(kv => !kv.Value.IsAlive(now)).Select(kv => kv.Key).ToList())
+        foreach (
+            var key in _entries.Where(kv => !kv.Value.IsAlive(now)).Select(kv => kv.Key).ToList()
+        )
         {
             _entries.Remove(key);
         }
@@ -65,8 +67,10 @@ public sealed class DictionaryCache<TKey, TValue> : ICache<TKey, TValue> where T
     }
 
     /// <inheritdoc />
-    public Task<(bool Success, TValue? Value)> TryGetAsync(TKey key, CancellationToken cancellationToken = default) =>
-        Task.FromResult((TryGet(key, out var value), value));
+    public Task<(bool Success, TValue? Value)> TryGetAsync(
+        TKey key,
+        CancellationToken cancellationToken = default
+    ) => Task.FromResult((TryGet(key, out var value), value));
 
     /// <inheritdoc />
     public bool TryAdd(TKey key, TValue value) => TryAdd(key, value, out _);
@@ -96,8 +100,11 @@ public sealed class DictionaryCache<TKey, TValue> : ICache<TKey, TValue> where T
     }
 
     /// <inheritdoc />
-    public Task<bool> TryAddAsync(TKey key, TValue value, CancellationToken cancellationToken = default) =>
-        Task.FromResult(TryAdd(key, value));
+    public Task<bool> TryAddAsync(
+        TKey key,
+        TValue value,
+        CancellationToken cancellationToken = default
+    ) => Task.FromResult(TryAdd(key, value));
 
     /// <inheritdoc />
     public bool TryUpdate(TKey key, TValue value, out TValue? oldValue)
@@ -117,8 +124,11 @@ public sealed class DictionaryCache<TKey, TValue> : ICache<TKey, TValue> where T
     }
 
     /// <inheritdoc />
-    public Task<(bool Success, TValue? OldValue)> TryUpdateAsync(TKey key, TValue value, CancellationToken cancellationToken = default) =>
-        Task.FromResult((TryUpdate(key, value, out var oldValue), oldValue));
+    public Task<(bool Success, TValue? OldValue)> TryUpdateAsync(
+        TKey key,
+        TValue value,
+        CancellationToken cancellationToken = default
+    ) => Task.FromResult((TryUpdate(key, value, out var oldValue), oldValue));
 
     /// <inheritdoc />
     public bool TryRemove(TKey key, out TValue? value)
@@ -138,8 +148,10 @@ public sealed class DictionaryCache<TKey, TValue> : ICache<TKey, TValue> where T
     }
 
     /// <inheritdoc />
-    public Task<(bool Success, TValue? Value)> TryRemoveAsync(TKey key, CancellationToken cancellationToken = default) =>
-        Task.FromResult((TryRemove(key, out var value), value));
+    public Task<(bool Success, TValue? Value)> TryRemoveAsync(
+        TKey key,
+        CancellationToken cancellationToken = default
+    ) => Task.FromResult((TryRemove(key, out var value), value));
 
     /// <inheritdoc />
     public bool ContainsKey(TKey key) => TryGet(key, out _);

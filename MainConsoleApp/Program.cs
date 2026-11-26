@@ -161,9 +161,14 @@ public static class Program
 
     private static void DemoCache()
     {
-        ICache<string, int> cache = new ConcurrentDictionaryCache<string, int>(TimeProvider.System, new CacheOptions(TimeSpan.FromSeconds(30)));
+        ICache<string, int> cache = new ConcurrentDictionaryCache<string, int>(
+            TimeProvider.System,
+            new CacheOptions(TimeSpan.FromSeconds(30))
+        );
         Console.WriteLine($"TryAdd a=1: {cache.TryAdd("a", 1)}");
-        Console.WriteLine($"TryAdd a=2 (duplicate): {cache.TryAdd("a", 2, out var existing)} (existing={existing})");
+        Console.WriteLine(
+            $"TryAdd a=2 (duplicate): {cache.TryAdd("a", 2, out var existing)} (existing={existing})"
+        );
         Console.WriteLine($"TryGet a: {cache.TryGet("a", out var value)} -> {value}");
         Console.WriteLine($"TryUpdate a=9: {cache.TryUpdate("a", 9, out var old)} (old={old})");
         Console.WriteLine($"ToFrozenSnapshot count: {cache.ToFrozenSnapshot().Count}");

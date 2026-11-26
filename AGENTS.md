@@ -4,7 +4,7 @@ C# logic-building practice repo. Solution `CSharpCodePractice.slnx`: `MainConsol
 
 ## Toolchain
 
-- .NET SDK 10.0.400, `net10.0`, `<Nullable>enable</Nullable>`, `<ImplicitUsings>enable</ImplicitUsings>`.
+- .NET SDK 11.0.100, `net11.0`, `<Nullable>enable</Nullable>`, `<ImplicitUsings>enable</ImplicitUsings>`.
 - Bare `dotnet build` / `dotnet test` auto-discover the single `.slnx`; run demos with `dotnet run --project MainConsoleApp`.
 - Formatter: CSharpier 1.3.0 as a local dotnet tool (`.config/dotnet-tools.json`) — `dotnet tool restore`, then `dotnet csharpier format .` / `check .`.
 - Full agent/skill/command inventory lives in `.opencode/README.md`; config in `.opencode/opencode.json`.

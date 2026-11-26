@@ -13,7 +13,7 @@ public sealed class MethodKindsTests
     [Fact]
     public async Task Calculator_AddAsync_ReturnsSum()
     {
-        Assert.Equal(5, await Calculator.AddAsync(2, 3));
+        Assert.Equal(5, await Calculator.AddAsync(2, 3, TestContext.Current.CancellationToken));
     }
 
     [Fact]

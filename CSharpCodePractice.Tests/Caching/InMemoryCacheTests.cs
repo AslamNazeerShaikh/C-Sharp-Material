@@ -141,6 +141,27 @@ public class DictionaryCacheTests
     }
 
     [Fact]
+    public void Capacity_RejectsWhenFull()
+    {
+        var cache = new DictionaryCache<string, int>(TimeProvider.System, new CacheOptions(Capacity: 1));
+        Assert.True(cache.TryAdd("a", 1));
+        Assert.False(cache.TryAdd("b", 2));
+        Assert.Equal(1, cache.Count);
+    }
+
+    [Fact]
+    public void ExpiredEntry_CanBeReadded()
+    {
+        var timeProvider = new FakeTimeProvider(DateTimeOffset.UtcNow);
+        var cache = new DictionaryCache<string, int>(timeProvider, new CacheOptions(TimeSpan.FromSeconds(1)));
+        Assert.True(cache.TryAdd("a", 1));
+        timeProvider.Advance(TimeSpan.FromSeconds(2));
+        Assert.True(cache.TryAdd("a", 2));
+        Assert.True(cache.TryGet("a", out var value));
+        Assert.Equal(2, value);
+    }
+
+    [Fact]
     public async Task Async_RoundTrip_Works()
     {
         var cache = new DictionaryCache<string, int>(TimeProvider.System);
@@ -265,6 +286,27 @@ public class ConcurrentDictionaryCacheTests
 
         Assert.Equal(0, cache.Count);
         Assert.False(cache.ContainsKey("a"));
+    }
+
+    [Fact]
+    public void Capacity_RejectsWhenFull()
+    {
+        var cache = new ConcurrentDictionaryCache<string, int>(TimeProvider.System, new CacheOptions(Capacity: 1));
+        Assert.True(cache.TryAdd("a", 1));
+        Assert.False(cache.TryAdd("b", 2));
+        Assert.Equal(1, cache.Count);
+    }
+
+    [Fact]
+    public void ExpiredEntry_CanBeReadded()
+    {
+        var timeProvider = new FakeTimeProvider(DateTimeOffset.UtcNow);
+        var cache = new ConcurrentDictionaryCache<string, int>(timeProvider, new CacheOptions(TimeSpan.FromSeconds(1)));
+        Assert.True(cache.TryAdd("a", 1));
+        timeProvider.Advance(TimeSpan.FromSeconds(2));
+        Assert.True(cache.TryAdd("a", 2));
+        Assert.True(cache.TryGet("a", out var value));
+        Assert.Equal(2, value);
     }
 }
 

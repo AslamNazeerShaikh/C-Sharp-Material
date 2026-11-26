@@ -26,6 +26,7 @@ public sealed class ConcurrentDictionaryCache<TKey, TValue> : ICache<TKey, TValu
         _options = options ?? new CacheOptions();
     }
 
+    // shortcut: Count cleans expired entries and is O(n); avoid in hot loops.
     /// <inheritdoc />
     public int Count
     {
@@ -67,6 +68,7 @@ public sealed class ConcurrentDictionaryCache<TKey, TValue> : ICache<TKey, TValu
         return false;
     }
 
+    // shortcut: async methods are synchronous wrappers; no I/O offloading.
     /// <inheritdoc />
     public async Task<(bool Success, TValue? Value)> TryGetAsync(
         TKey key,
@@ -81,6 +83,7 @@ public sealed class ConcurrentDictionaryCache<TKey, TValue> : ICache<TKey, TValu
     /// <inheritdoc />
     public bool TryAdd(TKey key, TValue value) => TryAdd(key, value, out _);
 
+    // shortcut: capacity and expiry checks are not atomic under concurrent writes; upgrade to a lock if strict limits matter.
     /// <inheritdoc />
     public bool TryAdd(TKey key, TValue value, out TValue? existingValue)
     {

@@ -25,6 +25,7 @@ public sealed class DictionaryCache<TKey, TValue> : ICache<TKey, TValue>
         _options = options ?? new CacheOptions();
     }
 
+    // shortcut: Count cleans expired entries and is O(n); avoid in hot loops.
     /// <inheritdoc />
     public int Count
     {
@@ -66,6 +67,7 @@ public sealed class DictionaryCache<TKey, TValue> : ICache<TKey, TValue>
         return false;
     }
 
+    // shortcut: async methods are synchronous wrappers; no I/O offloading.
     /// <inheritdoc />
     public Task<(bool Success, TValue? Value)> TryGetAsync(
         TKey key,

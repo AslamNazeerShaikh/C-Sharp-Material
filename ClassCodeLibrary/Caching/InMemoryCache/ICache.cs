@@ -7,7 +7,7 @@ namespace ClassCodeLibrary.Caching.InMemoryCache;
 /// expose related state through nullable <c>out</c> parameters.
 /// </summary>
 /// <typeparam name="TKey">Key type (must be non-null).</typeparam>
-/// <typeparam name="TValue">Value type.</typeparam>
+/// <typeparam name="TValue">Value type. For value types, nullable out parameters return <c>default</c> rather than <c>null</c>.</typeparam>
 public interface ICache<TKey, TValue>
     where TKey : notnull
 {
@@ -54,7 +54,7 @@ public interface ICache<TKey, TValue>
     /// <summary>Returns <c>true</c> when a non-expired entry exists for <paramref name="key"/>.</summary>
     bool ContainsKey(TKey key);
 
-    /// <summary>Inserts or overwrites a value, reporting the previous value.</summary>
+    /// <summary>Inserts or overwrites a value, reporting the previous value. Returns <c>true</c> when a new entry was added, <c>false</c> when an existing entry was updated or the cache was full.</summary>
     bool Set(TKey key, TValue value, out TValue? oldValue);
 
     /// <summary>Removes all entries.</summary>

@@ -1,5 +1,6 @@
 ﻿using ClassCodeLibrary.Arrays.CustomArraySorter;
 using ClassCodeLibrary.Arrays.SecondLargestNumber;
+using ClassCodeLibrary.Caching.InMemoryCache;
 using ClassCodeLibrary.Common;
 using ClassCodeLibrary.Fundamentals.MethodKinds;
 using ClassCodeLibrary.Strings.StringDuplicationFiltering;
@@ -21,6 +22,7 @@ public static class Program
         ["4"] = ("Second largest number", DemoSecondLargestNumber),
         ["5"] = ("String duplication filtering", DemoStringDuplicationFiltering),
         ["6"] = ("Method kinds (static vs instance vs extension)", DemoMethodKinds),
+        ["7"] = ("In-memory cache (Dictionary vs ConcurrentDictionary)", DemoCache),
     };
 
     /// <summary>
@@ -53,7 +55,7 @@ public static class Program
             }
             else
             {
-                Console.WriteLine("Unknown choice. Try 1-6 or q.");
+                Console.WriteLine("Unknown choice. Try 1-7 or q.");
             }
 
             Console.WriteLine();
@@ -155,6 +157,18 @@ public static class Program
         );
 
         Console.WriteLine($"Extension: 4.IsEven() = {4.IsEven()}, 2.AddTo(3) = {2.AddTo(3)}");
+    }
+
+    private static void DemoCache()
+    {
+        ICache<string, int> cache = new ConcurrentDictionaryCache<string, int>(TimeProvider.System, new CacheOptions(TimeSpan.FromSeconds(30)));
+        Console.WriteLine($"TryAdd a=1: {cache.TryAdd("a", 1)}");
+        Console.WriteLine($"TryAdd a=2 (duplicate): {cache.TryAdd("a", 2, out var existing)} (existing={existing})");
+        Console.WriteLine($"TryGet a: {cache.TryGet("a", out var value)} -> {value}");
+        Console.WriteLine($"TryUpdate a=9: {cache.TryUpdate("a", 9, out var old)} (old={old})");
+        Console.WriteLine($"ToFrozenSnapshot count: {cache.ToFrozenSnapshot().Count}");
+        cache.Clear();
+        Console.WriteLine($"After Clear, Count: {cache.Count}");
     }
 
     private static void DemoStringDuplicationFiltering()
